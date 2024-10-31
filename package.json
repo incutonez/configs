@@ -1,0 +1,11 @@
+{
+  "name": "@incutonez/configs",
+  "version": "0.1.0",
+  "description": "Dumping grounds for configuration based files and functionality",
+  "type": "module",
+  "author": "incutonez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.8.5"
+  }
+}

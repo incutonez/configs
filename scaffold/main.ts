@@ -1,4 +1,4 @@
-// Run with `npx tsx scaffold.ts -n projectNameHere`
+// Run with `npx tsx scaffold.ts -n nameHere -t (vue or react) -d path/to/dir`
 import { execSync } from "child_process";
 import { cpSync, readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync } from "fs";
 
@@ -66,18 +66,22 @@ execSync(`npm create vite@latest ${projectName} -- --template ${projectType}-ts`
 execSync(PostInstallCommands.join(' && '), {
     stdio
 });
-cpSync(`${import.meta.dirname}/scaffold/.github`, projectDir, { force: true, recursive: true });
-cpSync(`${import.meta.dirname}/scaffold/.husky`, projectDir, { force: true, recursive: true });
-cpSync(`${import.meta.dirname}/scaffold/${projectType}`, projectDir, { force: true, recursive: true });
-copyFileSync(`${import.meta.dirname}/scaffold/postcss.config.js`, `${projectDir}/postcss.config.js`);
-copyFileSync(`${import.meta.dirname}/scaffold/tailwind.config.ts`, `${projectDir}/tailwind.config.ts`);
+cpSync(`${import.meta.dirname}/.github`, projectDir, { force: true, recursive: true });
+cpSync(`${import.meta.dirname}/.husky`, projectDir, { force: true, recursive: true });
+cpSync(`${import.meta.dirname}/${projectType}`, projectDir, { force: true, recursive: true });
+copyFileSync(`${import.meta.dirname}/postcss.config.js`, `${projectDir}/postcss.config.js`);
+copyFileSync(`${import.meta.dirname}/tailwind.config.ts`, `${projectDir}/tailwind.config.ts`);
 rmSync(`${projectDir}/tailwind.config.js`);
 rmSync(`${projectDir}/public`, { force: true, recursive: true });
 rmSync(`${projectDir}/src/assets`, { force: true, recursive: true });
 // Just easier to remove the dir entirely and remake it after
 rmSync(`${projectDir}/src/components`, { force: true, recursive: true });
 mkdirSync(`${projectDir}/src/components`);
+const tsConfigContents = JSON.parse(readFileSync(`${projectDir}/tsconfig.app.json`, 'utf8').replace(/\/\*[^\n]+\n\s+/g, ''))
 const packageContents = JSON.parse(readFileSync(`${projectDir}/package.json`, 'utf8'))
+tsConfigContents.compilerOptions.paths = {
+    "@/*": ["./src/*"]
+};
 packageContents.name = `@incutonez/${packageContents.name}`;
 packageContents.version = "0.0.1";
 packageContents["lint-staged"] = {
@@ -102,4 +106,5 @@ packageContents.release = {
         "@semantic-release/github"
     ]
 };
+writeFileSync(`${projectDir}/tsconfig.app.json`, JSON.stringify(tsConfigContents, null, 2));
 writeFileSync(`${projectDir}/package.json`, JSON.stringify(packageContents, null, 2));

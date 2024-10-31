@@ -1,5 +1,6 @@
 $workspace = "$home\workspace"
 $sandbox = "$workspace\Sandbox"
+$configs = "$workspace\configs"
 $zeldaU = "$workspace\ZeldaU"
 
 function pruneGit() {
@@ -79,8 +80,8 @@ function createApp() {
   if ([string]::IsNullOrWhiteSpace($directory)) {
     $directory = "$workspace"
   }
-  cd $sandbox
-  npx tsx scaffold.ts -n "$name" -t "$type" -d "$directory"
+  cd $configs
+  npx tsx scaffold/main.ts -n "$name" -t "$type" -d "$directory"
 }
 
 function startAPI() {
