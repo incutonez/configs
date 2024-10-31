@@ -42,6 +42,8 @@ const PackagesDev = [
     "semantic-release",
     "@semantic-release/exec",
     "@semantic-release/git",
+    // This is needed for vite, so we can import path
+    "@types/node"
 ];
 if (projectType === 'vue') {
     PackagesDev.push("eslint-plugin-vue", "vite-svg-loader");
@@ -51,12 +53,14 @@ else if (projectType === 'react') {
 }
 const projectDir = `${projectRootDir}/${projectName}`;
 const PostInstallCommands = [
-    `cd "${projectDir}"`,
+    // Make sure we've got an initial repo, so husky prepare works properly
+    "git init",
     "npm i",
     `npm i ${Packages.join(' ')}`,
     `npm i -D ${PackagesDev.join(' ')}`,
     "npx tailwindcss init",
-    "npx husky init"
+    "npx husky init",
+    "npm run prepare"
 ]
 execSync(`npm create vite@latest ${projectName} -- --template ${projectType}-ts`, {
     // We need to specify std in, out, and err, so we get the appropriate options when this command runs
@@ -64,10 +68,11 @@ execSync(`npm create vite@latest ${projectName} -- --template ${projectType}-ts`
     cwd: projectRootDir
 });
 execSync(PostInstallCommands.join(' && '), {
-    stdio
+    stdio,
+    cwd: projectDir
 });
-cpSync(`${import.meta.dirname}/.github`, projectDir, { force: true, recursive: true });
-cpSync(`${import.meta.dirname}/.husky`, projectDir, { force: true, recursive: true });
+cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true, recursive: true });
+cpSync(`${import.meta.dirname}/.husky`, `${projectDir}/.husky`, { force: true, recursive: true });
 cpSync(`${import.meta.dirname}/${projectType}`, projectDir, { force: true, recursive: true });
 copyFileSync(`${import.meta.dirname}/postcss.config.js`, `${projectDir}/postcss.config.js`);
 copyFileSync(`${import.meta.dirname}/tailwind.config.ts`, `${projectDir}/tailwind.config.ts`);
