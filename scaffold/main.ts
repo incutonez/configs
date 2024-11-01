@@ -49,7 +49,7 @@ if (projectType === 'vue') {
     PackagesDev.push("eslint-plugin-vue", "vite-svg-loader");
 }
 else if (projectType === 'react') {
-    PackagesDev.push("vite-plugin-svgr");
+    PackagesDev.push("eslint-plugin-react", "vite-plugin-svgr");
 }
 const projectDir = `${projectRootDir}/${projectName}`;
 const PostInstallCommands = [

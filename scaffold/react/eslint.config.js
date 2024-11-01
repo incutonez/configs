@@ -1,6 +1,7 @@
 import js from "@eslint/js";
 import pluginIncutonez from "@incutonez/eslint-plugin";
 import stylisticTs from "@stylistic/eslint-plugin-ts";
+import reactPlugin from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import pluginImport from "eslint-plugin-simple-import-sort";
@@ -20,9 +21,24 @@ export default tseslint.config(...tailwind.configs["flat/recommended"], {
     plugins: {
         "react-hooks": reactHooks,
         "react-refresh": reactRefresh,
+        react: reactPlugin,
     },
     rules: {
         ...reactHooks.configs.recommended.rules,
+        "react/jsx-first-prop-new-line": [1, "multiline"],
+        "react/jsx-one-expression-per-line": [1, {
+            allow: "literal",
+        }],
+        "react/jsx-props-no-multi-spaces": "error",
+        "react/jsx-tag-spacing": ["error", {
+            beforeClosing: "never",
+            beforeSelfClosing: "always",
+        }],
+        "react/jsx-closing-bracket-location": "error",
+        "react/jsx-max-props-per-line": [1, {
+            maximum: 1,
+            when: "always",
+        }],
         "react-refresh/only-export-components": ["warn", {
             allowConstantExport: true,
         }],
