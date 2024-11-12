@@ -1,0 +1,10 @@
+#parse("NestHelper")
+import { Controller } from "@nestjs/common";
+import { ApiTags } from "@nestjs/swagger";
+import { ${NamePascal}Service } from "${ImportPrefix}service";
+
+@ApiTags("${NAME}")
+@Controller("${NAME}")
+export class ${NamePascal}Controller {
+	constructor(private readonly service: ${NamePascal}Service) {}
+}

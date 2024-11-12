@@ -1,0 +1,11 @@
+#parse("NestHelper")
+import { Module } from "@nestjs/common";
+import { ${NamePascal}Controller } from "${ImportPrefix}controller";
+import { ${NamePascal}Service } from "${ImportPrefix}service";
+import { ${NamePascal}Mapper } from "${ImportPrefix}mapper";
+
+@Module({
+	controllers: [${NamePascal}Controller],
+	providers: [${NamePascal}Service, ${NamePascal}Mapper],
+})
+export class ${NamePascal}Module {}

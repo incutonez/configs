@@ -1,0 +1,3 @@
+#set($NamePascal = ${NAME})
+#set($NamePascal = $NamePascal.substring(0,1).toUpperCase() + $NamePascal.substring(1))
+#set($ImportPrefix = "src/${NAME}/${NAME}.")

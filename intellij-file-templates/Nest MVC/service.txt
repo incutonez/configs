@@ -1,0 +1,8 @@
+#parse("NestHelper")
+import { Injectable } from "@nestjs/common";
+import { ${NamePascal}Mapper } from "${ImportPrefix}mapper";
+
+@Injectable()
+export class ${NamePascal}Service {
+    constructor(private mapper: ${NamePascal}Mapper) {}
+}
