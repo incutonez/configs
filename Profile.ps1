@@ -12,9 +12,12 @@ function branchCreate($branch) {
 }
 
 function branchDelete($branch, $force = $false) {
-  git branch -d $branch
   if ($force -eq $true) {
+    git branch -D $branch
     git push origin --delete $branch
+  }
+  else {
+    git branch -d $branch
   }
 }
 
