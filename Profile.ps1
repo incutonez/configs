@@ -62,6 +62,21 @@ function upgradeApp() {
   npx npm-check-updates -u
 }
 
+function workspaceUpdate($dir) {
+  if ($dir -eq $null) {
+    return "dir is required."
+  }
+  cd $dir
+  $children = Get-ChildItem .
+  foreach ($package in $children) {
+    cd $package
+    upgradeApp
+    cd ..
+  }
+  cd ..
+  npm i
+}
+
 function createApp() {
   param(
     [Parameter(Mandatory=$false)]
