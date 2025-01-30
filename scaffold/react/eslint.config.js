@@ -5,11 +5,10 @@ import reactPlugin from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import pluginImport from "eslint-plugin-simple-import-sort";
-import tailwind from "eslint-plugin-tailwindcss";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config(...tailwind.configs["flat/recommended"], {
+export default tseslint.config({
     ignores: ["dist"],
 }, {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
@@ -55,7 +54,6 @@ export default tseslint.config(...tailwind.configs["flat/recommended"], {
         "@stylistic/ts": stylisticTs,
     },
     rules: {
-        "tailwindcss/classnames-order": "error",
         "quote-props": ["error", "as-needed"],
         "padding-line-between-statements": ["error", {
             blankLine: "always",

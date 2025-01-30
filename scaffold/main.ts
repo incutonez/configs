@@ -33,7 +33,7 @@ const PackagesDev = [
     "postcss",
     "autoprefixer",
     "eslint-plugin-simple-import-sort",
-    "eslint-plugin-tailwindcss",
+    "@tailwindcss/postcss",
     "typescript-eslint",
     "@eslint/js",
     "eslint",
@@ -58,7 +58,6 @@ const PostInstallCommands = [
     "npm i",
     `npm i ${Packages.join(' ')}`,
     `npm i -D ${PackagesDev.join(' ')}`,
-    "npx tailwindcss init",
     "npx husky init",
     "npm run prepare"
 ]
@@ -75,8 +74,6 @@ cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true,
 cpSync(`${import.meta.dirname}/.husky`, `${projectDir}/.husky`, { force: true, recursive: true });
 cpSync(`${import.meta.dirname}/${projectType}`, projectDir, { force: true, recursive: true });
 copyFileSync(`${import.meta.dirname}/postcss.config.js`, `${projectDir}/postcss.config.js`);
-copyFileSync(`${import.meta.dirname}/tailwind.config.ts`, `${projectDir}/tailwind.config.ts`);
-rmSync(`${projectDir}/tailwind.config.js`);
 rmSync(`${projectDir}/public`, { force: true, recursive: true });
 rmSync(`${projectDir}/src/assets`, { force: true, recursive: true });
 // Just easier to remove the dir entirely and remake it after
