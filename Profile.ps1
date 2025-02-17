@@ -101,8 +101,12 @@ function createApp() {
   if ([string]::IsNullOrWhiteSpace($directory)) {
     $directory = "$workspace"
   }
+  else {
+    $directory = "$((Get-Item .).FullName)\$directory"
+  }
   cd $configs
   npx tsx scaffold/main.ts -n "$name" -t "$type" -d "$directory"
+  cd $directory
 }
 
 function startAPI() {
