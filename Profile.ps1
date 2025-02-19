@@ -85,7 +85,11 @@ function createAPI() {
 
     [Parameter(Mandatory=$false)]
     [string]
-    $directory
+    $directory,
+
+    [Parameter(Mandatory=$false)]
+    [switch]
+    $w
   )
   if ([string]::IsNullOrWhiteSpace($name)) {
     $name = "api"
@@ -93,11 +97,14 @@ function createAPI() {
   if ([string]::IsNullOrWhiteSpace($directory)) {
     $directory = "$workspace"
   }
+  elseif ($directory -eq ".") {
+    $directory = "$((Get-Item .).FullName)"
+  }
   else {
     $directory = "$((Get-Item .).FullName)\$directory"
   }
   cd $configs
-  npx tsx scaffold/api.ts -n "$name" -d "$directory"
+  npx tsx scaffold/api.ts -n "$name" -d "$directory" -w $w.IsPresent
   cd $directory
 }
 
@@ -113,6 +120,10 @@ function createUI() {
     $type,
 
     [Parameter(Mandatory=$false)]
+    [switch]
+    $w,
+
+    [Parameter(Mandatory=$false)]
     [string]
     $directory
   )
@@ -125,12 +136,50 @@ function createUI() {
   if ([string]::IsNullOrWhiteSpace($directory)) {
     $directory = "$workspace"
   }
+  elseif ($directory -eq ".") {
+    $directory = "$((Get-Item .).FullName)"
+  }
   else {
     $directory = "$((Get-Item .).FullName)\$directory"
   }
   cd $configs
-  npx tsx scaffold/ui.ts -n "$name" -t "$type" -d "$directory"
+  npx tsx scaffold/ui.ts -n "$name" -t "$type" -d "$directory" -w $w.IsPresent
   cd $directory
+}
+
+function createWorkspace() {
+  param(
+    [Parameter(Mandatory=$false)]
+    [ValidateSet('vue', 'react')]
+    [string]
+    $ui,
+
+    [Parameter(Mandatory=$false)]
+    [string]
+    $name,
+
+    [Parameter(Mandatory=$false)]
+    [string]
+    $directory
+  )
+  if ([string]::IsNullOrWhiteSpace($ui)) {
+    $ui = "vue"
+  }
+  if ([string]::IsNullOrWhiteSpace($name)) {
+    $name = "throwaway"
+  }
+  if ([string]::IsNullOrWhiteSpace($directory)) {
+    $directory = "$workspace"
+  }
+  elseif ($directory -eq ".") {
+    $directory = "$((Get-Item .).FullName)"
+  }
+  else {
+    $directory = "$((Get-Item .).FullName)\$directory"
+  }
+  cd $configs
+  npx tsx scaffold/workspace.ts -ui "$ui" -n "$name" -d "$directory"
+  cd "$workspace/$name"
 }
 
 function startAPI() {

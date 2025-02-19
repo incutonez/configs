@@ -1,0 +1,59 @@
+{
+  "name": "@incutonez/workspace",
+  "version": "1.0.0",
+  "description": "Example micro application workspace",
+  "main": "index.js",
+  "scripts": {
+    "api": "cd packages/api && npm run start:dev",
+    "api:build": "cd packages/api && npm run build",
+    "api:commit": "cd packages/api && npm run lint && npm run build",
+    "explode": "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i",
+    "spec": "cd packages/spec && npm run generate",
+    "spec:build": "cd packages/spec && npm run build",
+    "ui": "cd packages/ui && npm run dev",
+    "ui:build": "cd packages/ui && npm run build",
+    "ui:commit": "cd packages/ui && npm run lint && npm run build",
+    "prepare": "npx husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incutonez"
+  },
+  "author": "incutonez",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  },
+  "lint-staged": {
+    "packages/ui/**/*.{tsx,ts}": "npm run ui:commit",
+    "packages/api/**/*.ts": "npm run api:commit"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@semantic-release/exec": "latest",
+    "@semantic-release/git": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "multi-semantic-release": "latest"
+  }
+}

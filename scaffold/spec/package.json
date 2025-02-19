@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.9",
-    "typescript": "^5.7.3"
+    "axios": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.16.3"
+    "@openapitools/openapi-generator-cli": "latest"
   }
 }
