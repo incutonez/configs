@@ -77,7 +77,31 @@ function workspaceUpdate($dir) {
   npm i
 }
 
-function createApp() {
+function createAPI() {
+  param(
+    [Parameter(Mandatory=$false)]
+    [string]
+    $name,
+
+    [Parameter(Mandatory=$false)]
+    [string]
+    $directory
+  )
+  if ([string]::IsNullOrWhiteSpace($name)) {
+    $name = "api"
+  }
+  if ([string]::IsNullOrWhiteSpace($directory)) {
+    $directory = "$workspace"
+  }
+  else {
+    $directory = "$((Get-Item .).FullName)\$directory"
+  }
+  cd $configs
+  npx tsx scaffold/api.ts -n "$name" -d "$directory"
+  cd $directory
+}
+
+function createUI() {
   param(
     [Parameter(Mandatory=$false)]
     [string]
@@ -105,7 +129,7 @@ function createApp() {
     $directory = "$((Get-Item .).FullName)\$directory"
   }
   cd $configs
-  npx tsx scaffold/main.ts -n "$name" -t "$type" -d "$directory"
+  npx tsx scaffold/ui.ts -n "$name" -t "$type" -d "$directory"
   cd $directory
 }
 
