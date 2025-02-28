@@ -34,8 +34,19 @@
       "main"
     ],
     "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
+      "@semantic-release/changelog",
       [
         "@semantic-release/npm",
         {
@@ -50,8 +61,10 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "latest",
     "@semantic-release/exec": "latest",
     "@semantic-release/git": "latest",
+    "conventional-changelog-conventionalcommits": "latest",
     "husky": "latest",
     "lint-staged": "latest",
     "multi-semantic-release": "latest"

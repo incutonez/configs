@@ -9,6 +9,7 @@ const workspaceIndex = argv.indexOf("-w");
 const isNonWorkspace = workspaceIndex === -1 || argv[workspaceIndex + 1] === "False";
 const projectName = argv[projectNameIndex + 1];
 const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
+const PostInstallCommands = ["npm i"]
 
 function makePackageItem(items: string[]) {
 	return items.reduce((output, item) => {
@@ -46,6 +47,48 @@ execSync("npm init --scope=@incutonez --yes", {
 cpSync(`${import.meta.dirname}/api`, projectPath, { force: true, recursive: true });
 cpSync(`${import.meta.dirname}/spec`, specPath, { force: true, recursive: true });
 const apiPackage = JSON.parse(readFileSync(`${projectPath}/package.json`, "utf8"));
+const PackagesDev = [
+	"@nestjs/cli",
+	"@nestjs/schematics",
+	"@swc/cli",
+	"@swc/core",
+	"@types/express",
+	"@types/node",
+	"eslint",
+	"eslint-config-prettier",
+	"eslint-plugin-prettier",
+	"globals",
+	"prettier",
+	"source-map-support",
+	"ts-loader",
+	"ts-node",
+	"tsconfig-paths",
+	"typescript",
+	"typescript-eslint",
+	"@incutonez/eslint-plugin",
+	"@types/sequelize",
+	"@typescript-eslint/eslint-plugin",
+	"@typescript-eslint/parser",
+	"eslint-plugin-simple-import-sort",
+]
+
+if (isNonWorkspace) {
+	PostInstallCommands.unshift("git init");
+	PostInstallCommands.push(
+		"npx husky init",
+		"npm run prepare",
+	);
+	PackagesDev.push(
+		"husky",
+		"lint-staged",
+		"semantic-release",
+		"@semantic-release/changelog",
+		"conventional-changelog-conventionalcommits",
+		"@semantic-release/exec",
+		"@semantic-release/git",
+	);
+}
+
 apiPackage.scripts = {
 	"build": "nest build",
 	"start": "nest start",
@@ -74,34 +117,47 @@ apiPackage.dependencies = {
 };
 apiPackage.devDependencies = {
 	...apiPackage.devDependencies ?? {},
-	...makePackageItem([
-		"@nestjs/cli",
-		"@nestjs/schematics",
-		"@swc/cli",
-		"@swc/core",
-		"@types/express",
-		"@types/node",
-		"eslint",
-		"eslint-config-prettier",
-		"eslint-plugin-prettier",
-		"globals",
-		"prettier",
-		"source-map-support",
-		"ts-loader",
-		"ts-node",
-		"tsconfig-paths",
-		"typescript",
-		"typescript-eslint",
-		"@incutonez/eslint-plugin",
-		"@types/sequelize",
-		"@typescript-eslint/eslint-plugin",
-		"@typescript-eslint/parser",
-		"eslint-plugin-simple-import-sort",
-	])
+	...makePackageItem(PackagesDev)
 };
+
+if (isNonWorkspace) {
+	apiPackage["lint-staged"] = {
+		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
+			"npx eslint --fix",
+		],
+	};
+	apiPackage.release = {
+		"branches": [
+			"main"
+		],
+		"plugins": [
+			[
+				"@semantic-release/commit-analyzer",
+				{
+					"preset": "conventionalcommits"
+				}
+			],
+			[
+				"@semantic-release/release-notes-generator",
+				{
+					"preset": "conventionalcommits"
+				}
+			],
+			"@semantic-release/changelog",
+			[
+				"@semantic-release/npm",
+				{
+					"npmPublish": false
+				}
+			],
+			"@semantic-release/git",
+			"@semantic-release/github"
+		]
+	};
+}
 writeFileSync(`${projectPath}/package.json`, JSON.stringify(apiPackage, null, 2));
 if (isNonWorkspace) {
-	execSync("npm i", {
+	execSync(PostInstallCommands.join(" && "), {
 		stdio,
 		cwd: projectPath,
 	})

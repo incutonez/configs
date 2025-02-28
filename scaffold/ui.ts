@@ -1,6 +1,6 @@
 // Run with `npx tsx scaffold.ts -n nameHere -t (vue or react) -d path/to/dir`
 import { execSync } from "child_process";
-import { cpSync, readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, existsSync } from "fs";
+import { cpSync, readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from "fs";
 
 const { argv } = process;
 const stdio = [0, 1, 2];
@@ -74,6 +74,8 @@ if (gitInit) {
 		"husky",
 		"lint-staged",
 		"semantic-release",
+		"@semantic-release/changelog",
+		"conventional-changelog-conventionalcommits",
 		"@semantic-release/exec",
 		"@semantic-release/git",
 	);
@@ -108,20 +110,31 @@ if (gitInit) {
 	};
 	packageContents.release = {
 		"branches": [
-			"main",
+			"main"
 		],
 		"plugins": [
-			"@semantic-release/commit-analyzer",
-			"@semantic-release/release-notes-generator",
+			[
+				"@semantic-release/commit-analyzer",
+				{
+					"preset": "conventionalcommits"
+				}
+			],
+			[
+				"@semantic-release/release-notes-generator",
+				{
+					"preset": "conventionalcommits"
+				}
+			],
+			"@semantic-release/changelog",
 			[
 				"@semantic-release/npm",
 				{
-					"npmPublish": false,
-				},
+					"npmPublish": false
+				}
 			],
 			"@semantic-release/git",
-			"@semantic-release/github",
-		],
+			"@semantic-release/github"
+		]
 	};
 }
 packageContents.dependencies = {
