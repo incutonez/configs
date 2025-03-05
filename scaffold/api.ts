@@ -72,7 +72,20 @@ const PackagesDev = [
 	"eslint-plugin-simple-import-sort",
 ]
 
+apiPackage.scripts = {
+	"build": "nest build",
+	"start": "nest start",
+	"start:dev": "nest start -w",
+	"start:debug": "nest start --debug --watch",
+	"start:prod": "node dist/main",
+	"explode": "npx rimraf node_modules package-lock.json && npm i",
+};
 if (isNonWorkspace) {
+	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, { force: true, recursive: true });
+	cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectPath}/updateDependencies.js`, { force: true });
+	cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectPath}/updateVersions.js`, { force: true });
+	apiPackage.scripts["update:deps"] = "node ./updateDependencies.js"
+	apiPackage.scripts["update:versions"] = "node ./updateVersions.js"
 	PostInstallCommands.unshift("git init");
 	PostInstallCommands.push(
 		"npx husky init",
@@ -89,14 +102,6 @@ if (isNonWorkspace) {
 	);
 }
 
-apiPackage.scripts = {
-	"build": "nest build",
-	"start": "nest start",
-	"start:dev": "nest start -w",
-	"start:debug": "nest start --debug --watch",
-	"start:prod": "node dist/main",
-	"explode": "npx rimraf node_modules package-lock.json && npm i",
-};
 apiPackage.dependencies = {
 	...apiPackage.dependencies ?? {},
 	...makePackageItem([
@@ -165,4 +170,6 @@ if (isNonWorkspace) {
 		stdio,
 		cwd: specPath,
 	})
+	// Need to do this after husky has run the prepare command
+	cpSync(`${import.meta.dirname}/.husky`, `${projectPath}/.husky`, { force: true, recursive: true });
 }

@@ -11,7 +11,6 @@ const isNonWorkspace = workspaceIndex === -1 || argv[workspaceIndex + 1] === "Fa
 const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
 const projectName = argv[argv.indexOf("-n") + 1];
 const projectType = argv[argv.indexOf("-t") + 1];
-const gitInit = !!argv[argv.indexOf("-g")];
 const AllowedTypes = ["vue", "react"];
 
 function makePackageItem(items: string[]) {
@@ -64,7 +63,7 @@ if (!existsSync(projectDir)) {
 const PostInstallCommands = [
 	"npm i",
 ];
-if (gitInit) {
+if (isNonWorkspace) {
 	PostInstallCommands.unshift("git init");
 	PostInstallCommands.push(
 		"npx husky init",
@@ -85,10 +84,6 @@ execSync(`npm create vite@latest ${projectName} -- --template ${projectType}-ts`
 	stdio,
 	cwd: projectRootDir,
 });
-if (gitInit) {
-	cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true, recursive: true });
-	cpSync(`${import.meta.dirname}/.husky`, `${projectDir}/.husky`, { force: true, recursive: true });
-}
 cpSync(`${import.meta.dirname}/${projectType}`, projectDir, { force: true, recursive: true });
 rmSync(`${projectDir}/public`, { force: true, recursive: true });
 rmSync(`${projectDir}/src/assets`, { force: true, recursive: true });
@@ -102,7 +97,9 @@ tsConfigContents.compilerOptions.paths = {
 };
 packageContents.name = `@incutonez/${packageContents.name}`;
 packageContents.version = "0.0.1";
-if (gitInit) {
+if (isNonWorkspace) {
+	packageContents.scripts["update:deps"] = "node ./updateDependencies.js"
+	packageContents.scripts["update:versions"] = "node ./updateVersions.js"
 	packageContents["lint-staged"] = {
 		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
 			"npx eslint --fix",
@@ -152,4 +149,9 @@ if (isNonWorkspace) {
 		stdio,
 		cwd: projectDir,
 	});
+	cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true, recursive: true });
+	cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectDir}/updateDependencies.js`, { force: true });
+	cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectDir}/updateVersions.js`, { force: true });
+	// Need to do this after husky has run the prepare command
+	cpSync(`${import.meta.dirname}/.husky`, `${projectDir}/.husky`, { force: true, recursive: true });
 }

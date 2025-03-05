@@ -4,15 +4,17 @@
   "description": "Example micro application workspace",
   "main": "index.js",
   "scripts": {
+    "build": "npm run api:build && npm run spec:build && npm run ui:build",
     "api": "cd packages/api && npm run start:dev",
     "api:build": "cd packages/api && npm run build",
     "api:commit": "cd packages/api && npm run lint && npm run build",
     "explode": "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i",
-    "spec": "cd packages/spec && npm run generate",
-    "spec:build": "cd packages/spec && npm run build",
+    "spec:build": "cd packages/spec && npm run generate",
     "ui": "cd packages/ui && npm run dev",
     "ui:build": "cd packages/ui && npm run build",
     "ui:commit": "cd packages/ui && npm run lint && npm run build",
+    "update:deps": "node ./updateDependencies.js",
+    "update:versions": "node ./updateVersions.js",
     "prepare": "npx husky"
   },
   "repository": {

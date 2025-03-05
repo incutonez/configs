@@ -28,6 +28,8 @@ cpSync(`${import.meta.dirname}/workspace.package.json`, `${projectDir}/package.j
 	force: true,
 	recursive: true,
 });
+cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectDir}/updateDependencies.js`, { force: true });
+cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectDir}/updateVersions.js`, { force: true });
 cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true, recursive: true });
 cpSync(`${import.meta.dirname}/.husky`, `${projectDir}/.husky`, { force: true, recursive: true });
 execSync("npm i", {
