@@ -10,6 +10,11 @@ function pruneGit() {
   git fetch --prune origin
 }
 
+# In case the branch gets really out of date with dirs that were deleted but not reflected on pull https://stackoverflow.com/a/58470033/1253609
+function cleanGit() {
+  git clean -fd -x
+}
+
 function branchCreate($branch) {
   git checkout -b $branch
 }
