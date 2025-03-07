@@ -69,6 +69,6 @@
     "conventional-changelog-conventionalcommits": "latest",
     "husky": "latest",
     "lint-staged": "latest",
-    "multi-semantic-release": "latest"
+    "semantic-release": "latest"
   }
 }
