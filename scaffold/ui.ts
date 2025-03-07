@@ -39,7 +39,6 @@ const PackagesDev = [
 	"@typescript-eslint/eslint-plugin",
 	"@typescript-eslint/parser",
 	"tailwindcss",
-	"autoprefixer",
 	"eslint-plugin-simple-import-sort",
 	"@tailwindcss/vite",
 	"typescript-eslint",
