@@ -36,6 +36,11 @@ execSync("npm i", {
 	stdio,
 	cwd: projectDir,
 });
+// This locks down versions instead of using "latest"
+execSync("npm upgrade -S", {
+	stdio,
+	cwd: projectDir,
+});
 execSync(`cd ${projectDir}`, {
 	stdio,
 });

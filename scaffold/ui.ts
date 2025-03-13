@@ -61,6 +61,8 @@ if (!existsSync(projectDir)) {
 }
 const PostInstallCommands = [
 	"npm i",
+	// This locks down versions instead of using "latest"
+	"npm upgrade -S"
 ];
 if (isNonWorkspace) {
 	PostInstallCommands.unshift("git init");
