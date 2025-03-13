@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example micro application workspace",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "npm run api:build && npm run spec:build && npm run ui:build",
     "api": "cd packages/api && npm run start:dev",
