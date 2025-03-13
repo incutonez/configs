@@ -74,11 +74,12 @@ const PackagesDev = [
 
 apiPackage.scripts = {
 	"build": "nest build",
+	"explode": "npx rimraf node_modules package-lock.json && npm i",
+	"lint": "npx eslint --fix",
 	"start": "nest start",
 	"start:dev": "nest start -w",
 	"start:debug": "nest start --debug --watch",
 	"start:prod": "node dist/main",
-	"explode": "npx rimraf node_modules package-lock.json && npm i",
 };
 if (isNonWorkspace) {
 	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, { force: true, recursive: true });

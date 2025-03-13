@@ -98,6 +98,7 @@ tsConfigContents.compilerOptions.paths = {
 };
 packageContents.name = `@incutonez/${packageContents.name}`;
 packageContents.version = "0.0.1";
+packageContents.scripts.lint = "npx eslint --fix"
 if (isNonWorkspace) {
 	packageContents.scripts["update:deps"] = "node ./updateDependencies.js"
 	packageContents.scripts["update:versions"] = "node ./updateVersions.js"
