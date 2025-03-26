@@ -3,9 +3,6 @@ $sandbox = "$workspace\Sandbox"
 $configs = "$workspace\configs"
 $zeldaU = "$workspace\ZeldaU"
 
-# Needed for Node manager https://github.com/Schniz/fnm/blob/master/README.md#powershell
-fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
-
 function pruneGit() {
   git fetch --prune origin
 }
