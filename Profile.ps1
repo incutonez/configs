@@ -60,6 +60,11 @@ function killTaskByPort($portNumber) {
   killTask $portnum.captures[0].Value;
 }
 
+function upgradeNode() {
+  nvm install lts
+  nvm use lts
+}
+
 function upgradeApp() {
   npx npm-check-updates -u
 }
