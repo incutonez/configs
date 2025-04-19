@@ -199,3 +199,14 @@ function startUI() {
   cd "$sandbox"
   npm run ui
 }
+
+function sanitizeFileNames() {
+  param(
+    [Parameter(Mandatory=$true)]
+    [string]
+    $directory
+  )
+  $directory = (Get-Item $directory).FullName
+  cd $configs
+  node removeFileNameGuid.js $directory
+}
