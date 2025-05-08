@@ -1,5 +1,6 @@
 import { execSync } from "child_process";
 import { cpSync, existsSync, mkdirSync } from "fs";
+import { readPackage, writePackage } from "./shared";
 
 const { argv } = process;
 const stdio = [0, 1, 2];
@@ -16,11 +17,11 @@ if (!existsSync(packagesDir)) {
 		recursive: true,
 	});
 }
-execSync(`npx tsx ${import.meta.dirname}/ui.ts -n "ui" -w "True" -t "${uiFramework}"`, {
+execSync(`npx tsx ${import.meta.dirname}/ui.ts -n "ui" -w "${projectName}" -t "${uiFramework}"`, {
 	stdio,
 	cwd: packagesDir,
 });
-execSync(`npx tsx ${import.meta.dirname}/api.ts -n "api" -w "True"`, {
+execSync(`npx tsx ${import.meta.dirname}/api.ts -n "api" -w "${projectName}"`, {
 	stdio,
 	cwd: packagesDir,
 });
@@ -28,6 +29,9 @@ cpSync(`${import.meta.dirname}/workspace.package.json`, `${projectDir}/package.j
 	force: true,
 	recursive: true,
 });
+const workspacePackage = readPackage(projectDir);
+workspacePackage.name = `@incutonez/${projectName}`;
+writePackage(projectDir, workspacePackage);
 cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectDir}/updateDependencies.js`, { force: true });
 cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectDir}/updateVersions.js`, { force: true });
 cpSync(`${import.meta.dirname}/.github`, `${projectDir}/.github`, { force: true, recursive: true });

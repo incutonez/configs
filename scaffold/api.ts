@@ -1,13 +1,14 @@
 import { execSync } from "child_process";
-import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import { cpSync, existsSync, mkdirSync } from "fs";
+import { readPackage, release, releasePackages, writePackage } from "./shared";
 
 const { argv } = process;
 const stdio = [0, 1, 2];
 const directoryPathIndex = argv.indexOf("-d");
-const projectNameIndex = argv.indexOf("-n");
-const workspaceIndex = argv.indexOf("-w");
-const isNonWorkspace = workspaceIndex === -1 || argv[workspaceIndex + 1] === "False";
-const projectName = argv[projectNameIndex + 1];
+const packageNameIndex = argv.indexOf("-n");
+const packageName = argv[packageNameIndex + 1];
+const workspaceNameIndex = argv.indexOf("-w");
+const workspaceName = argv[workspaceNameIndex + 1] === "False" ? undefined : argv[workspaceNameIndex + 1];
 const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
 const PostInstallCommands = ["npm i"]
 
@@ -18,12 +19,12 @@ function makePackageItem(items: string[]) {
 	}, {} as Record<string, any>)
 }
 
-if (projectNameIndex === -1 || !projectName) {
+if (packageNameIndex === -1 || !packageName) {
 	console.error("Project name not specified.  Please add `-n ProjectNameHere` when running this command.");
 	process.exit(1);
 }
 
-const projectPath = `${projectRootDir}/${projectName}`;
+const projectPath = `${projectRootDir}/${packageName}`;
 const specPath = `${projectRootDir}/spec`;
 if (!existsSync(projectPath)) {
 	mkdirSync(projectPath, {
@@ -46,7 +47,8 @@ execSync("npm init --scope=@incutonez --yes", {
 });
 cpSync(`${import.meta.dirname}/api`, projectPath, { force: true, recursive: true });
 cpSync(`${import.meta.dirname}/spec`, specPath, { force: true, recursive: true });
-const apiPackage = JSON.parse(readFileSync(`${projectPath}/package.json`, "utf8"));
+const apiPackage = readPackage(projectPath);
+const specPackage = readPackage(specPath);
 const PackagesDev = [
 	"@nestjs/cli",
 	"@nestjs/schematics",
@@ -70,7 +72,14 @@ const PackagesDev = [
 	"@typescript-eslint/eslint-plugin",
 	"@typescript-eslint/parser",
 	"eslint-plugin-simple-import-sort",
-]
+	...releasePackages,
+];
+apiPackage.release = release;
+for (const pkg of releasePackages) {
+	specPackage.devDependencies[pkg] = "latest";
+}
+specPackage.release = release;
+specPackage.name = `@incutonez/${workspaceName || packageName}-spec`;
 
 apiPackage.scripts = {
 	"build": "nest build",
@@ -81,7 +90,7 @@ apiPackage.scripts = {
 	"start:debug": "nest start --debug --watch",
 	"start:prod": "node dist/main",
 };
-if (isNonWorkspace) {
+if (!workspaceName) {
 	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, { force: true, recursive: true });
 	cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectPath}/updateDependencies.js`, { force: true });
 	cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectPath}/updateVersions.js`, { force: true });
@@ -125,44 +134,19 @@ apiPackage.devDependencies = {
 	...apiPackage.devDependencies ?? {},
 	...makePackageItem(PackagesDev)
 };
+const apiName = workspaceName ? `${workspaceName}-api` : `${packageName}-api`;
+apiPackage.name = `@incutonez/${apiName}`;
 
-if (isNonWorkspace) {
+if (workspaceName) {
 	apiPackage["lint-staged"] = {
 		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
 			"npx eslint --fix",
 		],
 	};
-	apiPackage.release = {
-		"branches": [
-			"main"
-		],
-		"plugins": [
-			[
-				"@semantic-release/commit-analyzer",
-				{
-					"preset": "conventionalcommits"
-				}
-			],
-			[
-				"@semantic-release/release-notes-generator",
-				{
-					"preset": "conventionalcommits"
-				}
-			],
-			"@semantic-release/changelog",
-			[
-				"@semantic-release/npm",
-				{
-					"npmPublish": false
-				}
-			],
-			"@semantic-release/git",
-			"@semantic-release/github"
-		]
-	};
 }
-writeFileSync(`${projectPath}/package.json`, JSON.stringify(apiPackage, null, 2));
-if (isNonWorkspace) {
+writePackage(projectPath, apiPackage);
+writePackage(`${projectRootDir}/spec`, specPackage);
+if (!workspaceName) {
 	execSync(PostInstallCommands.join(" && "), {
 		stdio,
 		cwd: projectPath,

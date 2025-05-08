@@ -1,5 +1,5 @@
 {
-  "name": "@incutonez/workspace",
+  "name": "@incutonez",
   "version": "1.0.0",
   "description": "Example micro application workspace",
   "main": "index.js",
@@ -32,44 +32,11 @@
     "packages/ui/**/*.{tsx,ts}": "npm run ui:commit",
     "packages/api/**/*.ts": "npm run api:commit"
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      "@semantic-release/changelog",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      "@semantic-release/git",
-      "@semantic-release/github"
-    ]
-  },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@semantic-release/changelog": "latest",
-    "@semantic-release/exec": "latest",
-    "@semantic-release/git": "latest",
-    "conventional-changelog-conventionalcommits": "latest",
     "husky": "latest",
-    "lint-staged": "latest",
-    "semantic-release": "latest"
+    "lint-staged": "latest"
   }
 }

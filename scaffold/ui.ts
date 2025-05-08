@@ -1,15 +1,16 @@
 // Run with `npx tsx scaffold.ts -n nameHere -t (vue or react) -d path/to/dir`
 import { execSync } from "child_process";
 import { cpSync, readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from "fs";
+import {readPackage, release, releasePackages, writePackage} from "./shared";
 
 const { argv } = process;
 const stdio = [0, 1, 2];
 const directoryPathIndex = argv.indexOf("-d");
 const projectNameIndex = argv.indexOf("-n");
-const workspaceIndex = argv.indexOf("-w");
-const isNonWorkspace = workspaceIndex === -1 || argv[workspaceIndex + 1] === "False";
-const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
 const projectName = argv[argv.indexOf("-n") + 1];
+const workspaceNameIndex = argv.indexOf("-w");
+const workspaceName = argv[workspaceNameIndex + 1] === "False" ? undefined : argv[workspaceNameIndex + 1];
+const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
 const projectType = argv[argv.indexOf("-t") + 1];
 const AllowedTypes = ["vue", "react"];
 
@@ -44,6 +45,7 @@ const PackagesDev = [
 	"typescript-eslint",
 	"@eslint/js",
 	"eslint",
+	...releasePackages,
 	// This is needed for vite, so we can import path
 	"@types/node",
 ];
@@ -64,7 +66,7 @@ const PostInstallCommands = [
 	// This locks down versions instead of using "latest"
 	"npm upgrade -S"
 ];
-if (isNonWorkspace) {
+if (!workspaceName) {
 	PostInstallCommands.unshift("git init");
 	PostInstallCommands.push(
 		"npx husky init",
@@ -73,11 +75,6 @@ if (isNonWorkspace) {
 	PackagesDev.push(
 		"husky",
 		"lint-staged",
-		"semantic-release",
-		"@semantic-release/changelog",
-		"conventional-changelog-conventionalcommits",
-		"@semantic-release/exec",
-		"@semantic-release/git",
 	);
 }
 execSync(`npm create vite@latest ${projectName} -- --template ${projectType}-ts`, {
@@ -92,48 +89,22 @@ rmSync(`${projectDir}/src/assets`, { force: true, recursive: true });
 rmSync(`${projectDir}/src/components`, { force: true, recursive: true });
 mkdirSync(`${projectDir}/src/components`);
 const tsConfigContents = JSON.parse(readFileSync(`${projectDir}/tsconfig.app.json`, "utf8").replace(/\/\*[^\n]+\n\s+/g, ""));
-const packageContents = JSON.parse(readFileSync(`${projectDir}/package.json`, "utf8"));
+const packageContents = readPackage(projectDir);
 tsConfigContents.compilerOptions.paths = {
 	"@/*": ["./src/*"],
 };
-packageContents.name = `@incutonez/${packageContents.name}`;
+const name = workspaceName ? `${workspaceName}-ui` : projectName;
+packageContents.name = `@incutonez/${name}`;
 packageContents.version = "0.0.1";
-packageContents.scripts.lint = "npx eslint --fix"
-if (isNonWorkspace) {
+packageContents.scripts.lint = "npx eslint --fix";
+packageContents.release = release;
+if (workspaceName) {
 	packageContents.scripts["update:deps"] = "node ./updateDependencies.js"
 	packageContents.scripts["update:versions"] = "node ./updateVersions.js"
 	packageContents["lint-staged"] = {
 		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
 			"npx eslint --fix",
 		],
-	};
-	packageContents.release = {
-		"branches": [
-			"main"
-		],
-		"plugins": [
-			[
-				"@semantic-release/commit-analyzer",
-				{
-					"preset": "conventionalcommits"
-				}
-			],
-			[
-				"@semantic-release/release-notes-generator",
-				{
-					"preset": "conventionalcommits"
-				}
-			],
-			"@semantic-release/changelog",
-			[
-				"@semantic-release/npm",
-				{
-					"npmPublish": false
-				}
-			],
-			"@semantic-release/git",
-			"@semantic-release/github"
-		]
 	};
 }
 packageContents.dependencies = {
@@ -145,8 +116,8 @@ packageContents.devDependencies = {
 	...makePackageItem(PackagesDev)
 };
 writeFileSync(`${projectDir}/tsconfig.app.json`, JSON.stringify(tsConfigContents, null, 2));
-writeFileSync(`${projectDir}/package.json`, JSON.stringify(packageContents, null, 2));
-if (isNonWorkspace) {
+writePackage(projectDir, packageContents);
+if (!workspaceName) {
 	execSync(PostInstallCommands.join(" && "), {
 		stdio,
 		cwd: projectDir,
