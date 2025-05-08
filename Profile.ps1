@@ -186,7 +186,7 @@ function createWorkspace() {
   }
   cd $configs
   npx tsx scaffold/workspace.ts -ui "$ui" -n "$name" -d "$directory"
-  cd "$workspace/$name"
+  cd "$directory/$name"
 }
 
 function startAPI() {
