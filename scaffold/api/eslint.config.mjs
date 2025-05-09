@@ -35,7 +35,11 @@ export default tseslint.config(
 			"@incutonez": pluginIncutonez,
 		},
 		rules: {
-			"@typescript-eslint/no-unused-vars": "error",
+			"@typescript-eslint/no-unused-vars": ["error", {
+				"argsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_",
+				"caughtErrorsIgnorePattern": "^_"
+			}],
 			"@typescript-eslint/prefer-namespace-keyword": "off",
 			"@/indent": [
 				"error",

@@ -41,7 +41,11 @@ export default tseslint.config({
         "react-refresh/only-export-components": ["warn", {
             allowConstantExport: true,
         }],
-        "@typescript-eslint/no-unused-vars": "error",
+		"@typescript-eslint/no-unused-vars": ["error", {
+			"argsIgnorePattern": "^_",
+			"varsIgnorePattern": "^_",
+			"caughtErrorsIgnorePattern": "^_"
+		}],
         "@typescript-eslint/ban-ts-comment": ["error", {
             "ts-expect-error": "allow-with-description",
             "ts-nocheck": "allow-with-description",

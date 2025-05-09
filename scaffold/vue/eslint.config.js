@@ -51,7 +51,11 @@ export default [
 			"function-paren-newline": ["error", "never"],
 			"no-mixed-spaces-and-tabs": "off",
 			"no-var": "error",
-			"@typescript-eslint/no-unused-vars": "error",
+			"@typescript-eslint/no-unused-vars": ["error", {
+				"argsIgnorePattern": "^_",
+				"varsIgnorePattern": "^_",
+				"caughtErrorsIgnorePattern": "^_"
+			}],
 			"@stylistic/ts/indent": ["error", "tab", {
 				SwitchCase: 1,
 				ignoredNodes: ["PropertyDefinition"],
