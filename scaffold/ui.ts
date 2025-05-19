@@ -96,6 +96,7 @@ tsConfigContents.compilerOptions.paths = {
 const name = workspaceName ? `${workspaceName}-ui` : projectName;
 packageContents.name = `@incutonez/${name}`;
 packageContents.version = "0.0.1";
+packageContents.scripts.explode = "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i";
 packageContents.scripts.lint = "npx eslint --fix";
 packageContents.release = release;
 if (workspaceName) {

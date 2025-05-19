@@ -83,7 +83,7 @@ specPackage.name = `@incutonez/${workspaceName || packageName}-spec`;
 
 apiPackage.scripts = {
 	"build": "nest build",
-	"explode": "npx rimraf node_modules package-lock.json && npm i",
+	"explode": "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i",
 	"lint": "npx eslint --fix",
 	"start": "nest start",
 	"start:dev": "nest start -w",
