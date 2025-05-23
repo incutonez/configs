@@ -34,6 +34,14 @@ function branchResetHard() {
   git reset --hard
 }
 
+function branchMain() {
+	$currentBranch = git rev-parse --abbrev-ref HEAD
+	git checkout main
+	git pull
+	branchDelete $currentBranch
+	pruneGit
+}
+
 function killTask($processId) {
   if ($processId -eq $null) {
     "Please enter a pid."
