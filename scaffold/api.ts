@@ -71,6 +71,7 @@ const PackagesDev = [
 	"@types/sequelize",
 	"@typescript-eslint/eslint-plugin",
 	"@typescript-eslint/parser",
+	"@stylistic/eslint-plugin-ts",
 	"eslint-plugin-simple-import-sort",
 	...releasePackages,
 ];
