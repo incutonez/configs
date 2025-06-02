@@ -38,7 +38,10 @@ function branchMain() {
 	$currentBranch = git rev-parse --abbrev-ref HEAD
 	git checkout main
 	git pull
-	branchDelete $currentBranch
+	npm i
+	if ($currentBranch -ne "main") {
+	  branchDelete $currentBranch
+	}
 	pruneGit
 }
 
