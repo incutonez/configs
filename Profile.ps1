@@ -38,7 +38,7 @@ function branchMain() {
 	$currentBranch = git rev-parse --abbrev-ref HEAD
 	git checkout main
 	git pull
-	npm i
+	npm ci
 	if ($currentBranch -ne "main") {
 	  branchDelete $currentBranch
 	}
