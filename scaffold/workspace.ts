@@ -1,6 +1,6 @@
 import { execSync } from "child_process";
 import { cpSync, existsSync, mkdirSync } from "fs";
-import { readPackage, writePackage } from "./shared";
+import {readPackage, release, writePackage} from "./shared";
 
 const { argv } = process;
 const stdio = [0, 1, 2];
@@ -31,6 +31,14 @@ cpSync(`${import.meta.dirname}/workspace.package.json`, `${projectDir}/package.j
 });
 const workspacePackage = readPackage(projectDir);
 workspacePackage.name = `@incutonez/${projectName}`;
+workspacePackage.release = release;
+// This allows us to use a dry run to capture the next package version, so we can update our individual packages directly
+workspacePackage.release.unshift([
+	"@semantic-release/exec",
+	{
+		"verifyReleaseCmd": "echo \"NEXT_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_ENV"
+	}
+]);
 writePackage(projectDir, workspacePackage);
 cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectDir}/updateDependencies.js`, { force: true });
 cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectDir}/updateVersions.js`, { force: true });

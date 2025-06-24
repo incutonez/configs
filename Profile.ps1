@@ -72,6 +72,10 @@ function killTaskByPort($portNumber) {
   killTask $portnum.captures[0].Value;
 }
 
+function dockerRemoveImages() {
+	docker rmi -f $(docker images -q)
+}
+
 function upgradeNode() {
   nvm install lts
   nvm use lts
@@ -199,17 +203,6 @@ function createWorkspace() {
   cd $configs
   npx tsx scaffold/workspace.ts -ui "$ui" -n "$name" -d "$directory"
   cd "$directory/$name"
-}
-
-function startAPI() {
-  cd "$sandbox"
-  npm run api
-}
-
-
-function startUI() {
-  cd "$sandbox"
-  npm run ui
 }
 
 function sanitizeFileNames() {
