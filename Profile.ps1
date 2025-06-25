@@ -72,8 +72,11 @@ function killTaskByPort($portNumber) {
   killTask $portnum.captures[0].Value;
 }
 
-function dockerRemoveImages() {
+function dockerClearSpace() {
 	docker rmi -f $(docker images -q)
+	docker system prune -a
+	# The best way is to probably set up the daemon.json to rotate 3 log files, per https://stackoverflow.com/a/42510314/1253609
+	#sudo sh -c "truncate -s 0 /var/lib/docker/containers/**/*-json.log"
 }
 
 function upgradeNode() {
