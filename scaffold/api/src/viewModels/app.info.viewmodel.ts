@@ -1,3 +1,3 @@
 export class AppInfoViewModel {
-	version: string;
+	declare version: string;
 }

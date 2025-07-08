@@ -1,10 +1,13 @@
-import { GetResponseModel } from "src/viewModels/base.list.viewmodel";
+import { GetResponseModel } from "@/viewModels/base.list.viewmodel";
 
 export class UserViewModel {
-	firstName: string;
-	id: number;
-	lastName: string;
-	phone: string;
+	declare id: string;
+
+	declare firstName: string;
+
+	declare lastName: string;
+
+	declare phone: string;
 }
 
 export class UserListViewModel extends GetResponseModel<UserViewModel>(UserViewModel) {}

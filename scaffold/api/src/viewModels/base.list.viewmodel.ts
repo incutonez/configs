@@ -6,17 +6,20 @@ interface IResponseListEntity<T> {
 }
 
 export class ApiPaginatedRequest {
-	start: number;
-	limit: number;
-	page: number;
+	declare start: number;
+
+	declare limit: number;
+
+	declare page: number;
 }
 
-export function GetResponseModel<T>(ResourceClass) {
+export function GetResponseModel<T>(ResourceClass: any) {
 	class ResponseListEntity implements IResponseListEntity<T> {
 		@ApiProperty({
 			type: [ResourceClass],
 		})
-		data: T[];
+		declare data: T[];
+
 		total?: number;
 	}
 	return ResponseListEntity;

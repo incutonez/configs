@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { AppInfoViewModel } from "src/viewModels/app.info.viewmodel";
+import { AppInfoViewModel } from "@/viewModels/app.info.viewmodel";
 
 @Injectable()
 export class AppService {
