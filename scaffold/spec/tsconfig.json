@@ -20,5 +20,7 @@
     "isolatedModules": true
   },
   "include": ["**/*.ts", "**/*.d.ts"],
-  "exclude": []
+  "exclude": [
+    "generate.ts"
+  ]
 }

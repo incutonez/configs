@@ -38,12 +38,19 @@ function branchMain() {
 	$currentBranch = git rev-parse --abbrev-ref HEAD
 	git checkout main
 	git pull
-	taskkill /f /im node.exe
-	npm ci
 	if ($currentBranch -ne "main") {
 	  branchDelete $currentBranch
 	}
 	pruneGit
+}
+
+function killNode() {
+	taskkill /f /im node.exe
+}
+
+function updatePackages() {
+	killNode
+	npm ci
 }
 
 function killTask($processId) {

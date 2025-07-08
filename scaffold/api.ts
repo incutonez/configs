@@ -1,8 +1,8 @@
-import { execSync } from "child_process";
-import { cpSync, existsSync, mkdirSync } from "fs";
-import { readPackage, release, releasePackages, writePackage } from "./shared";
+import {execSync} from "child_process";
+import {cpSync, existsSync, mkdirSync} from "fs";
+import {readPackage, release, releasePackages, writePackage} from "./shared";
 
-const { argv } = process;
+const {argv} = process;
 const stdio = [0, 1, 2];
 const directoryPathIndex = argv.indexOf("-d");
 const packageNameIndex = argv.indexOf("-n");
@@ -10,7 +10,7 @@ const packageName = argv[packageNameIndex + 1];
 const workspaceNameIndex = argv.indexOf("-w");
 const workspaceName = argv[workspaceNameIndex + 1] === "False" ? undefined : argv[workspaceNameIndex + 1];
 const projectRootDir = directoryPathIndex === -1 ? "." : argv[directoryPathIndex + 1] || ".";
-const PostInstallCommands = ["npm i"]
+const PostInstallCommands = ["npm i", "npm upgrade -S"]
 
 function makePackageItem(items: string[]) {
 	return items.reduce((output, item) => {
@@ -45,8 +45,8 @@ execSync("npm init --scope=@incutonez --yes", {
 	stdio,
 	cwd: specPath,
 });
-cpSync(`${import.meta.dirname}/api`, projectPath, { force: true, recursive: true });
-cpSync(`${import.meta.dirname}/spec`, specPath, { force: true, recursive: true });
+cpSync(`${import.meta.dirname}/api`, projectPath, {force: true, recursive: true});
+cpSync(`${import.meta.dirname}/spec`, specPath, {force: true, recursive: true});
 const apiPackage = readPackage(projectPath);
 const specPackage = readPackage(specPath);
 const PackagesDev = [
@@ -68,7 +68,7 @@ const PackagesDev = [
 	"typescript",
 	"typescript-eslint",
 	"@incutonez/eslint-plugin",
-	"@types/sequelize",
+	"@types/compression",
 	"@typescript-eslint/eslint-plugin",
 	"@typescript-eslint/parser",
 	"@stylistic/eslint-plugin-ts",
@@ -77,6 +77,7 @@ const PackagesDev = [
 ];
 apiPackage.release = release;
 for (const pkg of releasePackages) {
+	specPackage.devDependencies = {};
 	specPackage.devDependencies[pkg] = "latest";
 }
 specPackage.release = release;
@@ -92,9 +93,9 @@ apiPackage.scripts = {
 	"start:prod": "node dist/main",
 };
 if (!workspaceName) {
-	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, { force: true, recursive: true });
-	cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectPath}/updateDependencies.js`, { force: true });
-	cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectPath}/updateVersions.js`, { force: true });
+	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, {force: true, recursive: true});
+	cpSync(`${import.meta.dirname}/updateDependencies.js`, `${projectPath}/updateDependencies.js`, {force: true});
+	cpSync(`${import.meta.dirname}/updateVersions.js`, `${projectPath}/updateVersions.js`, {force: true});
 	apiPackage.scripts["update:deps"] = "node ./updateDependencies.js"
 	apiPackage.scripts["update:versions"] = "node ./updateVersions.js"
 	PostInstallCommands.unshift("git init");
@@ -119,15 +120,16 @@ apiPackage.dependencies = {
 		"@nestjs/common",
 		"@nestjs/core",
 		"@nestjs/platform-express",
+		"@sequelize/core",
+		"@sequelize/sqlite3",
+		"class-transformer",
+		"class-validator",
+		"compression",
 		"reflect-metadata",
 		"rxjs",
 		"@nestjs/config",
-		"@nestjs/sequelize",
 		"@nestjs/swagger",
 		"compression",
-		"sequelize",
-		"sequelize-typescript",
-		"sqlite3",
 		"uuidv4",
 	]),
 };

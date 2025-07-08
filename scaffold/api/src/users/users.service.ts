@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
-import { FindAndCountOptions } from "sequelize/types/model";
-import { UsersMapper } from "src/users/users.mapper";
-import { ApiPaginatedRequest } from "src/viewModels/base.list.viewmodel";
-import { UserModel } from "src/db/models/UserModel";
+import { Attributes, FindAndCountOptions } from "@sequelize/core";
+import { UserModel } from "@/db/models/UserModel";
+import { UsersMapper } from "@/users/users.mapper";
+import { ApiPaginatedRequest } from "@/viewModels/base.list.viewmodel";
 
 @Injectable()
 export class UsersService {
@@ -10,7 +10,7 @@ export class UsersService {
 	}
 
 	async listUsers({ page, limit = 20 }: ApiPaginatedRequest) {
-		const query: FindAndCountOptions<UserModel> = {
+		const query: FindAndCountOptions<Attributes<UserModel>> = {
 			limit,
 			offset: (page - 1) * limit,
 		};
@@ -22,10 +22,7 @@ export class UsersService {
 	}
 
 	async getUser(userId: string) {
-		const response = await UserModel.findOne({
-			where: {
-				id: userId,
-			},
+		const response = await UserModel.findByPk(userId, {
 			include: [
 				{
 					all: true,
@@ -33,6 +30,8 @@ export class UsersService {
 				},
 			],
 		});
-		return this.mapper.userToViewModel(response);
+		if (response) {
+			return this.mapper.userToViewModel(response);
+		}
 	}
 }

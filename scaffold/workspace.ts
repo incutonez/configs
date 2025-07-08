@@ -33,7 +33,7 @@ const workspacePackage = readPackage(projectDir);
 workspacePackage.name = `@incutonez/${projectName}`;
 workspacePackage.release = release;
 // This allows us to use a dry run to capture the next package version, so we can update our individual packages directly
-workspacePackage.release.unshift([
+workspacePackage.release.plugins.unshift([
 	"@semantic-release/exec",
 	{
 		"verifyReleaseCmd": "echo \"NEXT_RELEASE_VERSION=${nextRelease.version}\" >> $GITHUB_ENV"
