@@ -140,13 +140,11 @@ apiPackage.devDependencies = {
 const apiName = workspaceName ? `${workspaceName}-api` : `${packageName}-api`;
 apiPackage.name = `@incutonez/${apiName}`;
 
-if (workspaceName) {
-	apiPackage["lint-staged"] = {
-		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
-			"npx eslint --fix",
-		],
-	};
-}
+apiPackage["lint-staged"] = {
+	"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
+		"npx eslint --fix",
+	],
+};
 writePackage(projectPath, apiPackage);
 writePackage(`${projectRootDir}/spec`, specPackage);
 if (!workspaceName) {

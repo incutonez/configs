@@ -102,12 +102,12 @@ packageContents.release = release;
 if (workspaceName) {
 	packageContents.scripts["update:deps"] = "node ./updateDependencies.js"
 	packageContents.scripts["update:versions"] = "node ./updateVersions.js"
-	packageContents["lint-staged"] = {
-		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
-			"npx eslint --fix",
-		],
-	};
 }
+packageContents["lint-staged"] = {
+	"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
+		"npx eslint --fix",
+	],
+};
 packageContents.dependencies = {
 	...packageContents.dependencies ?? {},
 	...makePackageItem(Packages)
