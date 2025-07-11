@@ -7,4 +7,39 @@
 
 @theme {
     --default-font-family: "Open Sans";
+    --spacing-form: 0.75rem;
+}
+
+html, body, #root {
+    @apply size-full;
+}
+
+body:has(dialog[open]),
+body:has(.loading-mask) {
+    #root {
+        @apply blur-xs pointer-events-none;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Set default border color */
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-500, currentColor);
+    }
 }
