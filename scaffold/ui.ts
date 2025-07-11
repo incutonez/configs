@@ -99,15 +99,15 @@ packageContents.version = "0.0.1";
 packageContents.scripts.explode = "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i";
 packageContents.scripts.lint = "npx eslint --fix";
 packageContents.release = release;
-if (workspaceName) {
+if (!workspaceName) {
+	packageContents["lint-staged"] = {
+		"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
+			"npx eslint --fix",
+		],
+	};
 	packageContents.scripts["update:deps"] = "node ./updateDependencies.js"
 	packageContents.scripts["update:versions"] = "node ./updateVersions.js"
 }
-packageContents["lint-staged"] = {
-	"*.{js,mjs,cjs,jsx,ts,tsx,vue}": [
-		"npx eslint --fix",
-	],
-};
 packageContents.dependencies = {
 	...packageContents.dependencies ?? {},
 	...makePackageItem(Packages)

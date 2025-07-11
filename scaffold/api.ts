@@ -90,7 +90,7 @@ apiPackage.scripts = {
 	"start": "nest start",
 	"start:dev": "nest start -w",
 	"start:debug": "nest start --debug --watch",
-	"start:prod": "node dist/main",
+	"start:prod": "node dist/main"
 };
 if (!workspaceName) {
 	cpSync(`${import.meta.dirname}/.github`, `${projectPath}/.github`, {force: true, recursive: true});
