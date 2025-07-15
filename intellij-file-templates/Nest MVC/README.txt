@@ -1,3 +1,5 @@
 The structure is that we add a top level template called Nest MVC, which is the controller... it has a name of Nest MVC, file name of ${NAME}/${NAME}.controller, and its extension is ts.  Then we add the child templates for the service, module, and mapper, all with the same file naming scheme of ${NAME}/${NAME}.(service, module, mapper) and ts as the extension.  Then in the includes tab, we add the helper code.  Once that's all done, there should now be a context menu when adding a new item in the IDE... might need to turn on Enable Live Templates setting in controller and module settings, but I don't know if that's necessary.
 
 Taken from https://www.jetbrains.com/help/idea/using-file-and-code-templates.html#create-new-template
+
+The helper.txt makes use of DIR_PATH, which was added here https://youtrack.jetbrains.com/issue/IJPL-46887/Add-a-template-variable-that-displays-file-path-from-project-root.#focus=Comments-27-2854275.0-0

@@ -1,3 +1,4 @@
+#set($LocalDir = $DIR_PATH.replaceAll(".*/?src/", "@/"))
 #set($NamePascal = ${NAME})
 #set($NamePascal = $NamePascal.substring(0,1).toUpperCase() + $NamePascal.substring(1))
-#set($ImportPrefix = "@/${NAME}/${NAME}.")
+#set($ImportPrefix = "${LocalDir}/${NAME}.")
