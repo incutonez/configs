@@ -34,23 +34,27 @@ const Packages = [
 	"@material-symbols/svg-400",
 ];
 const PackagesDev = [
-	"@incutonez/eslint-plugin",
-	"@stylistic/eslint-plugin-ts",
-	"globals",
-	"@typescript-eslint/eslint-plugin",
-	"@typescript-eslint/parser",
-	"tailwindcss",
-	"eslint-plugin-simple-import-sort",
-	"@tailwindcss/vite",
-	"typescript-eslint",
 	"@eslint/js",
-	"eslint",
-	...releasePackages,
+	"@stylistic/eslint-plugin",
+	"@stylistic/stylelint-config",
+	"@tailwindcss/vite",
 	// This is needed for vite, so we can import path
 	"@types/node",
+	"@typescript-eslint/eslint-plugin",
+	"eslint",
+	"eslint-plugin-antfu",
+	"eslint-plugin-simple-import-sort",
+	"globals",
+	"stylelint",
+	"stylelint-config-standard",
+	"tailwindcss",
+	"typescript",
+	"typescript-eslint",
+	"vite",
+	...releasePackages,
 ];
 if (projectType === "vue") {
-	PackagesDev.push("eslint-plugin-vue", "vite-svg-loader");
+	PackagesDev.push("eslint-plugin-vue", "stylelint-config-standard-vue", "vite-svg-loader");
 }
 else if (projectType === "react") {
 	PackagesDev.push("eslint-plugin-react", "vite-plugin-svgr");
