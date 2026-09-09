@@ -91,6 +91,10 @@ function upgradeNode() {
   nvm use lts
 }
 
+function nodeClearCache() {
+  npm cache clean --force
+}
+
 function upgradeApp() {
   npx npm-check-updates -u
 }
