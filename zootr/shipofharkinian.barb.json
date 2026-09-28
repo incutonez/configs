@@ -1,0 +1,2364 @@
+{
+    "CVars": {
+        "gAudioEditor": {
+            "DisableNaviCallAudio": 1,
+            "EnemyBGMDisable": 1,
+            "ExperimentalOctaveDrop": 0,
+            "LowHpAlarm": 1,
+            "ReplacedSequences": {
+                "NA_BGM_ADULT_LINK": {
+                    "value": 152
+                },
+                "NA_BGM_APPEAR": {
+                    "value": 1092
+                },
+                "NA_BGM_BOSS": {
+                    "value": 249
+                },
+                "NA_BGM_BOSS_CLEAR": {
+                    "value": 879
+                },
+                "NA_BGM_BRIDGE_TO_GANONS": {
+                    "value": 447
+                },
+                "NA_BGM_CHAMBER_OF_SAGES": {
+                    "value": 885
+                },
+                "NA_BGM_COURTYARD": {
+                    "value": 88
+                },
+                "NA_BGM_DEKU_TREE_CS": {
+                    "value": 222
+                },
+                "NA_BGM_DOOR_OF_TIME": {
+                    "value": 342
+                },
+                "NA_BGM_DUNGEON": {
+                    "value": 618
+                },
+                "NA_BGM_ENEMY": {
+                    "value": 293
+                },
+                "NA_BGM_ESCAPE": {
+                    "value": 802
+                },
+                "NA_BGM_EVENT_CLEAR": {
+                    "value": 911
+                },
+                "NA_BGM_FIELD_LOGIC": {
+                    "value": 804
+                },
+                "NA_BGM_FIELD_MORNING": {
+                    "value": 1101
+                },
+                "NA_BGM_FILE_SELECT": {
+                    "value": 216
+                },
+                "NA_BGM_FIRE_BOSS": {
+                    "value": 296
+                },
+                "NA_BGM_FIRE_TEMPLE": {
+                    "value": 763
+                },
+                "NA_BGM_FOREST_TEMPLE": {
+                    "value": 476
+                },
+                "NA_BGM_GAME_OVER": {
+                    "value": 366
+                },
+                "NA_BGM_GANONDORF_BOSS": {
+                    "value": 649
+                },
+                "NA_BGM_GANON_BOSS": {
+                    "value": 722
+                },
+                "NA_BGM_GANON_TOWER": {
+                    "value": 48
+                },
+                "NA_BGM_GERUDO_VALLEY": {
+                    "value": 654
+                },
+                "NA_BGM_GORON_CITY": {
+                    "value": 816
+                },
+                "NA_BGM_GREAT_FAIRY": {
+                    "value": 337
+                },
+                "NA_BGM_HEART_GET": {
+                    "value": 556
+                },
+                "NA_BGM_HORSE": {
+                    "value": 570
+                },
+                "NA_BGM_HORSE_GOAL": {
+                    "value": 948
+                },
+                "NA_BGM_HYRULE_CS": {
+                    "value": 809
+                },
+                "NA_BGM_ICE_CAVERN": {
+                    "value": 545
+                },
+                "NA_BGM_INGO": {
+                    "value": 240
+                },
+                "NA_BGM_INSIDE_DEKU_TREE": {
+                    "value": 963
+                },
+                "NA_BGM_INTRO_GANON": {
+                    "value": 439
+                },
+                "NA_BGM_ITEM_GET": {
+                    "value": 957
+                },
+                "NA_BGM_JABU_JABU": {
+                    "value": 585
+                },
+                "NA_BGM_KAKARIKO_ADULT": {
+                    "value": 352
+                },
+                "NA_BGM_KAKARIKO_KID": {
+                    "value": 533
+                },
+                "NA_BGM_KOKIRI": {
+                    "value": 1147
+                },
+                "NA_BGM_KOTAKE_KOUME": {
+                    "value": 255
+                },
+                "NA_BGM_LINK_HOUSE": {
+                    "value": 876
+                },
+                "NA_BGM_LONLON": {
+                    "value": 1033
+                },
+                "NA_BGM_MARKET": {
+                    "value": 1078
+                },
+                "NA_BGM_MASTER_SWORD": {
+                    "value": 1117
+                },
+                "NA_BGM_MEDALLION_GET": {
+                    "value": 889
+                },
+                "NA_BGM_MINI_BOSS": {
+                    "value": 1071
+                },
+                "NA_BGM_MINI_GAME": {
+                    "value": 1096
+                },
+                "NA_BGM_NAVI_OPENING": {
+                    "value": 89
+                },
+                "NA_BGM_OCA_BOLERO": {
+                    "value": 71
+                },
+                "NA_BGM_OCA_EPONA": {
+                    "value": 68
+                },
+                "NA_BGM_OCA_FAIRY_GET": {
+                    "value": 896
+                },
+                "NA_BGM_OCA_LIGHT": {
+                    "value": 37
+                },
+                "NA_BGM_OCA_MINUET": {
+                    "value": 72
+                },
+                "NA_BGM_OCA_NOCTURNE": {
+                    "value": 70
+                },
+                "NA_BGM_OCA_REQUIEM": {
+                    "value": 54
+                },
+                "NA_BGM_OCA_SARIA": {
+                    "value": 51
+                },
+                "NA_BGM_OCA_SERENADE": {
+                    "value": 69
+                },
+                "NA_BGM_OCA_STORM": {
+                    "value": 55
+                },
+                "NA_BGM_OCA_SUNS": {
+                    "value": 53
+                },
+                "NA_BGM_OCA_TIME": {
+                    "value": 73
+                },
+                "NA_BGM_OCA_ZELDA": {
+                    "value": 52
+                },
+                "NA_BGM_OPENING_GANON": {
+                    "value": 43
+                },
+                "NA_BGM_OPEN_TRE_BOX": {
+                    "value": 554
+                },
+                "NA_BGM_OWL": {
+                    "value": 179
+                },
+                "NA_BGM_POTION_SHOP": {
+                    "value": 512
+                },
+                "NA_BGM_SARIA_THEME": {
+                    "value": 661
+                },
+                "NA_BGM_SEAL_OF_SAGES": {
+                    "value": 986
+                },
+                "NA_BGM_SHADOW_TEMPLE": {
+                    "value": 539
+                },
+                "NA_BGM_SHEIK": {
+                    "value": 632
+                },
+                "NA_BGM_SHOP": {
+                    "value": 436
+                },
+                "NA_BGM_SMALL_ITEM_GET": {
+                    "value": 1046
+                },
+                "NA_BGM_SPIRITUAL_STONE": {
+                    "value": 110
+                },
+                "NA_BGM_SPIRIT_TEMPLE": {
+                    "value": 231
+                },
+                "NA_BGM_TEMPLE_OF_TIME": {
+                    "value": 96
+                },
+                "NA_BGM_TIMED_MINI_GAME": {
+                    "value": 543
+                },
+                "NA_BGM_TITLE": {
+                    "value": 381
+                },
+                "NA_BGM_UNDERGROUND": {
+                    "value": 958
+                },
+                "NA_BGM_WATER_TEMPLE": {
+                    "value": 119
+                },
+                "NA_BGM_WINDMILL": {
+                    "value": 615
+                },
+                "NA_BGM_ZELDA_THEME": {
+                    "value": 694
+                },
+                "NA_BGM_ZORA_DOMAIN": {
+                    "value": 1007
+                },
+                "NA_SE_EN_AMOS_VOICE": {
+                    "value": 14460
+                },
+                "NA_SE_EN_AWA_BOUND": {
+                    "value": 22529
+                },
+                "NA_SE_EN_AWA_BREAK": {
+                    "value": 10318
+                },
+                "NA_SE_EN_BUBLE_LAUGH": {
+                    "value": 14721
+                },
+                "NA_SE_EN_DEKU_JR_MOUTH": {
+                    "value": 10257
+                },
+                "NA_SE_EN_FANTOM_ST_LAUGH": {
+                    "value": 10375
+                },
+                "NA_SE_EN_FLAME_DAMAGE": {
+                    "value": 14518
+                },
+                "NA_SE_EN_FLAME_LAUGH": {
+                    "value": 14685
+                },
+                "NA_SE_EN_GANON_AT_RETURN": {
+                    "value": 18459
+                },
+                "NA_SE_EN_GOLON_WAKE_UP": {
+                    "value": 6171
+                },
+                "NA_SE_EN_GOMA_JR_CRY": {
+                    "value": 14565
+                },
+                "NA_SE_EN_IRONNACK_SWING_AXE": {
+                    "value": 14714
+                },
+                "NA_SE_EN_KAICHO_CRY": {
+                    "value": 14588
+                },
+                "NA_SE_EN_NUTS_FAINT": {
+                    "value": 10257
+                },
+                "NA_SE_EN_NUTS_THROW": {
+                    "value": 10456
+                },
+                "NA_SE_EN_NUTS_UP": {
+                    "value": 14672
+                },
+                "NA_SE_EN_REDEAD_AIM": {
+                    "value": 14673
+                },
+                "NA_SE_EN_REDEAD_CRY": {
+                    "value": 14385
+                },
+                "NA_SE_EN_SHADEST_TAIKO_HIGH": {
+                    "value": 10244
+                },
+                "NA_SE_EN_SHADEST_TAIKO_LOW": {
+                    "value": 18499
+                },
+                "NA_SE_EN_SHELL_MOUTH": {
+                    "value": 10286
+                },
+                "NA_SE_EN_STALKID_ATTACK": {
+                    "value": 14409
+                },
+                "NA_SE_EN_STALTU_DAMAGE": {
+                    "value": 18492
+                },
+                "NA_SE_EV_BOTTLE_CAP_OPEN": {
+                    "value": 10254
+                },
+                "NA_SE_EV_BRIDGE_OPEN_STOP": {
+                    "value": 18448
+                },
+                "NA_SE_EV_CHICKEN_CRY_A": {
+                    "value": 18489
+                },
+                "NA_SE_EV_CHICKEN_CRY_M": {
+                    "value": 14564
+                },
+                "NA_SE_EV_CHICKEN_CRY_N": {
+                    "value": 14466
+                },
+                "NA_SE_EV_COW_CRY": {
+                    "value": 6154
+                },
+                "NA_SE_EV_DOG_CRY_EVENING": {
+                    "value": 14721
+                },
+                "NA_SE_EV_FIVE_COUNT_LUPY": {
+                    "value": 18443
+                },
+                "NA_SE_EV_FOOT_SWITCH": {
+                    "value": 18485
+                },
+                "NA_SE_EV_FROG_CRY_0": {
+                    "value": 14588
+                },
+                "NA_SE_EV_HORSE_RUN": {
+                    "value": 18492
+                },
+                "NA_SE_EV_LIGHTNING": {
+                    "value": 14518
+                },
+                "NA_SE_EV_PLANT_BROKEN": {
+                    "value": 10467
+                },
+                "NA_SE_EV_POT_BROKEN": {
+                    "value": 14664
+                },
+                "NA_SE_EV_SMALL_DOG_BARK": {
+                    "value": 2061
+                },
+                "NA_SE_IT_BOMB_EXPLOSION": {
+                    "value": 10467
+                },
+                "NA_SE_IT_BOW_FLICK": {
+                    "value": 10258
+                },
+                "NA_SE_IT_HAMMER_HIT": {
+                    "value": 14408
+                },
+                "NA_SE_IT_WALL_HIT_SOFT": {
+                    "value": 18489
+                },
+                "NA_SE_OC_ABYSS": {
+                    "value": 22529
+                },
+                "NA_SE_PL_HOBBERBOOTS_LV": {
+                    "value": 14673
+                },
+                "NA_SE_PL_WALK_HEAVYBOOTS": {
+                    "value": 14685
+                },
+                "NA_SE_SY_CARROT_RECOVER": {
+                    "value": 18485
+                },
+                "NA_SE_SY_FSEL_CLOSE": {
+                    "value": 14462
+                },
+                "NA_SE_SY_FSEL_CURSOR": {
+                    "value": 10259
+                },
+                "NA_SE_SY_FSEL_DECIDE_L": {
+                    "value": 10286
+                },
+                "NA_SE_SY_GET_RUPY": {
+                    "value": 14633
+                },
+                "NA_SE_SY_HITPOINT_ALARM": {
+                    "value": 10318
+                },
+                "NA_SE_SY_HP_RECOVER": {
+                    "value": 14794
+                },
+                "NA_SE_SY_KINSTA_MARK_APPEAR": {
+                    "value": 10414
+                },
+                "NA_SE_SY_LOCK_ON": {
+                    "value": 10348
+                },
+                "NA_SE_SY_LOCK_ON_HUMAN": {
+                    "value": 10472
+                },
+                "NA_SE_SY_METRONOME": {
+                    "value": 18480
+                },
+                "NA_SE_SY_START_SHOT": {
+                    "value": 14432
+                },
+                "NA_SE_VO_BL_DOWN": {
+                    "value": 26742
+                },
+                "NA_SE_VO_BL_DOWN_KID": {
+                    "value": 26647
+                },
+                "NA_SE_VO_FR_LAUGH_0": {
+                    "value": 26747
+                },
+                "NA_SE_VO_FR_SMILE_0": {
+                    "value": 26739
+                },
+                "NA_SE_VO_IN_CRY_0": {
+                    "value": 26718
+                },
+                "NA_SE_VO_IN_LASH_0": {
+                    "value": 26733
+                },
+                "NA_SE_VO_IN_LASH_1": {
+                    "value": 26657
+                },
+                "NA_SE_VO_IN_LOST": {
+                    "value": 26741
+                },
+                "NA_SE_VO_KZ_MOVE": {
+                    "value": 26710
+                },
+                "NA_SE_VO_LI_AUTO_JUMP_KID": {
+                    "value": 26716
+                },
+                "NA_SE_VO_LI_AUTOd_JUMP": {
+                    "value": 26709
+                },
+                "NA_SE_VO_LI_BREATH_DRINK": {
+                    "value": 26682
+                },
+                "NA_SE_VO_LI_BREATH_DRINK_KID": {
+                    "value": 26736
+                },
+                "NA_SE_VO_LI_BREATH_REST": {
+                    "value": 26738
+                },
+                "NA_SE_VO_LI_BREATH_REST_KID": {
+                    "value": 26663
+                },
+                "NA_SE_VO_LI_CLIMB_END": {
+                    "value": 26632
+                },
+                "NA_SE_VO_LI_CLIMB_END_KID": {
+                    "value": 26729
+                },
+                "NA_SE_VO_LI_DAMAGE_S": {
+                    "value": 26691
+                },
+                "NA_SE_VO_LI_DAMAGE_S_KID": {
+                    "value": 26745
+                },
+                "NA_SE_VO_LI_DEMO_DAMAGE": {
+                    "value": 26722
+                },
+                "NA_SE_VO_LI_DEMO_DAMAGE_KID": {
+                    "value": 26662
+                },
+                "NA_SE_VO_LI_DOWN": {
+                    "value": 26689
+                },
+                "NA_SE_VO_LI_DOWN_KID": {
+                    "value": 26735
+                },
+                "NA_SE_VO_LI_DRINK": {
+                    "value": 26735
+                },
+                "NA_SE_VO_LI_FALL_L": {
+                    "value": 26678
+                },
+                "NA_SE_VO_LI_FALL_L_KID": {
+                    "value": 26644
+                },
+                "NA_SE_VO_LI_FALL_S": {
+                    "value": 26737
+                },
+                "NA_SE_VO_LI_FALL_S_KID": {
+                    "value": 26719
+                },
+                "NA_SE_VO_LI_FREEZE": {
+                    "value": 26652
+                },
+                "NA_SE_VO_LI_FREEZE_KID": {
+                    "value": 26720
+                },
+                "NA_SE_VO_LI_HANG": {
+                    "value": 26712
+                },
+                "NA_SE_VO_LI_HANG_KID": {
+                    "value": 26714
+                },
+                "NA_SE_VO_LI_HELD": {
+                    "value": 26732
+                },
+                "NA_SE_VO_LI_HELD_KID": {
+                    "value": 26669
+                },
+                "NA_SE_VO_LI_HOOKSHOT_HANG": {
+                    "value": 26746
+                },
+                "NA_SE_VO_LI_HOOKSHOT_HANG_KID": {
+                    "value": 26646
+                },
+                "NA_SE_VO_LI_LAND_DAMAGE_S": {
+                    "value": 26725
+                },
+                "NA_SE_VO_LI_LAND_DAMAGE_S_KID": {
+                    "value": 26731
+                },
+                "NA_SE_VO_LI_LASH": {
+                    "value": 26664
+                },
+                "NA_SE_VO_LI_LASH_KID": {
+                    "value": 26746
+                },
+                "NA_SE_VO_LI_MAGIC_ATTACK": {
+                    "value": 26668
+                },
+                "NA_SE_VO_LI_MAGIC_ATTACK_KID": {
+                    "value": 26632
+                },
+                "NA_SE_VO_LI_MAGIC_FROL": {
+                    "value": 26685
+                },
+                "NA_SE_VO_LI_MAGIC_FROL_KID": {
+                    "value": 26626
+                },
+                "NA_SE_VO_LI_MAGIC_NALE": {
+                    "value": 26734
+                },
+                "NA_SE_VO_LI_MAGIC_NALE_KID": {
+                    "value": 26692
+                },
+                "NA_SE_VO_LI_NULL_0x1b": {
+                    "value": 26651
+                },
+                "NA_SE_VO_LI_NULL_0x1b_KID": {
+                    "value": 26634
+                },
+                "NA_SE_VO_LI_PUSH": {
+                    "value": 26740
+                },
+                "NA_SE_VO_LI_PUSH_KID": {
+                    "value": 26682
+                },
+                "NA_SE_VO_LI_RELAX": {
+                    "value": 26689
+                },
+                "NA_SE_VO_LI_RELAX_KID": {
+                    "value": 26728
+                },
+                "NA_SE_VO_LI_ROLLING_CUT_KID": {
+                    "value": 26625
+                },
+                "NA_SE_VO_LI_SNEEZE": {
+                    "value": 26651
+                },
+                "NA_SE_VO_LI_SNEEZE_KID": {
+                    "value": 26712
+                },
+                "NA_SE_VO_LI_SURPRISE": {
+                    "value": 26690
+                },
+                "NA_SE_VO_LI_SURPRISE_KID": {
+                    "value": 26685
+                },
+                "NA_SE_VO_LI_SWEAT": {
+                    "value": 26681
+                },
+                "NA_SE_VO_LI_SWEAT_KID": {
+                    "value": 26727
+                },
+                "NA_SE_VO_LI_SWORD_L": {
+                    "value": 26688
+                },
+                "NA_SE_VO_LI_SWORD_N": {
+                    "value": 26670
+                },
+                "NA_SE_VO_LI_SWORD_N_KID": {
+                    "value": 26654
+                },
+                "NA_SE_VO_LI_SWORD_PUTAWAY": {
+                    "value": 26708
+                },
+                "NA_SE_VO_LI_SWORD_PUTAWAY_KID": {
+                    "value": 26646
+                },
+                "NA_SE_VO_LI_TAKEN_AWAY": {
+                    "value": 26671
+                },
+                "NA_SE_VO_LI_TAKEN_AWAY_KID": {
+                    "value": 26676
+                },
+                "NA_SE_VO_NAVY_CALL": {
+                    "value": 26679
+                },
+                "NA_SE_VO_NAVY_ENEMY": {
+                    "value": 26653
+                },
+                "NA_SE_VO_NAVY_HEAR": {
+                    "value": 26677
+                },
+                "NA_SE_VO_NAVY_HELLO": {
+                    "value": 26638
+                },
+                "NA_SE_VO_NA_HELLO_0": {
+                    "value": 26664
+                },
+                "NA_SE_VO_NA_HELLO_1": {
+                    "value": 26648
+                },
+                "NA_SE_VO_NA_HELLO_2": {
+                    "value": 26686
+                },
+                "NA_SE_VO_NA_HELLO_3": {
+                    "value": 26739
+                },
+                "NA_SE_VO_NB_AGONY": {
+                    "value": 26650
+                },
+                "NA_SE_VO_NB_CRY_0": {
+                    "value": 26666
+                },
+                "NA_SE_VO_NB_LAUGH": {
+                    "value": 26718
+                },
+                "NA_SE_VO_NB_NOTICE": {
+                    "value": 26625
+                },
+                "NA_SE_VO_RT_CRASH": {
+                    "value": 26641
+                },
+                "NA_SE_VO_RT_DISCOVER": {
+                    "value": 26667
+                },
+                "NA_SE_VO_RT_FALL": {
+                    "value": 26713
+                },
+                "NA_SE_VO_RT_LAUGH_0": {
+                    "value": 26726
+                },
+                "NA_SE_VO_RT_LIFT": {
+                    "value": 26683
+                },
+                "NA_SE_VO_RT_THROW": {
+                    "value": 26723
+                },
+                "NA_SE_VO_RT_UNBALLANCE": {
+                    "value": 26707
+                },
+                "NA_SE_VO_SK_CRASH": {
+                    "value": 26665
+                },
+                "NA_SE_VO_SK_CRY_0": {
+                    "value": 26729
+                },
+                "NA_SE_VO_SK_CRY_1": {
+                    "value": 26724
+                },
+                "NA_SE_VO_SK_LAUGH": {
+                    "value": 26635
+                },
+                "NA_SE_VO_SK_SHOUT": {
+                    "value": 26639
+                },
+                "NA_SE_VO_ST_ATTACK": {
+                    "value": 26631
+                },
+                "NA_SE_VO_ST_DAMAGE": {
+                    "value": 26624
+                },
+                "NA_SE_VO_TA_CRY_0": {
+                    "value": 26714
+                },
+                "NA_SE_VO_TA_CRY_1": {
+                    "value": 26744
+                },
+                "NA_SE_VO_TA_SLEEP": {
+                    "value": 26704
+                },
+                "NA_SE_VO_TA_SURPRISE": {
+                    "value": 26723
+                },
+                "NA_SE_VO_Z0_HURRY": {
+                    "value": 26637
+                },
+                "NA_SE_VO_Z0_MEET": {
+                    "value": 26705
+                },
+                "NA_SE_VO_Z0_QUESTION": {
+                    "value": 26715
+                },
+                "NA_SE_VO_Z0_SIGH_0": {
+                    "value": 26644
+                },
+                "NA_SE_VO_Z0_SMILE_0": {
+                    "value": 26740
+                },
+                "NA_SE_VO_Z0_SURPRISE": {
+                    "value": 26648
+                },
+                "NA_SE_VO_Z0_THROW": {
+                    "value": 26630
+                },
+                "NA_SE_VO_Z1_CRY_0": {
+                    "value": 26669
+                },
+                "NA_SE_VO_Z1_CRY_1": {
+                    "value": 26650
+                },
+                "NA_SE_VO_Z1_OPENDOOR": {
+                    "value": 26647
+                },
+                "NA_SE_VO_Z1_PAIN": {
+                    "value": 26706
+                },
+                "NA_SE_VO_Z1_SURPRISE": {
+                    "value": 26630
+                },
+                "OCARINA_INSTRUMENT_DEFAULT": {
+                    "value": 134
+                },
+                "OCARINA_INSTRUMENT_FLUTE": {
+                    "value": 130
+                },
+                "OCARINA_INSTRUMENT_GRIND_ORGAN": {
+                    "value": 131
+                },
+                "OCARINA_INSTRUMENT_HARP": {
+                    "value": 132
+                },
+                "OCARINA_INSTRUMENT_MALON": {
+                    "value": 135
+                },
+                "OCARINA_INSTRUMENT_WHISTLE": {
+                    "value": 133
+                }
+            },
+            "SeqNameNotification": 1
+        },
+        "gCheats": {
+            "InfiniteEponaBoost": 1,
+            "MoonJumpOnL": 1,
+            "SaveStatePromise": 1,
+            "SaveStatesEnabled": 1
+        },
+        "gCosmetics": {
+            "Arrows": {
+                "FirePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 61,
+                        "G": 82,
+                        "R": 91,
+                        "Type": "RGBA"
+                    }
+                },
+                "IcePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 166,
+                        "G": 175,
+                        "R": 244,
+                        "Type": "RGBA"
+                    }
+                },
+                "LightPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 37,
+                        "G": 243,
+                        "R": 153,
+                        "Type": "RGBA"
+                    }
+                },
+                "NormalPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 251,
+                        "G": 3,
+                        "R": 237,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Consumable": {
+                "DDHearts": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 163,
+                        "G": 135,
+                        "R": 24,
+                        "Type": "RGBA"
+                    }
+                },
+                "Hearts": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 15,
+                        "G": 215,
+                        "R": 248,
+                        "Type": "RGBA"
+                    }
+                },
+                "Magic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 92,
+                        "G": 159,
+                        "R": 55,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Equipment": {
+                "BoomerangBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 107,
+                        "G": 48,
+                        "R": 112,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 255,
+                        "G": 255,
+                        "R": 184,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowHandle": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 85,
+                        "G": 96,
+                        "R": 46,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowTips": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 42,
+                        "G": 48,
+                        "R": 23,
+                        "Type": "RGBA"
+                    }
+                },
+                "HammerHead": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 28,
+                        "G": 209,
+                        "R": 119,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Gloves": {
+                "GoldenGauntlets": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 25,
+                        "G": 97,
+                        "R": 186,
+                        "Type": "RGBA"
+                    }
+                },
+                "GoronBracelet": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 2,
+                        "G": 196,
+                        "R": 5,
+                        "Type": "RGBA"
+                    }
+                },
+                "SilverGauntlets": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 177,
+                        "G": 169,
+                        "R": 146,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "HUD": {
+                "AButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 97,
+                        "G": 154,
+                        "R": 207,
+                        "Type": "RGBA"
+                    }
+                },
+                "BButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 163,
+                        "G": 233,
+                        "R": 27,
+                        "Type": "RGBA"
+                    }
+                },
+                "CButtons": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 59,
+                        "G": 2,
+                        "R": 44,
+                        "Type": "RGBA"
+                    }
+                },
+                "Dpad": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 103,
+                        "G": 129,
+                        "R": 33,
+                        "Type": "RGBA"
+                    }
+                },
+                "EnemyHealthBar": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 242,
+                        "G": 48,
+                        "R": 30,
+                        "Type": "RGBA"
+                    }
+                },
+                "Minimap": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 131,
+                        "G": 232,
+                        "R": 126,
+                        "Type": "RGBA"
+                    }
+                },
+                "NameTagActorText": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 229,
+                        "G": 12,
+                        "R": 169,
+                        "Type": "RGBA"
+                    }
+                },
+                "StartButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 173,
+                        "G": 33,
+                        "R": 192,
+                        "Type": "RGBA"
+                    }
+                },
+                "TitleCard": {
+                    "Boss": {
+                        "Changed": 1,
+                        "Rainbow": 0,
+                        "Value": {
+                            "A": 255,
+                            "B": 212,
+                            "G": 123,
+                            "R": 96,
+                            "Type": "RGBA"
+                        }
+                    },
+                    "Map": {
+                        "Changed": 1,
+                        "Rainbow": 0,
+                        "Value": {
+                            "A": 255,
+                            "B": 33,
+                            "G": 231,
+                            "R": 218,
+                            "Type": "RGBA"
+                        }
+                    }
+                }
+            },
+            "HookshotReticle": {
+                "NonTarget": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 6,
+                        "G": 94,
+                        "R": 224,
+                        "Type": "RGBA"
+                    }
+                },
+                "Target": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 49,
+                        "G": 39,
+                        "R": 240,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Ivan": {
+                "IdlePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 134,
+                        "G": 134,
+                        "R": 192,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdleSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 67,
+                        "G": 67,
+                        "R": 96,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Key": {
+                "FireBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 174,
+                        "G": 101,
+                        "R": 247,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 236,
+                        "G": 156,
+                        "R": 19,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 64,
+                        "G": 67,
+                        "R": 29,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 100,
+                        "G": 228,
+                        "R": 66,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 219,
+                        "G": 138,
+                        "R": 245,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 161,
+                        "G": 82,
+                        "R": 5,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 67,
+                        "G": 80,
+                        "R": 159,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 62,
+                        "G": 197,
+                        "R": 70,
+                        "Type": "RGBA"
+                    }
+                },
+                "FortSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 7,
+                        "G": 133,
+                        "R": 15,
+                        "Type": "RGBA"
+                    }
+                },
+                "FortSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 44,
+                        "G": 139,
+                        "R": 181,
+                        "Type": "RGBA"
+                    }
+                },
+                "GTGSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 71,
+                        "G": 226,
+                        "R": 194,
+                        "Type": "RGBA"
+                    }
+                },
+                "GTGSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 185,
+                        "G": 26,
+                        "R": 100,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 90,
+                        "G": 9,
+                        "R": 244,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 115,
+                        "G": 251,
+                        "R": 2,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 44,
+                        "G": 197,
+                        "R": 159,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 201,
+                        "G": 17,
+                        "R": 102,
+                        "Type": "RGBA"
+                    }
+                },
+                "KeyringRing": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 124,
+                        "G": 224,
+                        "R": 46,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 45,
+                        "G": 235,
+                        "R": 218,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 23,
+                        "G": 98,
+                        "R": 215,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 186,
+                        "G": 100,
+                        "R": 78,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 164,
+                        "G": 203,
+                        "R": 124,
+                        "Type": "RGBA"
+                    }
+                },
+                "Skeleton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 55,
+                        "G": 158,
+                        "R": 118,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 239,
+                        "G": 0,
+                        "R": 116,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 38,
+                        "G": 161,
+                        "R": 124,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 158,
+                        "G": 224,
+                        "R": 0,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 245,
+                        "G": 251,
+                        "R": 155,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 54,
+                        "G": 123,
+                        "R": 116,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 116,
+                        "G": 18,
+                        "R": 25,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 74,
+                        "G": 73,
+                        "R": 84,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 106,
+                        "G": 33,
+                        "R": 32,
+                        "Type": "RGBA"
+                    }
+                },
+                "WellSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 27,
+                        "G": 164,
+                        "R": 166,
+                        "Type": "RGBA"
+                    }
+                },
+                "WellSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 202,
+                        "G": 170,
+                        "R": 76,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Link": {
+                "GoronTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 37,
+                        "G": 174,
+                        "R": 250,
+                        "Type": "RGBA"
+                    }
+                },
+                "KokiriTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 53,
+                        "G": 37,
+                        "R": 204,
+                        "Type": "RGBA"
+                    }
+                },
+                "ZoraTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 247,
+                        "G": 167,
+                        "R": 157,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Magic": {
+                "DinsPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 57,
+                        "G": 119,
+                        "R": 185,
+                        "Type": "RGBA"
+                    }
+                },
+                "FaroresPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 210,
+                        "G": 169,
+                        "R": 184,
+                        "Type": "RGBA"
+                    }
+                },
+                "NayrusPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 107,
+                        "G": 1,
+                        "R": 197,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "MirrorShield": {
+                "Body": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 151,
+                        "G": 212,
+                        "R": 20,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "NPC": {
+                "FireKeesePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 209,
+                        "G": 103,
+                        "R": 197,
+                        "Type": "RGBA"
+                    }
+                },
+                "Gerudo": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 174,
+                        "G": 99,
+                        "R": 77,
+                        "Type": "RGBA"
+                    }
+                },
+                "GoldenSkulltula": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 216,
+                        "G": 117,
+                        "R": 61,
+                        "Type": "RGBA"
+                    }
+                },
+                "IceKeesePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 76,
+                        "G": 201,
+                        "R": 41,
+                        "Type": "RGBA"
+                    }
+                },
+                "IronKnuckles": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 28,
+                        "G": 230,
+                        "R": 8,
+                        "Type": "RGBA"
+                    }
+                },
+                "Kokiri": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 237,
+                        "G": 98,
+                        "R": 19,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Navi": {
+                "EnemyPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 158,
+                        "G": 75,
+                        "R": 5,
+                        "Type": "RGBA"
+                    }
+                },
+                "EnemySecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 79,
+                        "G": 37,
+                        "R": 2,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdlePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 145,
+                        "G": 181,
+                        "R": 239,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdleSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 72,
+                        "G": 90,
+                        "R": 119,
+                        "Type": "RGBA"
+                    }
+                },
+                "NPCPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 123,
+                        "G": 102,
+                        "R": 209,
+                        "Type": "RGBA"
+                    }
+                },
+                "NPCSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 123,
+                        "G": 102,
+                        "R": 209,
+                        "Type": "RGBA"
+                    }
+                },
+                "PropsPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 60,
+                        "G": 52,
+                        "R": 50,
+                        "Type": "RGBA"
+                    }
+                },
+                "PropsSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 60,
+                        "G": 52,
+                        "R": 50,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "SpinAttack": {
+                "Level1Primary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 70,
+                        "G": 130,
+                        "R": 224,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level1Secondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 35,
+                        "G": 65,
+                        "R": 112,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level2Primary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 190,
+                        "G": 255,
+                        "R": 42,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level2Secondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 95,
+                        "G": 250,
+                        "R": 21,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Swords": {
+                "BiggoronBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 105,
+                        "G": 145,
+                        "R": 32,
+                        "Type": "RGBA"
+                    }
+                },
+                "KokiriBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 98,
+                        "G": 65,
+                        "R": 86,
+                        "Type": "RGBA"
+                    }
+                },
+                "MasterBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 243,
+                        "G": 127,
+                        "R": 87,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Title": {
+                "Copyright": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 33,
+                        "G": 85,
+                        "R": 55,
+                        "Type": "RGBA"
+                    }
+                },
+                "FileChoose": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 205,
+                        "G": 82,
+                        "R": 32,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Trails": {
+                "KokiriSword": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 253,
+                        "G": 231,
+                        "R": 200,
+                        "Type": "RGBA"
+                    }
+                },
+                "MasterSword": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 43,
+                        "G": 210,
+                        "R": 47,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "World": {
+                "MysteryItem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 91,
+                        "G": 40,
+                        "R": 250,
+                        "Type": "RGBA"
+                    }
+                },
+                "RedIce": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 198,
+                        "G": 1,
+                        "R": 175,
+                        "Type": "RGBA"
+                    }
+                }
+            }
+        },
+        "gEnhancements": {
+            "AdultMasks": 1,
+            "AlwaysShowDungeonMinimapIcon": 0,
+            "AssignableTunicsAndBoots": 1,
+            "BetterFarore": 1,
+            "BetterOwl": 1,
+            "BlueFireArrows": 1,
+            "BombchuBowlingNoBigCucco": 1,
+            "BombchuBowlingNoSmallCucco": 1,
+            "BoomerangFirstPerson": 1,
+            "BoomerangReticle": 1,
+            "BowReticle": 1,
+            "ClimbSpeed": 12,
+            "CrawlSpeed": 5,
+            "CuccosToReturn": 0,
+            "CustomizeBombchuBowling": 1,
+            "CustomizeFishing": 1,
+            "CustomizeFrogsOcarinaGame": 1,
+            "CustomizeOcarinaGame": 1,
+            "CustomizeShootingGallery": 1,
+            "DampeAllNight": 1,
+            "DampeWin": 1,
+            "DisableCritWiggle": 1,
+            "DisableFirstPersonChus": 1,
+            "DisableFixedCamera": 0,
+            "DisableLinkSpinWithGoronPot": 1,
+            "DisableTunicWarningText": 1,
+            "DpadEquips": 1,
+            "DynamicWalletIcon": 1,
+            "EquipmentCanBeRemoved": 1,
+            "ExtraTraps": {
+                "Enabled": 1,
+                "Ice": 1
+            },
+            "FastBoomerang": 1,
+            "FastBottles": 1,
+            "FastChests": 1,
+            "FastDrops": 1,
+            "FastFarores": 1,
+            "FastOcarinaPlayback": 1,
+            "FasterBeanSkull": 1,
+            "FasterBlockPush": 5,
+            "FasterBottleEmpty": 1,
+            "FasterHeavyBlockLift": 1,
+            "FasterPauseMenu": 1,
+            "FasterRupeeAccumulator": 1,
+            "FasterShadowShip": 1,
+            "ForgeTime": 0,
+            "GoronPot": 1,
+            "HideBunnyHood": 1,
+            "HookshotableReticle": 1,
+            "HyperBosses": 1,
+            "InjectItemCounts": {
+                "GoldSkulltula": 1,
+                "HeartContainer": 1,
+                "HeartPiece": 1
+            },
+            "InstantFishing": 1,
+            "InstantFrogsGameWin": 1,
+            "InstantOcarinaGameWin": 1,
+            "InstantPutaway": 1,
+            "InstantScarecrow": 1,
+            "InstantShootingGalleryWin": 1,
+            "ItemUnequip": 1,
+            "LinkDefaultName": 1,
+            "MMBunnyHood": 1,
+            "MarketSneak": 1,
+            "MaskSelect": 1,
+            "MweepSpeed": 5.0,
+            "NightGSAlwaysSpawn": 1,
+            "NoHUDHeartAnimation": 1,
+            "NoInputForCredits": 1,
+            "PersistentMasks": 1,
+            "QuitFishingAtDoor": 1,
+            "RandomizedEnemies": 1,
+            "RandomizedEnemySizes": 1,
+            "RebottleBlueFire": 1,
+            "SeparateArrows": 1,
+            "SkipArrowAnimation": 1,
+            "SkipKeepConfirmation": 0,
+            "SkipSaveConfirmation": 1,
+            "SkipSwimDeepEndAnim": 1,
+            "SkipText": 1,
+            "SkulltulaFreeze": 1,
+            "SlowTextSpeed": 5,
+            "SunlightArrows": 1,
+            "SwordToggle": 0,
+            "TextSpeed": 5,
+            "TimeSavers": {
+                "DisableTitleCard": 1,
+                "SkipChildStealth": 1,
+                "SkipCutscene": {
+                    "BossIntro": 1,
+                    "Entrances": 1,
+                    "Intro": 1,
+                    "LearnSong": 1,
+                    "OnePoint": 1,
+                    "QuickBossDeaths": 1,
+                    "Story": 1
+                },
+                "SkipForcedDialog": 3,
+                "SkipMiscInteractions": 1,
+                "SkipOwlInteractions": 1,
+                "SkipTowerEscape": 1,
+                "SleepingWaterfall": 1
+            },
+            "TimeTravel": 2,
+            "UnsheatheWithoutSlashing": 1,
+            "VisualAgony": 0,
+            "WidescreenActorCulling": 1
+        },
+        "gGeneral": {
+            "OnFileSelectNameEntry": 0,
+            "RandoGenerating": 0,
+            "SpoilerLog": "./Randomizer/02-84-62-64-82.json"
+        },
+        "gOpenWindows": {
+            "ModalWindow": 1,
+            "Notifications": 1,
+            "TimeDisplayEnabled": 1
+        },
+        "gRandoSettings": {
+            "BigPoeTargetCount": 1,
+            "BlueFireArrows": 1,
+            "BossKeysanity": 5,
+            "ClosedForest": 2,
+            "CompleteMaskQuest": 2,
+            "DoorOfTime": 2,
+            "FullWallets": 1,
+            "GerudoKeys": 3,
+            "IncludeTycoonWallet": 1,
+            "KakarikoGate": 1,
+            "Keysanity": 5,
+            "LinksPocket": 3,
+            "LockOverworldDoors": 1,
+            "MQDungeons": 2,
+            "MQDungeonsSelection": 0,
+            "MerchantPrices": 1,
+            "RocsFeather": 1,
+            "ScrubsPrices": 1,
+            "Shopsanity": 2,
+            "ShopsanityPrices": 1,
+            "ShuffleAdultTrade": 1,
+            "ShuffleBeehives": 1,
+            "ShuffleBossSouls": 2,
+            "ShuffleChildWallet": 1,
+            "ShuffleClimb": 1,
+            "ShuffleCows": 1,
+            "ShuffleCrates": 3,
+            "ShuffleCrawl": 1,
+            "ShuffleDekuNutBag": 1,
+            "ShuffleDekuStickBag": 1,
+            "ShuffleDungeonReward": 4,
+            "ShuffleFishingPole": 1,
+            "ShuffleFrogSongRupees": 1,
+            "ShuffleGanonBossKey": 5,
+            "ShuffleGerudoToken": 1,
+            "ShuffleGrab": 1,
+            "ShuffleKokiriSword": 1,
+            "ShuffleMasterSword": 1,
+            "ShuffleMerchants": 2,
+            "ShuffleOcarinaButtons": 1,
+            "ShuffleOcarinas": 1,
+            "ShuffleOpenChest": 1,
+            "ShufflePots": 3,
+            "ShuffleScrubs": 2,
+            "ShuffleSongs": 3,
+            "ShuffleSpeak": 1,
+            "ShuffleSwim": 1,
+            "ShuffleTokens": 3,
+            "ShuffleTrees": 1,
+            "ShuffleWeirdEgg": 1,
+            "StartingAge": 2,
+            "StartingMapsCompasses": 5,
+            "StartingSunsSong": 0,
+            "SunlightArrows": 1
+        },
+        "gSettings": {
+            "AdvancedResolution": {
+                "Enabled": 0
+            },
+            "Controllers": {
+                "AxisDirectionMappings": {
+                    "P0-S0-D0-KB30": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 0,
+                        "KeyboardScancode": 30,
+                        "Stick": 0
+                    },
+                    "P0-S0-D0-SDLA0-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 0,
+                        "SDLControllerAxis": 0,
+                        "Stick": 0
+                    },
+                    "P0-S0-D1-KB32": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 1,
+                        "KeyboardScancode": 32,
+                        "Stick": 0
+                    },
+                    "P0-S0-D1-SDLA0-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 1,
+                        "SDLControllerAxis": 0,
+                        "Stick": 0
+                    },
+                    "P0-S0-D2-KB17": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 2,
+                        "KeyboardScancode": 17,
+                        "Stick": 0
+                    },
+                    "P0-S0-D2-SDLA1-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 2,
+                        "SDLControllerAxis": 1,
+                        "Stick": 0
+                    },
+                    "P0-S0-D3-KB31": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 3,
+                        "KeyboardScancode": 31,
+                        "Stick": 0
+                    },
+                    "P0-S0-D3-SDLA1-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 3,
+                        "SDLControllerAxis": 1,
+                        "Stick": 0
+                    },
+                    "P0-S1-D0-SDLA2-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 0,
+                        "SDLControllerAxis": 2,
+                        "Stick": 1
+                    },
+                    "P0-S1-D1-SDLA2-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 1,
+                        "SDLControllerAxis": 2,
+                        "Stick": 1
+                    },
+                    "P0-S1-D2-SDLA3-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 2,
+                        "SDLControllerAxis": 3,
+                        "Stick": 1
+                    },
+                    "P0-S1-D3-SDLA3-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 3,
+                        "SDLControllerAxis": 3,
+                        "Stick": 1
+                    }
+                },
+                "ButtonMappings": {
+                    "P0-B1-KB333": {
+                        "Bitmask": 1,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 333
+                    },
+                    "P0-B1-SDLA2-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 1,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 2
+                    },
+                    "P0-B1024-KB34": {
+                        "Bitmask": 1024,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 34
+                    },
+                    "P0-B1024-SDLB12": {
+                        "Bitmask": 1024,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 12
+                    },
+                    "P0-B16-KB19": {
+                        "Bitmask": 16,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 19
+                    },
+                    "P0-B16-SDLA5-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 16,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 5
+                    },
+                    "P0-B16384-KB46": {
+                        "Bitmask": 16384,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 46
+                    },
+                    "P0-B16384-SDLB1": {
+                        "Bitmask": 16384,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 1
+                    },
+                    "P0-B2-KB331": {
+                        "Bitmask": 2,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 331
+                    },
+                    "P0-B2-SDLA2-ADN": {
+                        "AxisDirection": -1,
+                        "Bitmask": 2,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 2
+                    },
+                    "P0-B2048-KB20": {
+                        "Bitmask": 2048,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 20
+                    },
+                    "P0-B2048-SDLB11": {
+                        "Bitmask": 2048,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 11
+                    },
+                    "P0-B256-KB35": {
+                        "Bitmask": 256,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 35
+                    },
+                    "P0-B256-SDLB14": {
+                        "Bitmask": 256,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 14
+                    },
+                    "P0-B32-KB18": {
+                        "Bitmask": 32,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 18
+                    },
+                    "P0-B32-SDLB9": {
+                        "Bitmask": 32,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 9
+                    },
+                    "P0-B32768-KB45": {
+                        "Bitmask": 32768,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 45
+                    },
+                    "P0-B32768-SDLB0": {
+                        "Bitmask": 32768,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 0
+                    },
+                    "P0-B4-KB336": {
+                        "Bitmask": 4,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 336
+                    },
+                    "P0-B4-SDLA3-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 4,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 3
+                    },
+                    "P0-B4096-KB57": {
+                        "Bitmask": 4096,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 57
+                    },
+                    "P0-B4096-SDLB6": {
+                        "Bitmask": 4096,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 6
+                    },
+                    "P0-B512-KB33": {
+                        "Bitmask": 512,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 33
+                    },
+                    "P0-B512-SDLB13": {
+                        "Bitmask": 512,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 13
+                    },
+                    "P0-B8-KB328": {
+                        "Bitmask": 8,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 328
+                    },
+                    "P0-B8-SDLA3-ADN": {
+                        "AxisDirection": -1,
+                        "Bitmask": 8,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 3
+                    },
+                    "P0-B8192-KB44": {
+                        "Bitmask": 8192,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 44
+                    },
+                    "P0-B8192-SDLA4-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 8192,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 4
+                    }
+                },
+                "Port1": {
+                    "Buttons": {
+                        "1024ButtonMappingIds": "P0-B1024-SDLB12,P0-B1024-KB34,",
+                        "16384ButtonMappingIds": "P0-B16384-KB46,P0-B16384-SDLB1,",
+                        "16ButtonMappingIds": "P0-B16-KB19,P0-B16-SDLA5-ADP,",
+                        "1ButtonMappingIds": "P0-B1-SDLA2-ADP,P0-B1-KB333,",
+                        "2048ButtonMappingIds": "P0-B2048-SDLB11,P0-B2048-KB20,",
+                        "256ButtonMappingIds": "P0-B256-KB35,P0-B256-SDLB14,",
+                        "2ButtonMappingIds": "P0-B2-KB331,P0-B2-SDLA2-ADN,",
+                        "32768ButtonMappingIds": "P0-B32768-KB45,P0-B32768-SDLB0,",
+                        "32ButtonMappingIds": "P0-B32-KB18,P0-B32-SDLB9,",
+                        "4096ButtonMappingIds": "P0-B4096-KB57,P0-B4096-SDLB6,",
+                        "4ButtonMappingIds": "P0-B4-KB336,P0-B4-SDLA3-ADP,",
+                        "512ButtonMappingIds": "P0-B512-KB33,P0-B512-SDLB13,",
+                        "8192ButtonMappingIds": "P0-B8192-KB44,P0-B8192-SDLA4-ADP,",
+                        "8ButtonMappingIds": "P0-B8-KB328,P0-B8-SDLA3-ADN,"
+                    },
+                    "HasConfig": 1,
+                    "LeftStick": {
+                        "DownAxisDirectionMappingIds": "P0-S0-D3-KB31,P0-S0-D3-SDLA1-ADP,",
+                        "LeftAxisDirectionMappingIds": "P0-S0-D0-KB30,P0-S0-D0-SDLA0-ADN,",
+                        "RightAxisDirectionMappingIds": "P0-S0-D1-KB32,P0-S0-D1-SDLA0-ADP,",
+                        "UpAxisDirectionMappingIds": "P0-S0-D2-KB17,P0-S0-D2-SDLA1-ADN,"
+                    },
+                    "RightStick": {
+                        "DownAxisDirectionMappingIds": "P0-S1-D3-SDLA3-ADP,",
+                        "LeftAxisDirectionMappingIds": "P0-S1-D0-SDLA2-ADN,",
+                        "RightAxisDirectionMappingIds": "P0-S1-D1-SDLA2-ADP,",
+                        "UpAxisDirectionMappingIds": "P0-S1-D2-SDLA3-ADN,"
+                    }
+                }
+            },
+            "CustomOcarina": {
+                "Dpad": 1
+            },
+            "DPadOnPause": 0,
+            "EnabledMods": "daruniasjoy",
+            "InterpolationFPS": 120,
+            "MSAAValue": 8,
+            "MatchRefreshRate": 1,
+            "Menu": {
+                "ActiveHeader": "Randomizer",
+                "EnhancementsSidebarSection": "Skips & Speed-ups",
+                "RandomizerSidebarSection": "General",
+                "SettingsSidebarSection": "General"
+            },
+            "Volume": {
+                "Fanfare": 60,
+                "MainMusic": 60,
+                "SFX": 60,
+                "SubMusic": 60
+            }
+        },
+        "gTimeDisplay": {
+            "Timers": {
+                "InGameTimer": 1
+            }
+        },
+        "gTrackers": {
+            "ItemTracker": {
+                "DisplayType": {
+                    "BossSouls": 1,
+                    "DungeonItems": 1,
+                    "JabberNuts": 1,
+                    "OcarinaButtons": 1,
+                    "OverworldKeys": 1
+                },
+                "DungeonItems": {
+                    "DisplayMaps": 0
+                },
+                "TotalChecks": {
+                    "DisplayType": 1
+                }
+            }
+        }
+    },
+    "ConfigVersion": 6,
+    "Window": {
+        "AudioBackend": "wasapi",
+        "Backend": {
+            "Id": 0,
+            "Name": "DirectX"
+        },
+        "Fullscreen": {
+            "Enabled": true,
+            "Height": 1080,
+            "Width": 1920
+        },
+        "Height": 974,
+        "PositionX": 0,
+        "PositionY": 34,
+        "Width": 1920
+    }
+}

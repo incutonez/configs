@@ -1,0 +1,3354 @@
+{
+    "CVars": {
+        "gAudioEditor": {
+            "DisableNaviCallAudio": 1,
+            "Excluded": {
+                "A_Hat_in_Time_(Prototype)_-_City_of_Calcite": 1,
+                "A_Hat_in_Time_-_Clocktowers_Beneath_the_Sky": 1,
+                "A_Hat_in_Time_-_Deathwish": 1,
+                "Age_of_Empires_-_Sick_Sate_Rittim": 1,
+                "Aladdin_-_Stage_4_(SNES)": 1,
+                "Animal_Crossing:_City_Folk_-_The_City_(Day)": 1,
+                "Animal_Crossing:_New_Horizons_-_6PM": 1,
+                "Animal_Crossing_-_Comrade_KK_(Aircheck)": 1,
+                "Assassin's_Creed_II_-_Ezio's_Family": 1,
+                "Asterix_(GB)-_Egypt": 1,
+                "Bad_Dudes_-_Stage_2": 1,
+                "Banjo-Kazooie_-_Battle_With_Gruntilda": 1,
+                "Banjo-Kazooie_-_Bubblegloop_Swamp": 1,
+                "Banjo-Kazooie_-_Clanker's_Cavern": 1,
+                "Banjo-Kazooie_-_Click_Clock_Wood_(Spring)": 1,
+                "Banjo-Kazooie_-_Click_Clock_Wood_(Spring)_v2": 1,
+                "Banjo-Kazooie_-_Freezeezy_Peak": 1,
+                "Banjo-Kazooie_-_Freezeezy_Peak_v2": 1,
+                "Banjo-Kazooie_-_Gruntilda's_Lair": 1,
+                "Banjo-Kazooie_-_Mad_Monster_Mansion": 1,
+                "Banjo-Kazooie_-_Mumbo's_Mountain": 1,
+                "Banjo-Kazooie_-_Rusty_Bucket_Bay": 1,
+                "Banjo-Kazooie_-_Rusty_Bucket_Bay_v2": 1,
+                "Banjo-Kazooie_-_Treasure_Trove_Cove": 1,
+                "Banjo-Tooie_-_Atlantis": 1,
+                "Banjo-Tooie_-_Cloud_Cuckooland": 1,
+                "Banjo-Tooie_-_Hailfire_Peaks_(Fire_Side)": 1,
+                "Banjo-Tooie_-_Isle_O'_Hags": 1,
+                "Banjo-Tooie_-_Jinjo_Village": 1,
+                "Banjo-Tooie_-_Mayahem_Temple": 1,
+                "Banjo-Tooie_-_Witchyworld": 1,
+                "Banjo-Tooie_-_Witchyworld_v2": 1,
+                "Banjo_Kazooie_-_Rusty_Bucket_Bay_-_Gooseworx_Inspired": 1,
+                "Bastion_-_Build_That_Wall_(Zia's_Theme)": 1,
+                "Battletoads_-_Arctic_Cavern": 1,
+                "Blast_Corps_-_Simian_Acres": 1,
+                "Bloodborne_-_Cleric_Beast": 1,
+                "Bloodborne_-_Ludwig_The_Holy_Blade": 1,
+                "Bomberman_64_-_Green_Gardens": 1,
+                "Bomberman_64_-_Green_Gardens_(Version_2)": 1,
+                "Bomberman_Hero_-_Redial": 1,
+                "Bram_Stoker's_Dracula_-_Stage_3-1": 1,
+                "Brave_Fencer_Musashi_-_The_Musashi_Legend": 1,
+                "Brave_Fencer_Musashi_-_The_White_Cloud_In_The_Sky": 1,
+                "Brave_Fencer_Musashi_-_Twinpeak_Mountain": 1,
+                "Bubble_Bobble_-_Level_2": 1,
+                "Capcom_vs_SNK_2_EO_-_TruLove": 1,
+                "Castlevania:_Aria_of_Sorrow_-_Demon_Castle_Study": 1,
+                "Castlevania:_Bloodlines_-_Iron_Blue_Intention": 1,
+                "Castlevania:_Bloodlines_-_The_Sinking_Old_Sanctuary": 1,
+                "Castlevania:_Bloodlines|Legacy_of_Darkness_-_The_Sinking_Old_Sanctuary": 1,
+                "Castlevania:_Circle_of_the_Moon_-_Dance_of_Illusions": 1,
+                "Castlevania:_Harmony_of_Dissonance_-_Clock_Tower_Casualty": 1,
+                "Castlevania:_Harmony_of_Dissonance_-_Successor_of_Fate": 1,
+                "Castlevania:_Legacy_of_Darkness_-_The_Sinking_Old_Sanctuary": 1,
+                "Castlevania:_Order_of_Ecclesia_-_An_Empty_Tome": 1,
+                "Castlevania:_Order_of_Ecclesia_-_Order_of_the_Demon": 1,
+                "Castlevania:_Order_of_Ecclesia_-_Rhapsody_of_the_Forsaken": 1,
+                "Castlevania:_Order_of_Ecclesia_-_Wandering_the_Crystal_Blue": 1,
+                "Castlevania:_Order_of_Ecclesia_-_Welcome_to_Legend": 1,
+                "Castlevania:_Portrait_of_Ruin_-_Crucifix_Held_Close": 1,
+                "Castlevania:_Symphony_of_the_Night_-_Dance_of_Gold": 1,
+                "Castlevania:_Symphony_of_the_Night_-_Dance_of_Pales": 1,
+                "Castlevania:_Symphony_of_the_Night_-_Lost_Painting": 1,
+                "Castlevania:_Symphony_of_the_Night_-_Marble_Gallery": 1,
+                "Castlevania_-_Vampire_Killer": 1,
+                "Castlevania_Bloodlines_-_Reincarnated_Soul": 1,
+                "Castlevania_II:_Belmont's_Revenge_-_New_Messiah": 1,
+                "Castlevania_II:_Simon's_Quest_-_Bloody_Tears": 1,
+                "Castlevania_III:_Dracula's_Curse_-_Big_Battle": 1,
+                "Castlevania_III:_Dracula's_Curse_-_Clockwork": 1,
+                "Cave_Story_-_Cave_Story_(Main_Theme)": 1,
+                "Chameleon_Twist_2_-_Toy_Land": 1,
+                "Chrono_Cross_-_Another_World": 1,
+                "Chrono_Cross_-_Home_Guldove": 1,
+                "Chrono_Cross_-_Plains_of_Time_(Home_World)": 1,
+                "Chrono_Trigger_-_Battle_Theme_2_(Unused)": 1,
+                "Chrono_Trigger_-_Boss_Battle_1": 1,
+                "Chrono_Trigger_-_Corridors_of_Time": 1,
+                "Chrono_Trigger_-_Guardia_Millennial_Fair": 1,
+                "Chrono_Trigger_-_Manoria_Cathedral": 1,
+                "Chrono_Trigger_-_Manoria_Cathedral_v2": 1,
+                "Chrono_Trigger_-_Peaceful_Days": 1,
+                "Chrono_Trigger_-_Singing_Mountain": 1,
+                "Chrono_Trigger_-_Yearnings_of_the_Wind": 1,
+                "Claire_Obscure_Expedition_33_-_Lumiere": 1,
+                "Columns_-_Clotho": 1,
+                "Columns_3_-_BGM11": 1,
+                "Comix_Zone_-_episode_1_2-2": 1,
+                "Crusader_of_Centy_-_Rafflesia_Training_Grounds_(Joshua8600's_Version)": 1,
+                "DOOM_-_Sign_of_Evil": 1,
+                "Dark_Cloud_-_Dark_Heaven_Castle": 1,
+                "Dark_Cloud_-_Matataki_Village": 1,
+                "Dark_Cloud_-_Norune_Village": 1,
+                "Dark_Cloud_-_Owl_Forest": 1,
+                "Dark_Cloud_-_Queens": 1,
+                "Darksiders_2_-_Guardian_Theme": 1,
+                "Deadly_Premonition_-_Life_is_Beautiful": 1,
+                "Demons_Crest_-_Zombie_Dragon": 1,
+                "Demons_Souls_-_Phalanx_Theme": 1,
+                "DetectiveSky612_-_Dance_of_Death": 1,
+                "DetectiveSky612_-_Deja_Vu": 1,
+                "DetectiveSky612_-_Going_Alone": 1,
+                "DetectiveSky612_-_Lost": 1,
+                "DetectiveSky612_-_Pinnacle_of_the_World": 1,
+                "Devil_May_Cry_-_Seeds_of_Love": 1,
+                "Diddy_Kong_Racing_-_Ancient_Lake": 1,
+                "Diddy_Kong_Racing_-_Boss_Race": 1,
+                "Diddy_Kong_Racing_-_Everfrost_Peak": 1,
+                "Diddy_Kong_Racing_-_Spacedust_Alley": 1,
+                "Diddy_Kong_Racing_-_Spaceport_Alpha": 1,
+                "Diddy_Kong_Racing_-_Wizpig_Challenge": 1,
+                "Dinosaur_Planet_-_Guardclaw_Theme": 1,
+                "Doki_Doki_Literature_Club!_-_Ohayou_Sayori!": 1,
+                "Donkey_Kong_64_-_Army_Dillo_(Crystal_Caves)": 1,
+                "Donkey_Kong_64_-_Army_Dillo_(Jungle_Japes)": 1,
+                "Donkey_Kong_64_-_Frantic_Factory": 1,
+                "Donkey_Kong_64_-_Hideout_Helm": 1,
+                "Donkey_Kong_64_-_Mad_Jack": 1,
+                "Donkey_Kong_Country_-_Aquatic_Ambience": 1,
+                "Donkey_Kong_Country_-_DK_Island_Swing": 1,
+                "Donkey_Kong_Country_-_Forest_Frenzy": 1,
+                "Donkey_Kong_Country_-_Funky's_Fugue": 1,
+                "Donkey_Kong_Country_-_Gang_Plank_Galleon": 1,
+                "Donkey_Kong_Country_-_Ice_Cave_Chant": 1,
+                "Donkey_Kong_Country_-_Simian_Segue": 1,
+                "Donkey_Kong_Country_-_Tree_Top_Town": 1,
+                "Donkey_Kong_Country_2:_Diddy's_Kong_Quest_-_Jib_Jig": 1,
+                "Donkey_Kong_Country_2:_Diddy's_Kong_Quest_-_Krooks_March": 1,
+                "Donkey_Kong_Country_2_-_Boss_Bossanova": 1,
+                "Donkey_Kong_Country_2_-_Forest_Interlude": 1,
+                "Donkey_Kong_Country_2_-_Mining_Melancholy": 1,
+                "Donkey_Kong_Country_2_-_Snakey_Chantey": 1,
+                "Donkey_Kong_Country_2_-_Stickerbush_Symphony": 1,
+                "Donkey_Kong_Country_3_-_Swanky's_Sideshow": 1,
+                "Doom_-_E1M3_Dark_Halls": 1,
+                "Doom_-_Level_5": 1,
+                "Doom_-_Nobody_Told_Me_About_ID": 1,
+                "Doom_II_-_The_Demon's_Dead": 1,
+                "Dragon_Ball_-_King_Piccolo's_Theme": 1,
+                "Dragon_Quest_-_Overworld_(Final_Fantasy_IV_Remix)": 1,
+                "Dragon_Quest_III_-_Adventure": 1,
+                "Dragon_Quest_IX_-_Alchemy_Pot": 1,
+                "Dragon_Quest_IX_-_Heaven's_Prayer": 1,
+                "Dragon_Quest_VII_-_Battle_Scene": 1,
+                "Ducktales_-_Moon_Theme_v2": 1,
+                "Dungeon_Master_2_-_Boiler_Room": 1,
+                "EarthBound_-_Buy_Somethin'_Will_Ya?": 1,
+                "EarthBound_-_Humoresque_of_a_Little_Dog": 1,
+                "EarthBound_-_Snowman": 1,
+                "Earthworm_Jim_-_Use_Your_Head": 1,
+                "Earthworm_Jim_2_-_Lorenzen's_Soil": 1,
+                "Ecco_2_-_Fault_Zone": 1,
+                "Elden_Ring_-_Godskin_Apostles_(Phase_1)": 1,
+                "Etrian_Odyssey_-_Strife_-_Kill_or_be_Killed": 1,
+                "Etrian_Odyssey_3_-_Battle_1_(Joshua8600's_Version)": 1,
+                "Etrian_Odyssey_II:_Heroes_of_Lagaard_-_Frozen_Grounds": 1,
+                "Etrian_Odyssey_III_The_Drowned_City_-_Porcelain_Forest": 1,
+                "F-Zero_-_Big_Blue": 1,
+                "F-Zero_-_Fire_Field": 1,
+                "F-Zero_-_Mute_City": 1,
+                "F-Zero_-_Sand_Ocean": 1,
+                "F-Zero_-_White_Land_I": 1,
+                "F-Zero_99_-_Fire_Field_+_Mute_City": 1,
+                "F-Zero_GX_-_Shotgun_Kiss_(Casino_Palace)": 1,
+                "F-Zero_X_-_Dream_Chaser": 1,
+                "Final_Fantasy_6_-_Searching_for_Friends": 1,
+                "Final_Fantasy_II_(GBA)_-_Battle_Theme": 1,
+                "Final_Fantasy_II_-_Main_Theme": 1,
+                "Final_Fantasy_IV_-_Enemy_Encounter_(Joshua8600's_Version)_(Updated)": 1,
+                "Final_Fantasy_IV_-_Into_the_Darkness": 1,
+                "Final_Fantasy_IV_-_The_Prelude": 1,
+                "Final_Fantasy_IV_-_The_Red_Wings": 1,
+                "Final_Fantasy_IV_-_Welcome_to_our_town": 1,
+                "Final_Fantasy_IV_-_Within_the_Giant": 1,
+                "Final_Fantasy_IX_-_Crossing_The_Hills": 1,
+                "Final_Fantasy_IX_-_Crystal_World": 1,
+                "Final_Fantasy_IX_-_Vamo'_alla_Flamenco": 1,
+                "Final_Fantasy_IX_-_You're_Not_Alone": 1,
+                "Final_Fantasy_I_(GBA)_-_Boss_Battle_A": 1,
+                "Final_Fantasy_I_(GBA)_-_Chaos_Shrine": 1,
+                "Final_Fantasy_I_(GBA)_-_Mini_Boss": 1,
+                "Final_Fantasy_I_(GBA)_-_Overworld": 1,
+                "Final_Fantasy_I_-_Chaos_Shrine": 1,
+                "Final_Fantasy_I_-_Chaos_Shrine_(slow)": 1,
+                "Final_Fantasy_Mystic_Quest_-_Boss": 1,
+                "Final_Fantasy_Tactics_-_Antipyretic": 1,
+                "Final_Fantasy_VIII_-_Balamb_Garden": 1,
+                "Final_Fantasy_VIII_-_Fisherman's_Horizon": 1,
+                "Final_Fantasy_VIII_-_Love_Grows": 1,
+                "Final_Fantasy_VII_-_Ahead_on_our_Way": 1,
+                "Final_Fantasy_VII_-_Anxious_Heart": 1,
+                "Final_Fantasy_VII_-_Cid's_Theme": 1,
+                "Final_Fantasy_VII_-_Electric_de_Chocobo": 1,
+                "Final_Fantasy_VII_-_Farm_Boy": 1,
+                "Final_Fantasy_VII_-_Fiddle_de_Chocobo": 1,
+                "Final_Fantasy_VII_-_Highwind_takes_to_the_Skies": 1,
+                "Final_Fantasy_VII_-_Holding_my_Thoughts_in_my_Heart": 1,
+                "Final_Fantasy_VII_-_On_That_Day_Five_Years_Ago": 1,
+                "Final_Fantasy_VII_-_Prelude": 1,
+                "Final_Fantasy_VII_-_Prelude_v2": 1,
+                "Final_Fantasy_VII_-_Tifa's_Theme": 1,
+                "Final_Fantasy_VI_-_Celes": 1,
+                "Final_Fantasy_VI_-_Devil's_Lab": 1,
+                "Final_Fantasy_VI_-_The_Phantom_Forest": 1,
+                "Final_Fantasy_XIII_-_The_Sunleth_Waterscape": 1,
+                "Final_Fantasy_XII_-_To_The_Place_Of_Gods": 1,
+                "Final_Fantasy_XIV_-_The_Day_Will_Come": 1,
+                "Final_Fantasy_XIV_-_Weight_of_the_World_(Prelude_Version)": 1,
+                "Final_Fantasy_X_-_Path_of_Repentance": 1,
+                "Final_Fantasy_X_-_To_Zanarkand": 1,
+                "Final_Fantasy_X_-_To_Zanarkand_v2": 1,
+                "Final_Fantasy_vii_-_Forested_Temple": 1,
+                "Final_Fantasy_vii_-_Forested_Temple_v2": 1,
+                "Fire_Emblem:_Gaiden_-_A_Song_for_bygone_Days": 1,
+                "Fire_Emblem:_Mystery_of_the_Emblem_-_Dark_War": 1,
+                "Fire_Emblem:_Radiant_Dawn_-_Bearer_of_Hope": 1,
+                "Fire_Emblem:_The_Sacred_Stones_-_Prepare_to_advance": 1,
+                "Fire_Emblem:_Three_Houses_-_Fodlan_Winds": 1,
+                "Fire_Emblem:_Three_Houses_-_Funeral_Of_Flowers": 1,
+                "Fire_Emblem:_Three_Houses_-_God-Shattering_Star": 1,
+                "Fire_Emblem:_Three_Houses_-_Life_At_Garreg_Mach": 1,
+                "Fire_Emblem:_Three_Houses_-_Tearing_Through_Heaven": 1,
+                "Fire_Emblem_-_Celica_Map_1": 1,
+                "Fire_Emblem_-_Disturbance_In_Agustria": 1,
+                "Fire_Emblem_-_Power_Hungry_Fool": 1,
+                "Fire_Emblem_Awakening_-_Conquest": 1,
+                "Fire_Emblem_Fates_-_Dusk_Falls": 1,
+                "Fire_Emblem_Fates_-_Lost_In_Thoughts_All_Alone_(PG)": 1,
+                "Fire_Emblem_Fates_-_Lost_in_Thoughts_All_Alone_(Fixed)": 1,
+                "Fire_Emblem_Fates_-_Road_Taken": 1,
+                "Fire_Emblem_Heroes_-_Lonely_Puppeteer_Spring_Remix": 1,
+                "Frostpunk_-_The_City_Must_Survive!": 1,
+                "Ghouls_n_Ghosts_-_Level_1": 1,
+                "GoldenEye_007_-_Dam": 1,
+                "GoldenEye_007_-_Facility": 1,
+                "Golden_Axe_-_Battlefield": 1,
+                "Golden_Axe_-_Wilderness": 1,
+                "Golden_Sun:_Dark_Dawn_-_Map_Theme": 1,
+                "Golden_Sun_-_Colosso_Battle": 1,
+                "Golden_Sun_-_Elemental_Stars": 1,
+                "Golden_Sun_-_Saturos_Battle": 1,
+                "Golden_Sun_-_Saturos_Battle_v2": 1,
+                "Golden_Sun_-_Venus_Lighthouse": 1,
+                "Golden_Sun_2_-_Jenna_Battle_Theme_(Joshua8600's_Version)": 1,
+                "Goldeneye_-_Pause_Menu": 1,
+                "Halo:_Reach_-_Ghosts_and_Glass": 1,
+                "Halo_2_-_Unforgotten": 1,
+                "Halo_3:_ODST_-_Bits_and_Pieces:_From_the_Ashes": 1,
+                "Hyperdimension_Neptunia_(Rebirth_1)_-_Splash": 1,
+                "Hyrule_Warriors:_Age_of_Calamity_-_Growing_Sorrow": 1,
+                "Hyrule_Warriors_-_Eclipse_of_the_Moon": 1,
+                "JJ_&_Jeff_-_1-2": 1,
+                "Journey_To_Silius_-_Stage_1,_Stage_5": 1,
+                "Katamari_Damacy_-_Cherry_Tree_Times": 1,
+                "Katamari_Damacy_-_Katamari_Damacy": 1,
+                "Katamari_Damacy_-_Lonely_Rolling_Star": 1,
+                "Kingdom_Hearts_-_Dearly_Beloved": 1,
+                "Kingdom_Hearts_-_Dearly_Beloved_V2": 1,
+                "Kingdom_Hearts_-_Dive_to_the_Heart": 1,
+                "Kingdom_Hearts_-_Gummi_Ship_#1": 1,
+                "Kingdom_Hearts_-_Hollow_Bastion": 1,
+                "Kingdom_Hearts_-_Traverse_Town": 1,
+                "Kingdom_Hearts_358|2_Days_-_Crossing_into_Neverland": 1,
+                "Kingdom_Hearts_358|2_Days_-_Secret_of_Neverland": 1,
+                "Kingdom_Hearts_II_-_Lazy_Afternoon": 1,
+                "Kingdom_Hearts_II_-_Sinister_Sundown": 1,
+                "Kingdom_Hearts_II_-_The_13th_Struggle": 1,
+                "Kingdom_Hearts_II_-_The_Afternoon_Streets": 1,
+                "Kingdom_Hearts_II_Final_Mix_-_Cavern_of_Remembrance": 1,
+                "Kingdom_Hearts_II_Final_Mix_-_Sora's_Theme": 1,
+                "Kingdom_Hearts_Re:Coded_-_No_More_Bugs_(Normal)": 1,
+                "Kirby's_Block_Ball_-_Stage1": 1,
+                "Kirby's_Block_Ball_-_Stage2": 1,
+                "Kirby's_Block_Ball_-_Stage3": 1,
+                "Kirby's_Block_Ball_-_Stage4": 1,
+                "Kirby's_Block_Ball_-_Stage5": 1,
+                "Kirby's_Block_Ball_-_Stage6": 1,
+                "Kirby's_Block_Ball_-_Stage7": 1,
+                "Kirby_64:_The_Crystal_Shards_-_Ruins": 1,
+                "Kirby_64:_The_Crystal_Shards_-_Shiver_Star": 1,
+                "Kirby_Super_Star_-_Float_Islands": 1,
+                "Kirby_Super_Star_-_Gourmet_Race": 1,
+                "Kirby_Super_Star_-_Green_Greens": 1,
+                "Kirby_Super_Star_-_Vs_Marx": 1,
+                "Kirby_and_the_Forgotten_Land_-_Running_Through_the_New_World": 1,
+                "Knuckles_Chaotix_-_Door_Into_Summer": 1,
+                "Knuckles_Chaotix_-_Evening_Star": 1,
+                "La_Mulana_-_Curse_of_Ocean": 1,
+                "La_Mulana_-_Fearless_Challenger": 1,
+                "La_Mulana_-_Moon_Light_Dance": 1,
+                "La_Mulana_-_Mr_Explorer": 1,
+                "Lands_of_Lore:_Throne_of_Chaos_-_Victor's_Theme": 1,
+                "Legend_of_Zelda_Majoras_Mask_-_Milk_Bar_v2": 1,
+                "Legend_of_Zelda_Majoras_Mask_-_Mini_Boss_v2": 1,
+                "Live-A-Live_-_Megalomania": 1,
+                "Live-A-Live_-_Megalomania_v2": 1,
+                "Luigi's_Mansion_-_Gameboy_Horror_Theme": 1,
+                "Luigis_Mansion_-_Egadds_Lab": 1,
+                "Mario_&_Luigi:_Bowser's_Inside_Story_-_Deep_Castle": 1,
+                "Mario_&_Luigi:_Bowser's_Inside_Story_-_Grasslands,_All_the_Way": 1,
+                "Mario_&_Luigi:_Bowser's_Inside_Story_-_In_the_Final": 1,
+                "Mario_&_Luigi:_Dream_Team_-_Never_Let_Up": 1,
+                "Mario_&_Luigi:_Superstar_Saga_-_Come_On!_(Battle_Theme)": 1,
+                "Mario_&_Luigi:_Superstar_Saga_-_Come_On!_(Battle_Theme)_V2": 1,
+                "Mario_&_Luigi:_Superstar_Saga_-_Final_Cackletta_Fight": 1,
+                "Mario_&_Luigi:_Superstar_Saga_-_Popple_Battle": 1,
+                "Mario_&_Luigi_Bowser's_Inside_Story_-_Okey_Dokey": 1,
+                "Mario_&_Luigi_Bowser's_Inside_Story_-_Tough_Guy_Alert": 1,
+                "Mario_Golf:_Toadstool_Tour_-_Blooper_Bay": 1,
+                "Mario_Hoops_3-on-3_-_Wario_Factory": 1,
+                "Mario_Kart:_Double_Dash!!_-_Baby_Park": 1,
+                "Mario_Kart:_Double_Dash!!_-_Menu": 1,
+                "Mario_Kart:_Double_Dash!!_-_Mushroom_Bridge_&_Mushroom_City": 1,
+                "Mario_Kart:_Double_Dash!!_-_Peach_Beach": 1,
+                "Mario_Kart:_Double_Dash!!_-_Rainbow_Road": 1,
+                "Mario_Kart:_Double_Dash!!_-_Waluigi_Stadium": 1,
+                "Mario_Kart:_Super_Circuit_-_Ribbon_Road": 1,
+                "Mario_Kart_64_-_Banshee_Boardwalk": 1,
+                "Mario_Kart_64_-_Frappe_Snowland": 1,
+                "Mario_Kart_64_-_Koopa_Troopa_Beach": 1,
+                "Mario_Kart_64_-_Yoshi's_Valley": 1,
+                "Mario_Kart_DS_-_Waluigi_Pinball": 1,
+                "Mario_Kart_Wii_-_Coconut_Mall": 1,
+                "Mario_Kart_Wii_-_Maple_Treeway": 1,
+                "Mario_Party_-_Ducking_and_Dodging": 1,
+                "Mario_Party_-_Let's_Go_Lightly": 1,
+                "Mario_Party_-_Mario's_Rainbow_Castle": 1,
+                "Mario_Party_-_Peachs_Birthday_Cake": 1,
+                "Mario_Party_2_-_Space_Land": 1,
+                "Mario_Party_2_-_Space_Land_(alternate_version)": 1,
+                "Mario_Party_2_-_Western_Land": 1,
+                "Mario_Party_3_-_Don't_Hurry": 1,
+                "Mario_Tennis_64_-_Game_Point_(DarkyChao's_version)": 1,
+                "Maui_Mallard_in_Cold_Shadow_-_The_Test_of_Duckhood": 1,
+                "Mega_Man_2_-_Airman": 1,
+                "Mega_Man_2_-_Bubble_Man": 1,
+                "Mega_Man_2_-_Crash_Man": 1,
+                "Mega_Man_2_-_Willy_1": 1,
+                "Mega_Man_2_-_Wood_Man": 1,
+                "Mega_Man_3_-_Shadow_Man": 1,
+                "Mega_Man_3_-_Title": 1,
+                "Mega_Man_9_-_Galaxy_Man": 1,
+                "Mega_Man_9_-_Hornet_Man": 1,
+                "Mega_Man_9_-_We_Are_the_Robots": 1,
+                "Mega_Man_Legends_-_Main_Gate": 1,
+                "Mega_Man_X2_-_Bubble_Crab": 1,
+                "Mega_Man_X_-_Armored_Armadillo": 1,
+                "Mega_Man_X_-_Armored_Armadillo_v2": 1,
+                "Mega_Man_X_-_Spark_Mandrill": 1,
+                "Mega_Man_X_-_Sting_Chameleon": 1,
+                "Mega_Man_X_-_Storm_Eagle": 1,
+                "Melty_Blood_Actress_Again_-_Elegant_Summer": 1,
+                "Melty_Blood_Actress_Again_-_Noble_Mind": 1,
+                "Melty_Blood_Actress_Again_-_SAKURA-KOI-UTA": 1,
+                "Melty_Blood_Actress_Again_-_Wonderful_Boy": 1,
+                "Metal_Gear_Solid_-_Theme": 1,
+                "Metal_Gear_Solid_-_Warhead_Storage": 1,
+                "Metal_Slug_2_-_Stage_1": 1,
+                "Metroid:_Zero_Mission_-_Ridleys_Hideout": 1,
+                "Metroid:_Zero_Mission_-_Tourian": 1,
+                "Metroid_-_Brinstar": 1,
+                "Metroid_-_Kraid's_Lair": 1,
+                "Metroid_Fusion_-_Sector_1": 1,
+                "Metroid_Fusion_-_Sector_2": 1,
+                "Metroid_Fusion_-_Sector_3": 1,
+                "Metroid_Fusion_-_Sector_4": 1,
+                "Metroid_Fusion_-_Sector_5": 1,
+                "Metroid_Fusion_-_Serris": 1,
+                "Metroid_II:_Return_of_Samus_-_Surface_of_SR388": 1,
+                "Metroid_Prime_2:_Echoes_-_Emperor_Ing_(Phase_2)": 1,
+                "Metroid_Prime_2:_Echoes_-_Sanctuary_Fortress": 1,
+                "Metroid_Prime_2:_Echoes_-_Torvus_Bog": 1,
+                "Metroid_Prime_3:_Corruption_-_Bryyo": 1,
+                "Metroid_Prime_3:_Corruption_-_Rundas_Battle": 1,
+                "Metroid_Prime_Hunters_-_Alinos_Multiplayer": 1,
+                "Metroid_Prime_Hunters_-_Arcterra_Multiplayer": 1,
+                "Metroid_Prime_Hunters_-_Arcterras_Depths": 1,
+                "Metroid_Prime_Hunters_-_Celestial_Archives": 1,
+                "Mighty_Final_Fight_-_The_Slums_(Stage_1)": 1,
+                "Mii_Channel": 1,
+                "Minecraft_-_Sweden": 1,
+                "Mission_Impossible_-_Embassy": 1,
+                "Monkey_Island_2_-_The_Swamp": 1,
+                "Monkey_Island_2_-_Theme_(Version_2)": 1,
+                "Monkey_Island_2_-_Theme_(Version_3)": 1,
+                "Monkey_Island_2_-_Theme_v1": 1,
+                "Monster_Hunter_Generations_Ultimate_-_Valstrax_Theme": 1,
+                "Moon_Whistle_-_Elevator_Dungeon": 1,
+                "Mortal_Kombat_Trilogy_-_Cut_Screens": 1,
+                "Mother_-_Queen_Mary's_Castle": 1,
+                "Mother_3_-_Alec's_Log_House": 1,
+                "Mother_3_-_Fun_Naming": 1,
+                "New_Super_Mario_Bros_Wii_-_Volcano": 1,
+                "NieR:_Automata_-_Amusement_Park": 1,
+                "NieR:_Automata_-_Copied_City": 1,
+                "Ninja_Gaiden_-_Unbreakable_Determination": 1,
+                "Old_School_RuneScape_-_Arcane": 1,
+                "OneShot_-_On_Little_Cat_Feet": 1,
+                "One_Piece_-_Bink's_Brew_(Piano_Version)": 1,
+                "One_Way_Heroics_-_Boss_Theme_2_(by_Yuku)": 1,
+                "Out_Run_-_Magical_Sound_Shower_(Full_Version)": 1,
+                "Out_Run_-_Magical_Sound_Shower_(Short_Version)": 1,
+                "Out_Run_-_Splash_Wave": 1,
+                "Outer_Wilds_-_Travelers": 1,
+                "Paper_Mario:_The_Origami_King_-_Musee_Champignon": 1,
+                "Paper_Mario:_The_Origami_King_-_Snif_City_Royal_Hotel_Pool": 1,
+                "Paper_Mario:_The_Thousand_Year_Door_-_Petal_Meadows": 1,
+                "Paper_Mario:_The_Thousand_Year_Door_-_X-Naut_Fortress": 1,
+                "Paper_Mario_-_Goomba_Road": 1,
+                "Paper_Mario_-_Shy_Guy's_Toybox": 1,
+                "Paper_Mario_-_Toad_Town": 1,
+                "Papers_Please_-_Title_Theme_(120_BPM)": 1,
+                "Persona_-_Aria_of_The_Soul": 1,
+                "Persona_3_-_The_Battle_for_Everyone's_Souls": 1,
+                "Persona_3_Portable_-_Danger_Zone_(Joshua8600's_Version)": 1,
+                "Persona_4_-_Junes_(Joshua8600's_Version)": 1,
+                "Phasmophobia_-_Adrift": 1,
+                "Phoenix_Wright:_Ace_Attorney_-_Cornered": 1,
+                "Phoenix_Wright:_Ace_Attorney_-_Maya_Fey": 1,
+                "Phoenix_Wright:_Ace_Attorney_-_OBJECTION": 1,
+                "Phoenix_Wright:_Ace_Attorney_-_Turnabout_Sisters_Ballad": 1,
+                "Piranha_Plant_Lullaby": 1,
+                "Pocky_and_Rocky_2_-_Dragon_Ride": 1,
+                "Pokemon_Colosseum_-_Miror-B's_Theme": 1,
+                "Pokemon_Mystery_Dungeon_Red_Rescue_Team_-_Personality_Test": 1,
+                "Pokemon_Mystery_Dungeon_Red_Rescue_Team_-_Pokemon_Square": 1,
+                "Pokemon_Mystery_Dungeon_Red_Rescue_Team_-_Rescue_Team_Base": 1,
+                "Pokemon_RBY_-_Pallet_Town_GB_version": 1,
+                "Pokemon_Scarlet_and_Violet__-_Battle!_AI_Sada_and_Turo": 1,
+                "Pokémon_Black|White_-_Accumula_Town": 1,
+                "Pokémon_Black|White_-_Asperita_City": 1,
+                "Pokémon_Black|White_-_Battle!_Team_Plazma": 1,
+                "Pokémon_Black|White_-_Bicycle": 1,
+                "Pokémon_Black|White_-_Black_City": 1,
+                "Pokémon_Black|White_-_Castelia_City": 1,
+                "Pokémon_Black|White_-_Chargestone_Cave": 1,
+                "Pokémon_Black|White_-_Dragonspiral_Tower": 1,
+                "Pokémon_Black|White_-_Driftveil_City": 1,
+                "Pokémon_Black|White_-_Flight_Gym": 1,
+                "Pokémon_Black|White_-_Gym_Leaders_Last_Stand!": 1,
+                "Pokémon_Black|White_-_Gym_Theme": 1,
+                "Pokémon_Black|White_-_Icirrus_City": 1,
+                "Pokémon_Black|White_-_League": 1,
+                "Pokémon_Black|White_-_Low_HP": 1,
+                "Pokémon_Black|White_-_Meet_Professor_Juniper": 1,
+                "Pokémon_Black|White_-_Nimbasa_City": 1,
+                "Pokémon_Black|White_-_Opelucid_City_(White)": 1,
+                "Pokémon_Black|White_-_Pokecenter": 1,
+                "Pokémon_Black|White_-_Route_4": 1,
+                "Pokémon_Black|White_-_Sealed_Chamber": 1,
+                "Pokémon_Black|White_-_Victory_Road": 1,
+                "Pokémon_Black|White_-_White_Forest": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Battle!_Cynthia": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Battle!_Cynthia_V2": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Battle!_Tower_Tycoon": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Canalave_City": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Eterna_Forest": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Lake_Trio_Battle": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Mt_Cornet": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Route_202": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Route_210": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Route_216": 1,
+                "Pokémon_Diamond|Pearl|Platinum_-_Route_225": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Dark_Cave": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Ecruteak_City": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Gym_Leader_Battle": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Kanto_Gym_Leader_Battle": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Lake_of_Rage": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Lucky_Number_ShowGoldenrod_Game_Corner": 1,
+                "Pokémon_Gold|Silver|Crystal_-_Surfing": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Battle!_Gym_Leader": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Battle!_Kyogre_&_Groudon": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Battle!_Lugia": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Battle!_Red": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Champion": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Champion_Battle": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Cianwood_City": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Poke_Center": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Route_30": 1,
+                "Pokémon_HeartGold|SoulSilver_-_Route_42": 1,
+                "Pokémon_Legends:_Arceus_-_Pokémon_Wielder_Volo": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Amp_Plains": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Beach_Cave": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Brine_Cave": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Dialga's_Fight_to_the_Finish!": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Drenched_Bluff": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Dusk_Forest": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Foggy_Forest": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Monster_House!": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Mt_Bristle": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Northern_Desert": 1,
+                "Pokémon_Mystery_Dungeon:_Explorers_of_Sky_-_Temporal_Tower": 1,
+                "Pokémon_Mystery_Dungeon:_Red|Blue_Rescue_Team_-_Buried_Relic": 1,
+                "Pokémon_Mystery_Dungeon:_Red|Blue_Rescue_Team_-_Sky_Tower": 1,
+                "Pokémon_Omega_Ruby_|_Alpha_Sapphire_-_Battle!_Zinnia": 1,
+                "Pokémon_Omega_Ruby_|_Alpha_Sapphire_-_Bike_Theme": 1,
+                "Pokémon_Omega_Ruby_|_Alpha_Sapphire_-_Pokémon_Center": 1,
+                "Pokémon_Red|Blue|Yellow_-_Battle!_Champion_Blue": 1,
+                "Pokémon_Red|Blue|Yellow_-_Cycling": 1,
+                "Pokémon_Red|Blue|Yellow_-_Gym_Leader_Battle": 1,
+                "Pokémon_Red|Blue|Yellow_-_Lavender_Town": 1,
+                "Pokémon_Red|Blue|Yellow_-_Route_1": 1,
+                "Pokémon_Red|Blue|Yellow_-_Trainer_Battle": 1,
+                "Pokémon_Red|Blue|Yellow_-_Wild_Battle": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Abandoned_Ship": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Battle_Kyogre_Groudon": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Battle_Steven": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Littleroot_Town": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Route_104": 1,
+                "Pokémon_Ruby|Sapphire|Emerald_-_Slateport_City": 1,
+                "Pokémon_Scarlet|Violet_-_Battle!_vs_Penny": 1,
+                "Pokémon_Stadium_2_-_Stadium": 1,
+                "Pokémon_Sword|Shield_-_Battle!_Marnie": 1,
+                "Pokémon_Ultra_Sun|Ultra_Moon_-_Battle!_Ultra_Necrozma": 1,
+                "Pokémon_XD_-_Miror_B_Battle": 1,
+                "Pokémon_X|Y_-_Together_with_Shauna": 1,
+                "Professor_Layton_and_the_Curious_Village_-_Professor_Layton's_Theme": 1,
+                "Quest_64_-_Battle": 1,
+                "Quest_64_-_Highland": 1,
+                "Quest_64_-_Holy_Plains": 1,
+                "Quest_64_-_House": 1,
+                "RPG_Maker_VX_Ace_-_Battle4": 1,
+                "Rayman_3:_Hoodlum_Havoc_-_Land_Of_The_Livid_Dead": 1,
+                "Rayman_Origins_-_Chasing_A_Dream": 1,
+                "Resident_Evil:_Director's_Cut_-_DualShock_-_Basement": 1,
+                "Resident_Evil_-_The_Night_Begins": 1,
+                "Resident_Evil_2_-_Main_Hall": 1,
+                "Resident_Evil_2_-_Save_Room": 1,
+                "Resident_Evil_2_-_Secure_Place": 1,
+                "Resident_Evil_3_-_Boutique": 1,
+                "Robot_Wars_Advanced_Destruction_-_Main_Menu": 1,
+                "Robot_Wars_Advanced_Destruction_-_PowerStation": 1,
+                "Robot_Wars_Advanced_Destruction_-_Steelworks": 1,
+                "Romancing_SaGa_3_-_Underwater_Palace": 1,
+                "RuneScape_-_Al_Kharid": 1,
+                "RuneScape_-_Autumn_Voyage": 1,
+                "RuneScape_-_Harmony": 1,
+                "RuneScape_-_Medieval": 1,
+                "RuneScape_-_Scape_Main": 1,
+                "RuneScape_-_The_Other_Side": 1,
+                "SSBB_OOT_Medley": 1,
+                "Saichousei_no_Hito_-_Honobono_Shrine": 1,
+                "Scape_Original": 1,
+                "Sea_Shanty_2": 1,
+                "Secret_of_Mana_-_A_Bell_Is_Tolling": 1,
+                "Shadow_of_the_Colossus_-_The_Opened_Way": 1,
+                "Shadow_the_Hedgehog_-_I_Am_All_Of_Me": 1,
+                "Shadowgate_-_Castle_Halls": 1,
+                "Shin_Megami_Tensei_-_Cathedral_of_Shadows": 1,
+                "Shin_Megami_Tensei_II_-_3D:_Center": 1,
+                "Shin_Megami_Tensei_II_-_Disco": 1,
+                "Shinobi_III_-_Whirlwind": 1,
+                "Shinobi_III_-_Whirlwind2": 1,
+                "Shovel_Knight_-_Strike_the_Earth!": 1,
+                "Silent_Hill_2_-_True": 1,
+                "Silent_Hill_3_-_End_of_Small_Sanctuary": 1,
+                "Skies_of_Arcadia_-_Dungeon_Cave": 1,
+                "Smash_TV_-_Arena_1": 1,
+                "Snatcher_-_Opening_Credits": 1,
+                "Snatcher_-_Opening_Credits_2": 1,
+                "Sonic_Advance_2_-_Egg_Utopia_act_1": 1,
+                "Sonic_Advance_2_-_Egg_Utopia_act_2": 1,
+                "Sonic_Advance_2_-_Final_Boss": 1,
+                "Sonic_Advance_3_-_Boss": 1,
+                "Sonic_Advance_3_-_Ocean_Base_Act_2": 1,
+                "Sonic_Adventure_-_Windy_Hill_for_Windy_Valley": 1,
+                "Sonic_Adventure_2_(Battle)_-_Chao_Garden": 1,
+                "Sonic_Adventure_2_(Battle)_-_Pumpkin_Hill": 1,
+                "Sonic_CD_(JP)_-_Stardust_Speedway_Bad_Future": 1,
+                "Sonic_CD_(JP)_-_Stardust_Speedway_Bad_Future_v2": 1,
+                "Sonic_CD_(JP)_-_Wacky_Workbench_'G'_Mix": 1,
+                "Sonic_CD_(JP)_-_You_Can_Do_Anything": 1,
+                "Sonic_CD_(US)_-_Stardust_Speedway_Present": 1,
+                "Sonic_CD_(US)_-_Tidal_Tempest_'P'_Mix_(King_Meteor)": 1,
+                "Sonic_Chaos_-_Mecha_Green_Hill_Zone": 1,
+                "Sonic_Colors_-_Aquarium_Park_Act_1": 1,
+                "Sonic_Colors_-_Planet_Wisp_(Act_1)": 1,
+                "Sonic_Forces_-_Theme_of_Infinite": 1,
+                "Sonic_Generations_-_Green_Hill_-_Act_2_(Modern)": 1,
+                "Sonic_Heroes_-_Grand_Metropolis": 1,
+                "Sonic_Heroes_-_Mystic_Mansion": 1,
+                "Sonic_Heroes_-_Mystic_Mansion_(3P)": 1,
+                "Sonic_Heroes_-_Ocean_Palace_(3P)": 1,
+                "Sonic_Heroes_-_Sea_Gate_(3P)": 1,
+                "Sonic_Heroes_-_Seaside_Hill_(3P)": 1,
+                "Sonic_Heroes_-_Seaside_Medley_(3P)": 1,
+                "Sonic_Heroes_-_Team_Select": 1,
+                "Sonic_Mania_-_Flying_Battery_Zone_(Act_1)": 1,
+                "Sonic_Mania_-_Friends": 1,
+                "Sonic_Mania_-_Green_Hill_Zone_(Act_2)": 1,
+                "Sonic_Mania_-_Studiopolis_Zone_(Act_1)": 1,
+                "Sonic_Mania_-_Studiopolis_Zone_(Act_2)": 1,
+                "Sonic_Mega_Collection_-_Options_|_Extras_Menu": 1,
+                "Sonic_Pinball_Party_-_Open_Your_Heart": 1,
+                "Sonic_Robo_Blast_2_-_Deep_Sea_Zone_Act_2": 1,
+                "Sonic_Robo_Blast_2_-_Greenflower_Zone_Act_1": 1,
+                "Sonic_Robo_Blast_2_-_Red_Volcano_Zone_Act_1": 1,
+                "Sonic_Rush_-_Vela_Nova": 1,
+                "Sonic_Rush_-_What_U_Need_(Blazy_Mix)": 1,
+                "Sonic_Unleashed_-_Endless_Possibility": 1,
+                "Speedy_Comet_-_Mario_Galaxy_2": 1,
+                "Spider-Man_2_-_Pizza_Theme": 1,
+                "Splatoon_-_Calamari_Inkantation": 1,
+                "Splatoon_2_-_Broken_Coral_(Ink_Theory)": 1,
+                "Splatoon_2_-_Now_or_Never": 1,
+                "StarTropics_-_Captain_Bell's_Memorial": 1,
+                "StarTropics_-_Maze_Like_Hallways": 1,
+                "Star_Fox_-_Corneria": 1,
+                "Star_Fox_64_-_Area_6": 1,
+                "Star_Fox_64_-_Meteo": 1,
+                "Star_Fox_64_-_Star_Wolf": 1,
+                "Star_Ocean:_The_Second_Story_-_Pyroxene": 1,
+                "Star_Ocean:_The_Second_Story_-_Weathercock": 1,
+                "Street_Fighter_II_-_Cammy's_Theme": 1,
+                "Street_Fighter_II_-_Guile's_Theme": 1,
+                "Streets_of_Rage_2_-_Go_Straight": 1,
+                "Sunset_Riders_-_Stage_3": 1,
+                "Super_Castlevania_IV_-_Password": 1,
+                "Super_Castlevania_IV_-_The_Cave": 1,
+                "Super_Castlevania_IV_-_The_Waterfalls": 1,
+                "Super_Mario_3D_World_-_World_8_(Bowser)": 1,
+                "Super_Mario_Galaxy_-_Battlerock_Galaxy": 1,
+                "Super_Mario_Galaxy_-_Beach_Bowl_Galaxy": 1,
+                "Super_Mario_Galaxy_-_Buoy_Base_Galaxy": 1,
+                "Super_Mario_Galaxy_-_Gusty_Garden_Galaxy": 1,
+                "Super_Mario_Galaxy_2_-_Puzzle_Plank_Galaxy": 1,
+                "Super_Mario_Kart_-_Choco_Island": 1,
+                "Super_Mario_Kart_-_Koopa_Beach": 1,
+                "Super_Mario_Kart_-_Vanilla_Lake": 1,
+                "Super_Mario_Odyssey_-_Fossil_Falls": 1,
+                "Super_Mario_Odyssey_-_Fossil_Falls_(Cascade_Kingdom_Main_Theme)": 1,
+                "Super_Mario_RPG_-_And_My_Name's_Booster": 1,
+                "Super_Mario_RPG_-_Boss_Battle_2": 1,
+                "Super_Mario_RPG_-_Forest_Maze": 1,
+                "Super_Metroid_-_Brinstar_1": 1,
+                "Super_Metroid_-_Crateria": 1,
+                "Super_Metroid_-_Crateria_Arrival": 1,
+                "Super_Metroid_-_Green_Brinstar": 1,
+                "Super_Metroid_-_Landing_Site": 1,
+                "Super_Metroid_-_Lower_Norfair": 1,
+                "Super_Metroid_-_Maridia": 1,
+                "Super_Metroid_-_Maridias_Depths": 1,
+                "Super_Metroid_-_Maridias_Depths_Remix": 1,
+                "Super_Metroid_-_Norfair": 1,
+                "Super_Metroid_-_Ridley_Battle": 1,
+                "Super_Monkey_Ball_2_-_WHALE_(World_4)": 1,
+                "Super_Robot_Wars_Masoukishin_-_Because_You're_Here": 1,
+                "Super_Robot_Wars_OG_-_Born_To_Fight": 1,
+                "Super_Robot_Wars_OG_-_Cybuster": 1,
+                "Super_Robot_Wars_OG_-_Ice_Man": 1,
+                "Super_Robot_Wars_OG_-_Marionette_Messiah": 1,
+                "Super_Robot_Wars_OG_-_Steel_Beowulf": 1,
+                "Super_Robot_Wars_OG_-_Time_Diver": 1,
+                "Super_Robot_Wars_OG_-_Time_To_Come": 1,
+                "Super_Robot_Wars_OG_-_Trombe!": 1,
+                "Super_Robot_Wars_OG_-_Woman_The_Cool_Spy": 1,
+                "Super_Smash_Bros_-_Dream_Land": 1,
+                "Super_Smash_Bros_Melee,_Super_Smash_Bros_Brawl_-_Menu_2": 1,
+                "Super_Smash_Bros_Melee_-_All_Star_Rest_Area": 1,
+                "Super_Smash_Bros_Melee_-_Final_Destination": 1,
+                "Super_Smash_Bros_Melee_-_Menu_1": 1,
+                "Super_Smash_Bros_Melee_-_Target_Test": 1,
+                "Super_Smash_Flash_2_-_Menu_09": 1,
+                "Tales_of_Abyss_-_The_Arrow_was_Shot": 1,
+                "Tales_of_Destiny_-_Bared_Fangs_(Joshua8600's_Version)": 1,
+                "Tales_of_Destiny_-_Unfinished_World": 1,
+                "Tales_of_Eternia_-_Inferia_Battle_Theme": 1,
+                "Tales_of_Innocence_-_Battle_Theme_(Breakthrough_with_the_Sword)": 1,
+                "Tales_of_Phantasia_-_Fighting_of_the_Spirit_(Joshua8600's_Version)": 1,
+                "Tales_of_Phantasia_-_Take_Up_the_Cross_(Joshua8600's_Version)": 1,
+                "Tales_of_Symphonia_-_Fatalize": 1,
+                "Tales_of_Symphonia_-_Full_Force": 1,
+                "Tarako": 1,
+                "Team_Fortress_2_-_Right_Behind_You": 1,
+                "Tears_Of_The_Kingdom_-_Colgera_Phase_3": 1,
+                "Tears_Of_The_Kingdom_-_The_Hero's_Duel": 1,
+                "Teenage_Mutant_Ninja_Turtles_-_Underwater": 1,
+                "Teenage_Mutant_Ninja_Turtles_2_-_Fire!": 1,
+                "Tetris_-_Side_A": 1,
+                "Tetris_-_Side_A_(V2)": 1,
+                "Tetris_-_Side_B": 1,
+                "Tetris_-_Theme_A_Guitar_Solo": 1,
+                "The_Addams_Family:_Pugsley's_Scavenger_Hunt_-_Main_Room": 1,
+                "The_Elder_Scrolls:_Arena_-_Dungeon_Theme_3": 1,
+                "The_Elder_Scrolls:_Arena_-_Dungeon_Theme_4": 1,
+                "The_Elder_Scrolls:_Daggerfall_-_Unused_Sneaking_Theme_4:_At_Home": 1,
+                "The_Fate_of_the_Bombiwa_-_Mysterious_Lair": 1,
+                "The_Fate_of_the_Bombiwa_-_Pureheart_Castle": 1,
+                "The_Fate_of_the_Bombiwa_-_Royal_Test": 1,
+                "The_Legend_of_Zelda:_Breath_of_the_Wild_-_2017_Switch_Presentation_Trailer": 1,
+                "The_Legend_of_Zelda:_Breath_of_the_Wild_-_Hyrule_Castle_Theme": 1,
+                "The_Legend_of_Zelda:_Breath_of_the_Wild_-_Mipha's_Theme": 1,
+                "The_Legend_of_Zelda:_Feesh_Mode_-_High_Noon": 1,
+                "The_Legend_of_Zelda:_Feesh_Mode_-_The_Eleventh_Hour": 1,
+                "The_Legend_of_Zelda:_Four_Swords_Adventures_-_Overworld": 1,
+                "The_Legend_of_Zelda:_Link's_Awakening_Deluxe_-_Tal_Tal_Heights": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Astral_Observatory_(3P)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Battle_Theme_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Bremen_March": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Chasing_Theme_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Clock_Tower": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Clocktown_Day_1_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Deku_Palace": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Final_Boss_Phase_3_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Final_Hours": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Four_Giants_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Goron_Race_Track": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Ikana_Castle_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Inverted_Stone_Tower_Dungeon_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Mayor_Office_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Melody_of_Darkness_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Music_Box_House_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Pirates'_Fortress": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Snowfield_(DB)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Song_of_Healing": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Souther_Swamp_(SPT)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Stone_Tower_Temple_(AP)": 1,
+                "The_Legend_of_Zelda:_Majora's_Mask_-_Termina_Field_(SPT)": 1,
+                "The_Legend_of_Zelda:_Ocarina_of_Time_-_Angel_Teardrops_(Song_of_Storms_Remix)": 1,
+                "The_Legend_of_Zelda:_Ocarina_of_Time_-_Fire_Temple_(v12)": 1,
+                "The_Legend_of_Zelda:_Ocarina_of_Time_-_Hyrule_Field_(Old_Version)": 1,
+                "The_Legend_of_Zelda:_Ocarina_of_Time_-_Reversed_Shooting_Gallery_Remix": 1,
+                "The_Legend_of_Zelda:_OoT_Triforce_Percent_-_Overture_of_Sages_Warp": 1,
+                "The_Legend_of_Zelda:_OoT_Triforce_Percent_-_Power_of_The_Goddesses": 1,
+                "The_Legend_of_Zelda:_OoT_Triforce_Percent_-_Staff_Roll": 1,
+                "The_Legend_of_Zelda:_OoT_Triforce_Percent_-_Trailer": 1,
+                "The_Legend_of_Zelda:_Oracale_of_Ages|Seasons_-_Ganon": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Ages_-_Ancient_Tomb": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Ages_-_Sea_Of_No_Return": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Ages_-_Skull_Dungeon": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Ages_-_The_Black_Tower": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Seasons_-_Dancing_Dragon_Dungeon": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Seasons_-_Snake's_Remains": 1,
+                "The_Legend_of_Zelda:_Oracle_of_Seasons_-_Temple_Ruins": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Bellum_Fight": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Boss_Fight": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Dungeon_Theme": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Find_the_Ghost_Ship": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Great_Sea": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_House_Theme": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Hyrule_Field_Remix": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Mercay_Island": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Pirate_Theme": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Uncharted_Territory": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Vs_Ghost_Ship": 1,
+                "The_Legend_of_Zelda:_Phantom_Hourglass_-_Vs_Sea_Monster": 1,
+                "The_Legend_of_Zelda:_Skyward_Sword_-_Faron_Woods": 1,
+                "The_Legend_of_Zelda:_Skyward_Sword_-_Groose_Theme_(Deathbasket)": 1,
+                "The_Legend_of_Zelda:_Skyward_Sword_-_Moldarach|Koloktos_Battle": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Ascend_The_Tower": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Castle_Town": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Credits": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Mallace_Lullaby": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Malladus_Fight_Phase_2": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Malladus_Fight_Phase_3": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Mini_Boss_Battle": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Outpost": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Overworld_Adventure": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Phantom_Seen": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Stagnox_Theme": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Tower_of_Spirits_Dungeon_Theme": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Under_Water": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Vs_Bryne": 1,
+                "The_Legend_of_Zelda:_Spirit_Tracks_-_Zelda_Escape": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Cloud_Tops": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Cucco_Chase": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Dark_Hyrule_Castle": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Hyrule_Town": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Peace_Returns": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Royal_Crypt": 1,
+                "The_Legend_of_Zelda:_The_Minish_Cap_-_Temple_Of_Droplets": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Boss_Defeated": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Fishing_Hole": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Hyrule_Field_(Beta|Unused)": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Kakariko_Village": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Kokiri_Forest_Savedv2": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Lake_Hylia": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Midna's_Lament_(arr_Kevin_R)": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Near_Enemy": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Night": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Ordon_Village": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Palace_of_Twilight": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Sacred_Cove_by_Zeldaboy14": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Short": 1,
+                "The_Legend_of_Zelda:_Twilight_Princess_-_Twilit_Battle": 1,
+                "The_Legend_of_Zelda:_Ura_-_Temple_of_Time": 1,
+                "The_Legend_of_Zelda:_Wand_of_Gamelon_-_Dodomai_Palace_-_Hectan's_Stand": 1,
+                "The_Secret_of_Monkey_Island_-_The_Scumm_Bar": 1,
+                "The_Settlers_2_-_Song_6": 1,
+                "Thomas_the_Tank_Engine_-Main_Theme": 1,
+                "Tomb_Raider_II_-_Venice": 1,
+                "Touhou_6_-_A_Soul_as_Red_as_a_Ground_Cherry": 1,
+                "Touhou_7_-_Phantasm_Boss_Yukari": 1,
+                "Turok:_Dinosaur_Hunter_-_HUB": 1,
+                "Twilight_Princess_-_Death_Mountain": 1,
+                "Ultima_Online_-_Shopping": 1,
+                "Untitled_Piano_Piece_(©2017,_2019_kwrotunni)": 1,
+                "Uru_Ages_Beyond_Myst_-_Convergence": 1,
+                "Vampire_Survivors_-_When_the_Clouds_Drown": 1,
+                "Vampires_Dawn_-_Evil_Six": 1,
+                "Vivaldi_-_Summer": 1,
+                "Warhammer:_Shadow_of_the_Horned_Rat_-_Looking": 1,
+                "Wii_Shop_Channel": 1,
+                "Windows_OS_-_Town_(Joshua8600's_Version)": 1,
+                "Wonder_Boy_in_Monster_Land_-_Final_Boss": 1,
+                "World_of_Illusion_-_forest": 1,
+                "Xenoblade_Chronicles_-_Mechanical_Rhythm": 1,
+                "Xenoblade_Chronicles_-_Satorl_Marsh_(Night)": 1,
+                "Xenoblade_Chronicles_-_Tragic_Decision": 1,
+                "Xenoblade_Chronicles_-_You_Will_Know_Our_Names": 1,
+                "Xenoblade_Chronicles_2_-_Bringer_Of_Chaos!_Ultimate": 1,
+                "Xenoblade_Chronicles_2_-_Counterattack": 1,
+                "Xenoblade_Chronicles_2_-_Drifting_Souls": 1,
+                "Xenoblade_Chronicles_2_-_Gormott_Province_(Day)": 1,
+                "Xenoblade_Chronicles_2_-_Land_Of_Morytha": 1,
+                "Xenoblade_Chronicles_2_-_Leftherian_Archipelago_(Day)": 1,
+                "Xenoblade_Chronicles_2_-_Monster_Surprise": 1,
+                "Xenoblade_Chronicles_2_-_Tantal_(Day)": 1,
+                "Xenoblade_Chronicles_2_-_Wanted_Nia": 1,
+                "Xenoblade_Chronicles_3-_Battle_Vs_Moebius": 1,
+                "Xenoblade_Chronicles_3_-_A_Life_Sent_On": 1,
+                "Yakuza_0_-_Friday_Night": 1,
+                "Yooka-Laylee_-_Tribalstack_Tropics": 1,
+                "Yoshi's_Island_-_Crystal_Cave": 1,
+                "Yoshi's_Island_-_Map_Select": 1,
+                "Yoshi's_Story_-_Love_is_in_the_Air": 1,
+                "Yoshi's_Story_-_Treasure_Hunt": 1,
+                "Yu-Gi-Oh!_Forbidden_Memories_-_Free_Duel": 1,
+                "Zeraphyr_-_Spritely_Woods": 1
+            },
+            "ExperimentalOctaveDrop": 1,
+            "LowHpAlarm": 1,
+            "Playing": 0,
+            "ReplacedSequences": {
+                "NA_BGM_ADULT_LINK": {
+                    "value": 945
+                },
+                "NA_BGM_APPEAR": {
+                    "value": 397
+                },
+                "NA_BGM_BOSS": {
+                    "value": 804
+                },
+                "NA_BGM_BOSS_CLEAR": {
+                    "value": 1092
+                },
+                "NA_BGM_BRIDGE_TO_GANONS": {
+                    "value": 1064
+                },
+                "NA_BGM_CHAMBER_OF_SAGES": {
+                    "value": 795
+                },
+                "NA_BGM_COURTYARD": {
+                    "value": 781
+                },
+                "NA_BGM_DEKU_TREE_CS": {
+                    "value": 1061
+                },
+                "NA_BGM_DOOR_OF_TIME": {
+                    "value": 936
+                },
+                "NA_BGM_DUNGEON": {
+                    "value": 45
+                },
+                "NA_BGM_ENEMY": {
+                    "value": 1064
+                },
+                "NA_BGM_ESCAPE": {
+                    "value": 524
+                },
+                "NA_BGM_EVENT_CLEAR": {
+                    "value": 894
+                },
+                "NA_BGM_FIELD_LOGIC": {
+                    "value": 836
+                },
+                "NA_BGM_FIELD_MORNING": {
+                    "value": 862
+                },
+                "NA_BGM_FILE_SELECT": {
+                    "value": 805
+                },
+                "NA_BGM_FIRE_BOSS": {
+                    "value": 782
+                },
+                "NA_BGM_FIRE_TEMPLE": {
+                    "value": 1066
+                },
+                "NA_BGM_FOREST_TEMPLE": {
+                    "value": 841
+                },
+                "NA_BGM_GAME_OVER": {
+                    "value": 986
+                },
+                "NA_BGM_GANONDORF_BOSS": {
+                    "value": 522
+                },
+                "NA_BGM_GANON_BOSS": {
+                    "value": 778
+                },
+                "NA_BGM_GANON_TOWER": {
+                    "value": 194
+                },
+                "NA_BGM_GERUDO_VALLEY": {
+                    "value": 795
+                },
+                "NA_BGM_GORON_CITY": {
+                    "value": 31
+                },
+                "NA_BGM_GREAT_FAIRY": {
+                    "value": 79
+                },
+                "NA_BGM_HEART_GET": {
+                    "value": 896
+                },
+                "NA_BGM_HORSE": {
+                    "value": 792
+                },
+                "NA_BGM_HORSE_GOAL": {
+                    "value": 1045
+                },
+                "NA_BGM_HYRULE_CS": {
+                    "value": 197
+                },
+                "NA_BGM_ICE_CAVERN": {
+                    "value": 803
+                },
+                "NA_BGM_INGO": {
+                    "value": 223
+                },
+                "NA_BGM_INSIDE_DEKU_TREE": {
+                    "value": 1111
+                },
+                "NA_BGM_INTRO_GANON": {
+                    "value": 791
+                },
+                "NA_BGM_ITEM_GET": {
+                    "value": 563
+                },
+                "NA_BGM_JABU_JABU": {
+                    "value": 946
+                },
+                "NA_BGM_KAKARIKO_ADULT": {
+                    "value": 861
+                },
+                "NA_BGM_KAKARIKO_KID": {
+                    "value": 38
+                },
+                "NA_BGM_KOKIRI": {
+                    "value": 80
+                },
+                "NA_BGM_KOTAKE_KOUME": {
+                    "value": 778
+                },
+                "NA_BGM_LINK_HOUSE": {
+                    "value": 226
+                },
+                "NA_BGM_LONLON": {
+                    "value": 937
+                },
+                "NA_BGM_MARKET": {
+                    "value": 804
+                },
+                "NA_BGM_MASTER_SWORD": {
+                    "value": 982
+                },
+                "NA_BGM_MEDALLION_GET": {
+                    "value": 887
+                },
+                "NA_BGM_MINI_BOSS": {
+                    "value": 796
+                },
+                "NA_BGM_MINI_GAME": {
+                    "value": 851
+                },
+                "NA_BGM_NAVI_OPENING": {
+                    "value": 82
+                },
+                "NA_BGM_OCARINA_OF_TIME": {
+                    "value": 83
+                },
+                "NA_BGM_OCA_BOLERO": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_EPONA": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_FAIRY_GET": {
+                    "value": 842
+                },
+                "NA_BGM_OCA_LIGHT": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_MINUET": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_NOCTURNE": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_REQUIEM": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_SARIA": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_SERENADE": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_STORM": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_SUNS": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_TIME": {
+                    "locked": 1
+                },
+                "NA_BGM_OCA_ZELDA": {
+                    "locked": 1
+                },
+                "NA_BGM_OPENING_GANON": {
+                    "value": 710
+                },
+                "NA_BGM_OPEN_TRE_BOX": {
+                    "value": 556
+                },
+                "NA_BGM_OWL": {
+                    "value": 78
+                },
+                "NA_BGM_POTION_SHOP": {
+                    "value": 523
+                },
+                "NA_BGM_SARIA_THEME": {
+                    "value": 92
+                },
+                "NA_BGM_SEAL_OF_SAGES": {
+                    "value": 860
+                },
+                "NA_BGM_SHADOW_TEMPLE": {
+                    "value": 527
+                },
+                "NA_BGM_SHEIK": {
+                    "value": 1145
+                },
+                "NA_BGM_SHOP": {
+                    "value": 393
+                },
+                "NA_BGM_SMALL_ITEM_GET": {
+                    "value": 712
+                },
+                "NA_BGM_SPIRITUAL_STONE": {
+                    "value": 81
+                },
+                "NA_BGM_SPIRIT_TEMPLE": {
+                    "value": 47
+                },
+                "NA_BGM_TEMPLE_OF_TIME": {
+                    "value": 388
+                },
+                "NA_BGM_TIMED_MINI_GAME": {
+                    "value": 823
+                },
+                "NA_BGM_TITLE": {
+                    "value": 794
+                },
+                "NA_BGM_UNDERGROUND": {
+                    "value": 91
+                },
+                "NA_BGM_WATER_TEMPLE": {
+                    "value": 1145
+                },
+                "NA_BGM_WINDMILL": {
+                    "value": 62
+                },
+                "NA_BGM_ZELDA_THEME": {
+                    "value": 84
+                },
+                "NA_BGM_ZORA_DOMAIN": {
+                    "value": 786
+                },
+                "NA_SE_EN_AMOS_VOICE": {
+                    "value": 14633
+                },
+                "NA_SE_EN_AWA_BOUND": {
+                    "value": 10348
+                },
+                "NA_SE_EN_AWA_BREAK": {
+                    "value": 10257
+                },
+                "NA_SE_EN_BUBLE_LAUGH": {
+                    "value": 14385
+                },
+                "NA_SE_EN_DEKU_JR_MOUTH": {
+                    "value": 14672
+                },
+                "NA_SE_EN_FANTOM_ST_LAUGH": {
+                    "value": 10261
+                },
+                "NA_SE_EN_FLAME_DAMAGE": {
+                    "value": 10254
+                },
+                "NA_SE_EN_FLAME_LAUGH": {
+                    "value": 14565
+                },
+                "NA_SE_EN_GANON_AT_RETURN": {
+                    "value": 10258
+                },
+                "NA_SE_EN_GOLON_WAKE_UP": {
+                    "value": 18491
+                },
+                "NA_SE_EN_GOMA_JR_CRY": {
+                    "value": 18501
+                },
+                "NA_SE_EN_IRONNACK_SWING_AXE": {
+                    "value": 6192
+                },
+                "NA_SE_EN_KAICHO_CRY": {
+                    "value": 14673
+                },
+                "NA_SE_EN_NUTS_FAINT": {
+                    "value": 14432
+                },
+                "NA_SE_EN_NUTS_THROW": {
+                    "value": 10463
+                },
+                "NA_SE_EN_NUTS_UP": {
+                    "value": 10254
+                },
+                "NA_SE_EN_REDEAD_AIM": {
+                    "value": 18435
+                },
+                "NA_SE_EN_REDEAD_CRY": {
+                    "value": 18499
+                },
+                "NA_SE_EN_SHADEST_TAIKO_HIGH": {
+                    "value": 14466
+                },
+                "NA_SE_EN_SHADEST_TAIKO_LOW": {
+                    "value": 14565
+                },
+                "NA_SE_EN_SHELL_MOUTH": {
+                    "value": 22529
+                },
+                "NA_SE_EN_STALKID_ATTACK": {
+                    "value": 10414
+                },
+                "NA_SE_EN_STALTU_DAMAGE": {
+                    "value": 10259
+                },
+                "NA_SE_EV_BOTTLE_CAP_OPEN": {
+                    "value": 14588
+                },
+                "NA_SE_EV_BRIDGE_OPEN_STOP": {
+                    "value": 14664
+                },
+                "NA_SE_EV_CHICKEN_CRY_A": {
+                    "value": 10286
+                },
+                "NA_SE_EV_CHICKEN_CRY_M": {
+                    "value": 10375
+                },
+                "NA_SE_EV_CHICKEN_CRY_N": {
+                    "value": 18485
+                },
+                "NA_SE_EV_COW_CRY": {
+                    "value": 14466
+                },
+                "NA_SE_EV_DOG_CRY_EVENING": {
+                    "value": 18489
+                },
+                "NA_SE_EV_FIVE_COUNT_LUPY": {
+                    "value": 14462
+                },
+                "NA_SE_EV_FOOT_SWITCH": {
+                    "value": 10456
+                },
+                "NA_SE_EV_FROG_CRY_0": {
+                    "value": 14664
+                },
+                "NA_SE_EV_HORSE_RUN": {
+                    "value": 14460
+                },
+                "NA_SE_EV_LIGHTNING": {
+                    "value": 14460
+                },
+                "NA_SE_EV_PLANT_BROKEN": {
+                    "value": 10244
+                },
+                "NA_SE_EV_POT_BROKEN": {
+                    "value": 10318
+                },
+                "NA_SE_EV_SMALL_DOG_BARK": {
+                    "value": 18486
+                },
+                "NA_SE_IT_BOMB_EXPLOSION": {
+                    "value": 18443
+                },
+                "NA_SE_IT_BOW_FLICK": {
+                    "value": 10472
+                },
+                "NA_SE_IT_HAMMER_HIT": {
+                    "value": 6171
+                },
+                "NA_SE_IT_WALL_HIT_SOFT": {
+                    "value": 18485
+                },
+                "NA_SE_OC_ABYSS": {
+                    "value": 14806
+                },
+                "NA_SE_PL_HOBBERBOOTS_LV": {
+                    "value": 6192
+                },
+                "NA_SE_PL_WALK_HEAVYBOOTS": {
+                    "value": 14409
+                },
+                "NA_SE_SY_CARROT_RECOVER": {
+                    "value": 14721
+                },
+                "NA_SE_SY_FSEL_CLOSE": {
+                    "value": 10261
+                },
+                "NA_SE_SY_FSEL_CURSOR": {
+                    "value": 14432
+                },
+                "NA_SE_SY_FSEL_DECIDE_L": {
+                    "value": 14462
+                },
+                "NA_SE_SY_GET_RUPY": {
+                    "value": 10244
+                },
+                "NA_SE_SY_HITPOINT_ALARM": {
+                    "value": 10257
+                },
+                "NA_SE_SY_HP_RECOVER": {
+                    "value": 14714
+                },
+                "NA_SE_SY_KINSTA_MARK_APPEAR": {
+                    "value": 14409
+                },
+                "NA_SE_SY_LOCK_ON": {
+                    "value": 14518
+                },
+                "NA_SE_SY_LOCK_ON_HUMAN": {
+                    "value": 18491
+                },
+                "NA_SE_SY_METRONOME": {
+                    "value": 14685
+                },
+                "NA_SE_SY_START_SHOT": {
+                    "value": 10414
+                },
+                "NA_SE_VO_BL_DOWN": {
+                    "value": 26720
+                },
+                "NA_SE_VO_BL_DOWN_KID": {
+                    "value": 26689
+                },
+                "NA_SE_VO_FR_LAUGH_0": {
+                    "value": 26628
+                },
+                "NA_SE_VO_FR_SMILE_0": {
+                    "value": 26660
+                },
+                "NA_SE_VO_IN_CRY_0": {
+                    "value": 26737
+                },
+                "NA_SE_VO_IN_LASH_0": {
+                    "value": 26656
+                },
+                "NA_SE_VO_IN_LASH_1": {
+                    "value": 26731
+                },
+                "NA_SE_VO_IN_LOST": {
+                    "value": 26733
+                },
+                "NA_SE_VO_KZ_MOVE": {
+                    "value": 26728
+                },
+                "NA_SE_VO_LI_AUTO_JUMP_KID": {
+                    "value": 26665
+                },
+                "NA_SE_VO_LI_AUTOd_JUMP": {
+                    "value": 26734
+                },
+                "NA_SE_VO_LI_BREATH_DRINK": {
+                    "value": 26653
+                },
+                "NA_SE_VO_LI_BREATH_DRINK_KID": {
+                    "value": 26651
+                },
+                "NA_SE_VO_LI_BREATH_REST": {
+                    "value": 26744
+                },
+                "NA_SE_VO_LI_BREATH_REST_KID": {
+                    "value": 26691
+                },
+                "NA_SE_VO_LI_CLIMB_END": {
+                    "value": 26649
+                },
+                "NA_SE_VO_LI_CLIMB_END_KID": {
+                    "value": 26659
+                },
+                "NA_SE_VO_LI_DAMAGE_S": {
+                    "value": 26676
+                },
+                "NA_SE_VO_LI_DAMAGE_S_KID": {
+                    "value": 26676
+                },
+                "NA_SE_VO_LI_DEMO_DAMAGE": {
+                    "value": 26649
+                },
+                "NA_SE_VO_LI_DEMO_DAMAGE_KID": {
+                    "value": 26666
+                },
+                "NA_SE_VO_LI_DOWN": {
+                    "value": 26737
+                },
+                "NA_SE_VO_LI_DOWN_KID": {
+                    "value": 26670
+                },
+                "NA_SE_VO_LI_DRINK": {
+                    "value": 26715
+                },
+                "NA_SE_VO_LI_FALL_L": {
+                    "value": 26730
+                },
+                "NA_SE_VO_LI_FALL_L_KID": {
+                    "value": 26663
+                },
+                "NA_SE_VO_LI_FALL_S": {
+                    "value": 26642
+                },
+                "NA_SE_VO_LI_FALL_S_KID": {
+                    "value": 26741
+                },
+                "NA_SE_VO_LI_FREEZE": {
+                    "value": 26746
+                },
+                "NA_SE_VO_LI_FREEZE_KID": {
+                    "value": 26647
+                },
+                "NA_SE_VO_LI_HANG": {
+                    "value": 26641
+                },
+                "NA_SE_VO_LI_HANG_KID": {
+                    "value": 26729
+                },
+                "NA_SE_VO_LI_HELD": {
+                    "value": 26674
+                },
+                "NA_SE_VO_LI_HELD_KID": {
+                    "value": 26671
+                },
+                "NA_SE_VO_LI_HOOKSHOT_HANG": {
+                    "value": 26661
+                },
+                "NA_SE_VO_LI_HOOKSHOT_HANG_KID": {
+                    "value": 26728
+                },
+                "NA_SE_VO_LI_LAND_DAMAGE_S": {
+                    "value": 26681
+                },
+                "NA_SE_VO_LI_LAND_DAMAGE_S_KID": {
+                    "value": 26731
+                },
+                "NA_SE_VO_LI_LASH": {
+                    "value": 26710
+                },
+                "NA_SE_VO_LI_LASH_KID": {
+                    "value": 26729
+                },
+                "NA_SE_VO_LI_MAGIC_ATTACK": {
+                    "value": 26628
+                },
+                "NA_SE_VO_LI_MAGIC_ATTACK_KID": {
+                    "value": 26629
+                },
+                "NA_SE_VO_LI_MAGIC_FROL": {
+                    "value": 26717
+                },
+                "NA_SE_VO_LI_MAGIC_FROL_KID": {
+                    "value": 26723
+                },
+                "NA_SE_VO_LI_MAGIC_NALE": {
+                    "value": 26661
+                },
+                "NA_SE_VO_LI_MAGIC_NALE_KID": {
+                    "value": 26625
+                },
+                "NA_SE_VO_LI_NULL_0x1b": {
+                    "value": 26716
+                },
+                "NA_SE_VO_LI_NULL_0x1b_KID": {
+                    "value": 26660
+                },
+                "NA_SE_VO_LI_PUSH": {
+                    "value": 26720
+                },
+                "NA_SE_VO_LI_PUSH_KID": {
+                    "value": 26707
+                },
+                "NA_SE_VO_LI_RELAX": {
+                    "value": 26651
+                },
+                "NA_SE_VO_LI_RELAX_KID": {
+                    "value": 26688
+                },
+                "NA_SE_VO_LI_ROLLING_CUT_KID": {
+                    "value": 26627
+                },
+                "NA_SE_VO_LI_SNEEZE": {
+                    "value": 26686
+                },
+                "NA_SE_VO_LI_SNEEZE_KID": {
+                    "value": 26743
+                },
+                "NA_SE_VO_LI_SURPRISE": {
+                    "value": 26742
+                },
+                "NA_SE_VO_LI_SURPRISE_KID": {
+                    "value": 26686
+                },
+                "NA_SE_VO_LI_SWEAT": {
+                    "value": 26664
+                },
+                "NA_SE_VO_LI_SWEAT_KID": {
+                    "value": 26725
+                },
+                "NA_SE_VO_LI_SWORD_L": {
+                    "value": 26739
+                },
+                "NA_SE_VO_LI_SWORD_N": {
+                    "value": 26639
+                },
+                "NA_SE_VO_LI_SWORD_N_KID": {
+                    "value": 26742
+                },
+                "NA_SE_VO_LI_SWORD_PUTAWAY": {
+                    "value": 26716
+                },
+                "NA_SE_VO_LI_SWORD_PUTAWAY_KID": {
+                    "value": 26713
+                },
+                "NA_SE_VO_LI_TAKEN_AWAY": {
+                    "value": 26626
+                },
+                "NA_SE_VO_LI_TAKEN_AWAY_KID": {
+                    "value": 26688
+                },
+                "NA_SE_VO_NAVY_CALL": {
+                    "value": 26665
+                },
+                "NA_SE_VO_NAVY_ENEMY": {
+                    "value": 26641
+                },
+                "NA_SE_VO_NAVY_HEAR": {
+                    "value": 26657
+                },
+                "NA_SE_VO_NAVY_HELLO": {
+                    "value": 26732
+                },
+                "NA_SE_VO_NA_HELLO_0": {
+                    "value": 26736
+                },
+                "NA_SE_VO_NA_HELLO_1": {
+                    "value": 26735
+                },
+                "NA_SE_VO_NA_HELLO_2": {
+                    "value": 26683
+                },
+                "NA_SE_VO_NA_HELLO_3": {
+                    "value": 26632
+                },
+                "NA_SE_VO_NB_AGONY": {
+                    "value": 26630
+                },
+                "NA_SE_VO_NB_CRY_0": {
+                    "value": 26662
+                },
+                "NA_SE_VO_NB_LAUGH": {
+                    "value": 26691
+                },
+                "NA_SE_VO_NB_NOTICE": {
+                    "value": 26684
+                },
+                "NA_SE_VO_RT_CRASH": {
+                    "value": 26733
+                },
+                "NA_SE_VO_RT_DISCOVER": {
+                    "value": 26714
+                },
+                "NA_SE_VO_RT_FALL": {
+                    "value": 26709
+                },
+                "NA_SE_VO_RT_LAUGH_0": {
+                    "value": 26732
+                },
+                "NA_SE_VO_RT_LIFT": {
+                    "value": 26636
+                },
+                "NA_SE_VO_RT_THROW": {
+                    "value": 26671
+                },
+                "NA_SE_VO_RT_UNBALLANCE": {
+                    "value": 26717
+                },
+                "NA_SE_VO_SK_CRASH": {
+                    "value": 26636
+                },
+                "NA_SE_VO_SK_CRY_0": {
+                    "value": 26685
+                },
+                "NA_SE_VO_SK_CRY_1": {
+                    "value": 26678
+                },
+                "NA_SE_VO_SK_LAUGH": {
+                    "value": 26712
+                },
+                "NA_SE_VO_SK_SHOUT": {
+                    "value": 26644
+                },
+                "NA_SE_VO_ST_ATTACK": {
+                    "value": 26736
+                },
+                "NA_SE_VO_ST_DAMAGE": {
+                    "value": 26679
+                },
+                "NA_SE_VO_TA_CRY_0": {
+                    "value": 26740
+                },
+                "NA_SE_VO_TA_CRY_1": {
+                    "value": 26679
+                },
+                "NA_SE_VO_TA_SLEEP": {
+                    "value": 26740
+                },
+                "NA_SE_VO_TA_SURPRISE": {
+                    "value": 26638
+                },
+                "NA_SE_VO_Z0_HURRY": {
+                    "value": 26726
+                },
+                "NA_SE_VO_Z0_MEET": {
+                    "value": 26723
+                },
+                "NA_SE_VO_Z0_QUESTION": {
+                    "value": 26682
+                },
+                "NA_SE_VO_Z0_SIGH_0": {
+                    "value": 26744
+                },
+                "NA_SE_VO_Z0_SMILE_0": {
+                    "value": 26747
+                },
+                "NA_SE_VO_Z0_SURPRISE": {
+                    "value": 26722
+                },
+                "NA_SE_VO_Z0_THROW": {
+                    "value": 26668
+                },
+                "NA_SE_VO_Z1_CRY_0": {
+                    "value": 26708
+                },
+                "NA_SE_VO_Z1_CRY_1": {
+                    "value": 26635
+                },
+                "NA_SE_VO_Z1_OPENDOOR": {
+                    "value": 26730
+                },
+                "NA_SE_VO_Z1_PAIN": {
+                    "value": 26711
+                },
+                "NA_SE_VO_Z1_SURPRISE": {
+                    "value": 26652
+                },
+                "OCARINA_INSTRUMENT_DEFAULT": {
+                    "locked": 1
+                },
+                "OCARINA_INSTRUMENT_FLUTE": {
+                    "locked": 1
+                },
+                "OCARINA_INSTRUMENT_GRIND_ORGAN": {
+                    "locked": 1
+                },
+                "OCARINA_INSTRUMENT_HARP": {
+                    "locked": 1
+                },
+                "OCARINA_INSTRUMENT_MALON": {
+                    "locked": 1
+                },
+                "OCARINA_INSTRUMENT_WHISTLE": {
+                    "locked": 1
+                }
+            }
+        },
+        "gBluePotionHealth": 1,
+        "gBluePotionMana": 1,
+        "gCheats": {
+            "InfiniteAmmo": 1,
+            "InfiniteEponaBoost": 1,
+            "InfiniteHealth": 0,
+            "InfiniteMagic": 1,
+            "InfiniteMoney": 1,
+            "MoonJumpOnL": 1,
+            "SaveStatePromise": 1,
+            "SaveStatesEnabled": 1,
+            "TimelessEquipment": 1
+        },
+        "gCosmetics": {
+            "Arrows": {
+                "FirePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 117,
+                        "G": 228,
+                        "R": 236,
+                        "Type": "RGBA"
+                    }
+                },
+                "IcePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 253,
+                        "G": 44,
+                        "R": 136,
+                        "Type": "RGBA"
+                    }
+                },
+                "LightPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 122,
+                        "G": 214,
+                        "R": 106,
+                        "Type": "RGBA"
+                    }
+                },
+                "NormalPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 64,
+                        "G": 247,
+                        "R": 215,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Consumable": {
+                "DDHearts": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 95,
+                        "G": 96,
+                        "R": 186,
+                        "Type": "RGBA"
+                    }
+                },
+                "Hearts": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 48,
+                        "G": 39,
+                        "R": 97,
+                        "Type": "RGBA"
+                    }
+                },
+                "Magic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 237,
+                        "G": 244,
+                        "R": 102,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Equipment": {
+                "BoomerangBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 142,
+                        "G": 45,
+                        "R": 37,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 204,
+                        "G": 255,
+                        "R": 44,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowHandle": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 51,
+                        "G": 204,
+                        "R": 11,
+                        "Type": "RGBA"
+                    }
+                },
+                "BowTips": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 25,
+                        "G": 102,
+                        "R": 5,
+                        "Type": "RGBA"
+                    }
+                },
+                "HammerHead": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 131,
+                        "G": 215,
+                        "R": 184,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Gloves": {
+                "GoldenGauntlets": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 65,
+                        "G": 165,
+                        "R": 127,
+                        "Type": "RGBA"
+                    }
+                },
+                "GoronBracelet": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 187,
+                        "G": 62,
+                        "R": 112,
+                        "Type": "RGBA"
+                    }
+                },
+                "SilverGauntlets": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 201,
+                        "G": 78,
+                        "R": 211,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Goron": {
+                "NeckLength": 5000.0
+            },
+            "HUD": {
+                "AButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 113,
+                        "G": 158,
+                        "R": 146,
+                        "Type": "RGBA"
+                    }
+                },
+                "BButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 16,
+                        "G": 185,
+                        "R": 52,
+                        "Type": "RGBA"
+                    }
+                },
+                "CButtons": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 39,
+                        "G": 41,
+                        "R": 104,
+                        "Type": "RGBA"
+                    }
+                },
+                "Dpad": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 72,
+                        "G": 81,
+                        "R": 119,
+                        "Type": "RGBA"
+                    }
+                },
+                "EnemyHealthBar": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 221,
+                        "G": 87,
+                        "R": 96,
+                        "Type": "RGBA"
+                    }
+                },
+                "IGT": {
+                    "PosType": 1,
+                    "PosX": 4,
+                    "PosY": 8
+                },
+                "Minimap": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 219,
+                        "G": 116,
+                        "R": 173,
+                        "Type": "RGBA"
+                    }
+                },
+                "NameTagActorText": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 247,
+                        "G": 125,
+                        "R": 61,
+                        "Type": "RGBA"
+                    }
+                },
+                "StartButton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 127,
+                        "G": 164,
+                        "R": 8,
+                        "Type": "RGBA"
+                    }
+                },
+                "Timers": {
+                    "PosType": 0,
+                    "PosY": 0
+                },
+                "TitleCard": {
+                    "Boss": {
+                        "Changed": 1,
+                        "Rainbow": 0,
+                        "Value": {
+                            "A": 255,
+                            "B": 78,
+                            "G": 150,
+                            "R": 68,
+                            "Type": "RGBA"
+                        }
+                    },
+                    "Map": {
+                        "Changed": 1,
+                        "Rainbow": 0,
+                        "Value": {
+                            "A": 255,
+                            "B": 122,
+                            "G": 233,
+                            "R": 166,
+                            "Type": "RGBA"
+                        }
+                    }
+                }
+            },
+            "HookshotReticle": {
+                "NonTarget": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 105,
+                        "G": 17,
+                        "R": 90,
+                        "Type": "RGBA"
+                    }
+                },
+                "Target": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 191,
+                        "G": 135,
+                        "R": 226,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Ivan": {
+                "IdlePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 252,
+                        "G": 47,
+                        "R": 85,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdleSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 126,
+                        "G": 23,
+                        "R": 42,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Key": {
+                "FireBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 225,
+                        "G": 173,
+                        "R": 247,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 116,
+                        "G": 95,
+                        "R": 128,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 8,
+                        "G": 9,
+                        "R": 182,
+                        "Type": "RGBA"
+                    }
+                },
+                "FireSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 162,
+                        "G": 74,
+                        "R": 123,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 117,
+                        "G": 163,
+                        "R": 26,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 178,
+                        "G": 11,
+                        "R": 117,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 160,
+                        "G": 200,
+                        "R": 134,
+                        "Type": "RGBA"
+                    }
+                },
+                "ForestSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 119,
+                        "G": 169,
+                        "R": 62,
+                        "Type": "RGBA"
+                    }
+                },
+                "FortSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 202,
+                        "G": 157,
+                        "R": 43,
+                        "Type": "RGBA"
+                    }
+                },
+                "FortSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 117,
+                        "G": 33,
+                        "R": 86,
+                        "Type": "RGBA"
+                    }
+                },
+                "GTGSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 11,
+                        "G": 99,
+                        "R": 29,
+                        "Type": "RGBA"
+                    }
+                },
+                "GTGSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 48,
+                        "G": 201,
+                        "R": 115,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 57,
+                        "G": 192,
+                        "R": 166,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 178,
+                        "G": 88,
+                        "R": 26,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 119,
+                        "G": 161,
+                        "R": 19,
+                        "Type": "RGBA"
+                    }
+                },
+                "GanonsSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 226,
+                        "G": 64,
+                        "R": 54,
+                        "Type": "RGBA"
+                    }
+                },
+                "KeyringRing": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 241,
+                        "G": 161,
+                        "R": 122,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 19,
+                        "G": 106,
+                        "R": 207,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 119,
+                        "G": 216,
+                        "R": 55,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 71,
+                        "G": 111,
+                        "R": 118,
+                        "Type": "RGBA"
+                    }
+                },
+                "ShadowSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 193,
+                        "G": 64,
+                        "R": 149,
+                        "Type": "RGBA"
+                    }
+                },
+                "Skeleton": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 237,
+                        "G": 126,
+                        "R": 113,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 190,
+                        "G": 220,
+                        "R": 122,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 117,
+                        "G": 66,
+                        "R": 128,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 202,
+                        "G": 59,
+                        "R": 164,
+                        "Type": "RGBA"
+                    }
+                },
+                "SpiritSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 53,
+                        "G": 28,
+                        "R": 214,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterBossBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 68,
+                        "G": 32,
+                        "R": 170,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterBossGem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 166,
+                        "G": 72,
+                        "R": 83,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 206,
+                        "G": 88,
+                        "R": 217,
+                        "Type": "RGBA"
+                    }
+                },
+                "WaterSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 126,
+                        "G": 51,
+                        "R": 12,
+                        "Type": "RGBA"
+                    }
+                },
+                "WellSmallBody": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 149,
+                        "G": 208,
+                        "R": 189,
+                        "Type": "RGBA"
+                    }
+                },
+                "WellSmallEmblem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 57,
+                        "G": 135,
+                        "R": 196,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Link": {
+                "GoronTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 39,
+                        "G": 7,
+                        "R": 90,
+                        "Type": "RGBA"
+                    }
+                },
+                "KokiriTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 120,
+                        "G": 82,
+                        "R": 236,
+                        "Type": "RGBA"
+                    }
+                },
+                "ZoraTunic": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 165,
+                        "G": 106,
+                        "R": 34,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Magic": {
+                "DinsPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 131,
+                        "G": 87,
+                        "R": 239,
+                        "Type": "RGBA"
+                    }
+                },
+                "FaroresPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 167,
+                        "G": 194,
+                        "R": 83,
+                        "Type": "RGBA"
+                    }
+                },
+                "NayrusPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 75,
+                        "G": 251,
+                        "R": 29,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "MirrorShield": {
+                "Body": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 150,
+                        "G": 129,
+                        "R": 220,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "NPC": {
+                "FireKeesePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 135,
+                        "G": 223,
+                        "R": 134,
+                        "Type": "RGBA"
+                    }
+                },
+                "Gerudo": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 240,
+                        "G": 104,
+                        "R": 145,
+                        "Type": "RGBA"
+                    }
+                },
+                "GoldenSkulltula": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 120,
+                        "G": 83,
+                        "R": 151,
+                        "Type": "RGBA"
+                    }
+                },
+                "IceKeesePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 147,
+                        "G": 43,
+                        "R": 80,
+                        "Type": "RGBA"
+                    }
+                },
+                "IronKnuckles": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 226,
+                        "G": 121,
+                        "R": 165,
+                        "Type": "RGBA"
+                    }
+                },
+                "Kokiri": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 147,
+                        "G": 232,
+                        "R": 103,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Navi": {
+                "EnemyPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 49,
+                        "G": 135,
+                        "R": 55,
+                        "Type": "RGBA"
+                    }
+                },
+                "EnemySecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 24,
+                        "G": 67,
+                        "R": 27,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdlePrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 184,
+                        "G": 116,
+                        "R": 128,
+                        "Type": "RGBA"
+                    }
+                },
+                "IdleSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 92,
+                        "G": 58,
+                        "R": 64,
+                        "Type": "RGBA"
+                    }
+                },
+                "NPCPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 83,
+                        "G": 31,
+                        "R": 53,
+                        "Type": "RGBA"
+                    }
+                },
+                "NPCSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 83,
+                        "G": 31,
+                        "R": 53,
+                        "Type": "RGBA"
+                    }
+                },
+                "PropsPrimary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 122,
+                        "G": 124,
+                        "R": 159,
+                        "Type": "RGBA"
+                    }
+                },
+                "PropsSecondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 122,
+                        "G": 124,
+                        "R": 159,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "SpinAttack": {
+                "Level1Primary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 255,
+                        "G": 230,
+                        "R": 178,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level1Secondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 159,
+                        "G": 115,
+                        "R": 89,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level2Primary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 24,
+                        "G": 255,
+                        "R": 28,
+                        "Type": "RGBA"
+                    }
+                },
+                "Level2Secondary": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 12,
+                        "G": 128,
+                        "R": 14,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Swords": {
+                "BiggoronBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 26,
+                        "G": 220,
+                        "R": 95,
+                        "Type": "RGBA"
+                    }
+                },
+                "KokiriBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 10,
+                        "G": 120,
+                        "R": 133,
+                        "Type": "RGBA"
+                    }
+                },
+                "MasterBlade": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 161,
+                        "G": 48,
+                        "R": 195,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Title": {
+                "Copyright": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 42,
+                        "G": 24,
+                        "R": 196,
+                        "Type": "RGBA"
+                    }
+                },
+                "FileChoose": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 91,
+                        "G": 74,
+                        "R": 24,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "Trails": {
+                "KokiriSword": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 193,
+                        "G": 173,
+                        "R": 202,
+                        "Type": "RGBA"
+                    }
+                },
+                "MasterSword": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 149,
+                        "G": 246,
+                        "R": 253,
+                        "Type": "RGBA"
+                    }
+                }
+            },
+            "UnfixGoronSpin": 1,
+            "World": {
+                "MysteryItem": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 48,
+                        "G": 112,
+                        "R": 25,
+                        "Type": "RGBA"
+                    }
+                },
+                "RedIce": {
+                    "Changed": 1,
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 84,
+                        "G": 121,
+                        "R": 20,
+                        "Type": "RGBA"
+                    }
+                }
+            }
+        },
+        "gEnhancements": {
+            "AdultBunnyHood": 1,
+            "AdultMasks": 1,
+            "AssignableTunicsAndBoots": 1,
+            "BetterFarore": 1,
+            "BetterOwl": 1,
+            "BlueFireArrows": 1,
+            "BombchuBowlingNoBigCucco": 1,
+            "BombchuBowlingNoSmallCucco": 1,
+            "BoomerangFirstPerson": 1,
+            "BoomerangReticle": 1,
+            "BowReticle": 1,
+            "BowSlingshotAmmoFix": 1,
+            "ClimbSpeed": 12,
+            "CowOfTime": 1,
+            "CrawlSpeed": 5,
+            "CuccosToReturn": 0,
+            "CustomizeBombchuBowling": 1,
+            "CustomizeFishing": 1,
+            "CustomizeFrogsOcarinaGame": 1,
+            "CustomizeOcarinaGame": 1,
+            "CustomizeShootingGallery": 0,
+            "DampeAllNight": 1,
+            "DampeWin": 1,
+            "DayGravePull": 1,
+            "DisableDrawDistance": 5,
+            "DisableFirstPersonChus": 1,
+            "DisableFixedCamera": 0,
+            "DisableTunicWarningText": 1,
+            "DpadEquips": 1,
+            "DpadNoDropOcarinaInput": 1,
+            "EquipmentCanBeRemoved": 1,
+            "FastBoomerang": 1,
+            "FastBottles": 1,
+            "FastChests": 1,
+            "FastDrops": 1,
+            "FastFarores": 1,
+            "FastOcarinaPlayback": 1,
+            "FasterBeanSkull": 1,
+            "FasterBlockPush": 5,
+            "FasterBottleEmpty": 1,
+            "FasterHeavyBlockLift": 1,
+            "FasterPauseMenu": 1,
+            "FasterRupeeAccumulator": 1,
+            "FasterShadowShip": 1,
+            "FishNeverEscape": 1,
+            "ForgeTime": 0,
+            "GoronPot": 1,
+            "GuaranteeFishingBite": 1,
+            "HookshotableReticle": 1,
+            "InjectItemCounts": {
+                "GoldSkulltula": 1,
+                "HeartContainer": 1,
+                "HeartPiece": 1
+            },
+            "InstantFishing": 1,
+            "InstantFrogsGameWin": 1,
+            "InstantOcarinaGameWin": 1,
+            "InstantPutaway": 1,
+            "InstantScarecrow": 1,
+            "InstantShootingGalleryWin": 0,
+            "LinkDefaultName": 1,
+            "MMBunnyHood": 1,
+            "MarketSneak": 1,
+            "MaskSelect": 1,
+            "MinimumFishWeightAdult": 6,
+            "MinimumFishWeightChild": 3,
+            "MweepSpeed": 5.0,
+            "NewDrops": 1,
+            "NightGSAlwaysSpawn": 1,
+            "NoForcedNavi": 1,
+            "NoInputForCredits": 1,
+            "PersistentMasks": 1,
+            "QuitFishingAtDoor": 1,
+            "RedGanonBlood": 1,
+            "RememberSaveLocation": 0,
+            "SeparateArrows": 1,
+            "SkipArrowAnimation": 1,
+            "SkipKeepConfirmation": 1,
+            "SkipSaveConfirmation": 1,
+            "SkipSwimDeepEndAnim": 1,
+            "SkipText": 1,
+            "SkulltulaFreeze": 1,
+            "SlowTextSpeed": 5,
+            "SunlightArrows": 1,
+            "SwordToggle": 2,
+            "TextSpeed": 5,
+            "TimeSavers": {
+                "DisableTitleCard": 1,
+                "SkipChildStealth": 1,
+                "SkipCutscene": {
+                    "BossIntro": 1,
+                    "Entrances": 1,
+                    "Intro": 1,
+                    "LearnSong": 1,
+                    "OnePoint": 1,
+                    "QuickBossDeaths": 1,
+                    "Story": 1
+                },
+                "SkipForcedDialog": 3,
+                "SkipMiscInteractions": 1,
+                "SkipOwlInteractions": 1,
+                "SkipTowerEscape": 1,
+                "SleepingWaterfall": 1
+            },
+            "TimeTravel": 1,
+            "VisualAgony": 1
+        },
+        "gFairyHealth": 1,
+        "gFairyReviveHealth": 1,
+        "gForceCursorVisibility": 0,
+        "gGameplayStats": {
+            "ShowIngameTimer": 1
+        },
+        "gGeneral": {
+            "HasSeenPresetModal": 1,
+            "OnFileSelectNameEntry": 0,
+            "PauseMenuAnimatedLinkTriforce": 0,
+            "SpoilerLog": ""
+        },
+        "gGreenPotionMana": 1,
+        "gHalfMilkHealth": 1,
+        "gMilkHealth": 1,
+        "gOpenWindows": {
+            "CheckTracker": 1,
+            "EntranceTracker": 1,
+            "ItemTracker": 1,
+            "ModalWindow": 1,
+            "Notifications": 1,
+            "modalWindowEnabled": 1
+        },
+        "gRandoEnhancements": {
+            "RandoRelevantNavi": 0,
+            "TimeSavers": {
+                "SkipGetItemAnimation": 1
+            }
+        },
+        "gRandoSettings": {
+            "100GSHint": 1,
+            "10GSHint": 1,
+            "20GSHint": 1,
+            "30GSHint": 1,
+            "40GSHint": 1,
+            "50GSHint": 1,
+            "BigPoeTargetCount": 0,
+            "BigPoesHint": 1,
+            "BiggoronHint": 1,
+            "BlueFireArrows": 1,
+            "BombchuBag": 1,
+            "BossKeysanity": 5,
+            "ClosedForest": 1,
+            "CompleteMaskQuest": 1,
+            "CuccosToReturn": 0,
+            "DampeHint": 1,
+            "EnabledTricks": "NoSoA,FTR,FlaChst,LWGSHS,LabHS,",
+            "FishingPoleHint": 1,
+            "FrogsHint": 1,
+            "FullWallets": 1,
+            "GerudoKeys": 3,
+            "HBAHint": 1,
+            "InfiniteUpgrades": 2,
+            "KakarikoGate": 1,
+            "Keysanity": 5,
+            "LinksPocket": 3,
+            "LockOverworldDoors": 1,
+            "MQDungeons": 2,
+            "MalonHint": 1,
+            "ManualSeedEntry": 1,
+            "MaskShopHint": 1,
+            "MerchantPrices": 2,
+            "MidoHint": 1,
+            "MixBosses": 1,
+            "MixDungeons": 1,
+            "MixGrottos": 1,
+            "MixInteriors": 1,
+            "MixedEntrances": 1,
+            "OoTHint": 1,
+            "RainbowBridge": 6,
+            "SariaHint": 1,
+            "ScrubText": 1,
+            "ScrubsFixedPrice": 0,
+            "ScrubsPrices": 3,
+            "Shopsanity": 2,
+            "ShopsanityPrices": 2,
+            "Shuffle100GSReward": 1,
+            "ShuffleAdultTrade": 1,
+            "ShuffleBeanSouls": 1,
+            "ShuffleBeehives": 0,
+            "ShuffleBossEntrances": 2,
+            "ShuffleBossSouls": 2,
+            "ShuffleChildWallet": 1,
+            "ShuffleClimb": 1,
+            "ShuffleCows": 1,
+            "ShuffleCrates": 3,
+            "ShuffleCrawl": 1,
+            "ShuffleDekuNutBag": 1,
+            "ShuffleDekuStickBag": 1,
+            "ShuffleDungeonReward": 4,
+            "ShuffleDungeonsEntrances": 2,
+            "ShuffleFairySpots": 1,
+            "ShuffleFishingPole": 1,
+            "ShuffleFountainFairies": 1,
+            "ShuffleFreestanding": 3,
+            "ShuffleFrogSongRupees": 1,
+            "ShuffleGanonBossKey": 5,
+            "ShuffleGerudoToken": 1,
+            "ShuffleGrab": 1,
+            "ShuffleGrass": 3,
+            "ShuffleGrottosEntrances": 1,
+            "ShuffleInteriorsEntrances": 2,
+            "ShuffleKokiriSword": 1,
+            "ShuffleMasterSword": 1,
+            "ShuffleMerchants": 3,
+            "ShuffleOcarinaButtons": 1,
+            "ShuffleOcarinas": 1,
+            "ShuffleOpenChest": 1,
+            "ShuffleOwlDrops": 1,
+            "ShufflePots": 3,
+            "ShuffleScrubs": 2,
+            "ShuffleSongs": 2,
+            "ShuffleSpeak": 1,
+            "ShuffleSwim": 1,
+            "ShuffleTokens": 3,
+            "SkeletonKey": 1,
+            "SkipChildZelda": 1,
+            "SkipEponaRace": 1,
+            "SkipPlantingBeans": 1,
+            "SkipScarecrowsSong": 1,
+            "StartingAge": 2,
+            "StartingMapsCompasses": 5,
+            "StartingSunsSong": 1,
+            "SunlightArrows": 1,
+            "TokenCount": 50,
+            "TriforceHunt": 0,
+            "TriforceHuntRequiredPieces": 68,
+            "TriforceHuntTotalPieces": 68
+        },
+        "gRedPotionHealth": 1,
+        "gSettings": {
+            "AltAssets": 1,
+            "BootSequence": 2,
+            "Controllers": {
+                "AxisDirectionMappings": {
+                    "P0-S0-D0-KB30": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 0,
+                        "KeyboardScancode": 30,
+                        "Stick": 0
+                    },
+                    "P0-S0-D0-SDLA0-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 0,
+                        "SDLControllerAxis": 0,
+                        "Stick": 0
+                    },
+                    "P0-S0-D1-KB32": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 1,
+                        "KeyboardScancode": 32,
+                        "Stick": 0
+                    },
+                    "P0-S0-D1-SDLA0-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 1,
+                        "SDLControllerAxis": 0,
+                        "Stick": 0
+                    },
+                    "P0-S0-D2-KB17": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 2,
+                        "KeyboardScancode": 17,
+                        "Stick": 0
+                    },
+                    "P0-S0-D2-SDLA1-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 2,
+                        "SDLControllerAxis": 1,
+                        "Stick": 0
+                    },
+                    "P0-S0-D3-KB31": {
+                        "AxisDirectionMappingClass": "KeyboardKeyToAxisDirectionMapping",
+                        "Direction": 3,
+                        "KeyboardScancode": 31,
+                        "Stick": 0
+                    },
+                    "P0-S0-D3-SDLA1-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 3,
+                        "SDLControllerAxis": 1,
+                        "Stick": 0
+                    },
+                    "P0-S1-D0-SDLA2-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 0,
+                        "SDLControllerAxis": 2,
+                        "Stick": 1
+                    },
+                    "P0-S1-D1-SDLA2-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 1,
+                        "SDLControllerAxis": 2,
+                        "Stick": 1
+                    },
+                    "P0-S1-D2-SDLA3-ADN": {
+                        "AxisDirection": -1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 2,
+                        "SDLControllerAxis": 3,
+                        "Stick": 1
+                    },
+                    "P0-S1-D3-SDLA3-ADP": {
+                        "AxisDirection": 1,
+                        "AxisDirectionMappingClass": "SDLAxisDirectionToAxisDirectionMapping",
+                        "Direction": 3,
+                        "SDLControllerAxis": 3,
+                        "Stick": 1
+                    }
+                },
+                "ButtonMappings": {
+                    "P0-B1-KB333": {
+                        "Bitmask": 1,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 333
+                    },
+                    "P0-B1-SDLA2-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 1,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 2
+                    },
+                    "P0-B1024-KB34": {
+                        "Bitmask": 1024,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 34
+                    },
+                    "P0-B1024-SDLB12": {
+                        "Bitmask": 1024,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 12
+                    },
+                    "P0-B16-KB19": {
+                        "Bitmask": 16,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 19
+                    },
+                    "P0-B16-SDLA5-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 16,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 5
+                    },
+                    "P0-B16384-KB46": {
+                        "Bitmask": 16384,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 46
+                    },
+                    "P0-B16384-SDLB2": {
+                        "Bitmask": 16384,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 2
+                    },
+                    "P0-B2-KB331": {
+                        "Bitmask": 2,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 331
+                    },
+                    "P0-B2-SDLA2-ADN": {
+                        "AxisDirection": -1,
+                        "Bitmask": 2,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 2
+                    },
+                    "P0-B2048-KB20": {
+                        "Bitmask": 2048,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 20
+                    },
+                    "P0-B2048-SDLB11": {
+                        "Bitmask": 2048,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 11
+                    },
+                    "P0-B256-KB35": {
+                        "Bitmask": 256,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 35
+                    },
+                    "P0-B256-SDLB14": {
+                        "Bitmask": 256,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 14
+                    },
+                    "P0-B32-KB18": {
+                        "Bitmask": 32,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 18
+                    },
+                    "P0-B32-SDLB9": {
+                        "Bitmask": 32,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 9
+                    },
+                    "P0-B32768-KB45": {
+                        "Bitmask": 32768,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 45
+                    },
+                    "P0-B32768-SDLB0": {
+                        "Bitmask": 32768,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 0
+                    },
+                    "P0-B4-KB336": {
+                        "Bitmask": 4,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 336
+                    },
+                    "P0-B4-SDLA3-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 4,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 3
+                    },
+                    "P0-B4096-KB57": {
+                        "Bitmask": 4096,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 57
+                    },
+                    "P0-B4096-SDLB6": {
+                        "Bitmask": 4096,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 6
+                    },
+                    "P0-B512-KB33": {
+                        "Bitmask": 512,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 33
+                    },
+                    "P0-B512-SDLB13": {
+                        "Bitmask": 512,
+                        "ButtonMappingClass": "SDLButtonToButtonMapping",
+                        "SDLControllerButton": 13
+                    },
+                    "P0-B8-KB328": {
+                        "Bitmask": 8,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 328
+                    },
+                    "P0-B8-SDLA3-ADN": {
+                        "AxisDirection": -1,
+                        "Bitmask": 8,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 3
+                    },
+                    "P0-B8192-KB44": {
+                        "Bitmask": 8192,
+                        "ButtonMappingClass": "KeyboardKeyToButtonMapping",
+                        "KeyboardScancode": 44
+                    },
+                    "P0-B8192-SDLA4-ADP": {
+                        "AxisDirection": 1,
+                        "Bitmask": 8192,
+                        "ButtonMappingClass": "SDLAxisDirectionToButtonMapping",
+                        "SDLControllerAxis": 4
+                    }
+                },
+                "Port1": {
+                    "Buttons": {
+                        "1024ButtonMappingIds": "P0-B1024-SDLB12,P0-B1024-KB34,",
+                        "16384ButtonMappingIds": "P0-B16384-SDLB2,P0-B16384-KB46,",
+                        "16ButtonMappingIds": "P0-B16-KB19,P0-B16-SDLA5-ADP,",
+                        "1ButtonMappingIds": "P0-B1-SDLA2-ADP,P0-B1-KB333,",
+                        "2048ButtonMappingIds": "P0-B2048-SDLB11,P0-B2048-KB20,",
+                        "256ButtonMappingIds": "P0-B256-KB35,P0-B256-SDLB14,",
+                        "2ButtonMappingIds": "P0-B2-KB331,P0-B2-SDLA2-ADN,",
+                        "32768ButtonMappingIds": "P0-B32768-KB45,P0-B32768-SDLB0,",
+                        "32ButtonMappingIds": "P0-B32-KB18,P0-B32-SDLB9,",
+                        "4096ButtonMappingIds": "P0-B4096-KB57,P0-B4096-SDLB6,",
+                        "4ButtonMappingIds": "P0-B4-KB336,P0-B4-SDLA3-ADP,",
+                        "512ButtonMappingIds": "P0-B512-KB33,P0-B512-SDLB13,",
+                        "8192ButtonMappingIds": "P0-B8192-KB44,P0-B8192-SDLA4-ADP,",
+                        "8ButtonMappingIds": "P0-B8-KB328,P0-B8-SDLA3-ADN,"
+                    },
+                    "HasConfig": 1,
+                    "LeftStick": {
+                        "DeadzonePercentage": 20,
+                        "DownAxisDirectionMappingIds": "P0-S0-D3-KB31,P0-S0-D3-SDLA1-ADP,",
+                        "LeftAxisDirectionMappingIds": "P0-S0-D0-KB30,P0-S0-D0-SDLA0-ADN,",
+                        "NotchSnapAngle": 0,
+                        "RightAxisDirectionMappingIds": "P0-S0-D1-KB32,P0-S0-D1-SDLA0-ADP,",
+                        "SensitivityPercentage": 100,
+                        "UpAxisDirectionMappingIds": "P0-S0-D2-KB17,P0-S0-D2-SDLA1-ADN,"
+                    },
+                    "RightStick": {
+                        "DeadzonePercentage": 20,
+                        "DownAxisDirectionMappingIds": "P0-S1-D3-SDLA3-ADP,",
+                        "LeftAxisDirectionMappingIds": "P0-S1-D0-SDLA2-ADN,",
+                        "NotchSnapAngle": 0,
+                        "RightAxisDirectionMappingIds": "P0-S1-D1-SDLA2-ADP,",
+                        "SensitivityPercentage": 100,
+                        "UpAxisDirectionMappingIds": "P0-S1-D2-SDLA3-ADN,"
+                    }
+                }
+            },
+            "CustomOcarina": {
+                "Dpad": 1
+            },
+            "EnableMultiViewports": 1,
+            "EnabledMods": "daruniasjoy",
+            "ImGuiScale": 2,
+            "InterpolationFPS": 60,
+            "MSAAValue": 8,
+            "MatchRefreshRate": 1,
+            "Menu": {
+                "ActiveHeader": "Randomizer",
+                "DevToolsSidebarSection": "DList Viewer",
+                "EnhancementsSidebarSection": "Cosmetics Editor",
+                "RandomizerSidebarSection": "General",
+                "SettingsSidebarSection": "Presets",
+                "SidebarSearch": 0,
+                "Theme": 12
+            },
+            "OpenMenuBar": 1,
+            "OverlayFont": "Press Start 2P",
+            "Volume": {
+                "Fanfare": 70,
+                "MainMusic": 60,
+                "Master": 30,
+                "SFX": 70,
+                "SubMusic": 60
+            },
+            "VsyncEnabled": 1
+        },
+        "gTimeDisplay": {
+            "Timers": {
+                "InGameTimer": 0
+            }
+        },
+        "gTrackers": {
+            "CheckTracker": {
+                "AreaComplete": {
+                    "Hide": 1
+                },
+                "AreaIncomplete": {
+                    "Hide": 0
+                },
+                "Collected": {
+                    "Hide": 1
+                },
+                "Saved": {
+                    "Hide": 1
+                },
+                "Seen": {
+                    "Hide": 0
+                },
+                "ShowHidden": 0,
+                "Skipped": {
+                    "Hide": 1
+                }
+            },
+            "EntranceTracker": {
+                "AutoScroll": 1,
+                "CollapseUndiscovered": 0,
+                "GroupBy": 0,
+                "HideReverseEntrances": 1,
+                "HighlightAvailable": 1,
+                "HighlightPrevious": 1,
+                "ShowFrom": 1,
+                "ShowTo": 0,
+                "SortBy": 0
+            },
+            "ItemTracker": {
+                "BgColor": {
+                    "Rainbow": 0,
+                    "Value": {
+                        "A": 255,
+                        "B": 0,
+                        "G": 0,
+                        "R": 0,
+                        "Type": "RGBA"
+                    }
+                },
+                "DisplayType": {
+                    "BeanSouls": 1,
+                    "BossSouls": 1,
+                    "DungeonItems": 1,
+                    "DungeonRewards": 1,
+                    "Equipment": 0,
+                    "FishingPole": 1,
+                    "Inventory": 0,
+                    "JabberNuts": 1,
+                    "Misc": 1,
+                    "Notes": 0,
+                    "OcarinaButtons": 1,
+                    "OverworldKeys": 1,
+                    "Songs": 0,
+                    "TriforcePieces": 0
+                },
+                "Draggable": 1,
+                "DungeonItems": {
+                    "DisplayMaps": 0
+                },
+                "HookshotIdentifier": 0,
+                "IconSize": 48,
+                "IconSpacing": 32,
+                "ItemCountAlignLeft": 0,
+                "ItemCountType": 1,
+                "KeyCounts": 2,
+                "ShowOnlyPaused": 1,
+                "TextSize": 14,
+                "TotalChecks": {
+                    "DisplayType": 1
+                },
+                "TriforcePieceCounts": 0,
+                "WindowType": 1
+            }
+        }
+    },
+    "ConfigVersion": 6,
+    "Window": {
+        "AudioBackend": "wasapi",
+        "Backend": {
+            "Id": 0,
+            "Name": "DirectX 11"
+        },
+        "Fullscreen": {
+            "Enabled": true,
+            "Height": 1080,
+            "Width": 1920
+        },
+        "Height": 974,
+        "PositionX": 0,
+        "PositionY": 34,
+        "Width": 1920
+    }
+}
