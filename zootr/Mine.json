@@ -2806,6 +2806,8 @@
                 "HideBunnyHood": 1,
                 "HookshotableReticle": 1,
                 "HyperBosses": 1,
+                "ImprovedRoll": 1,
+                "ImprovedRollSteering": 1,
                 "IngoRaceOnce": 2,
                 "InjectItemCounts": {
                     "GoldSkulltula": 1,
@@ -2832,7 +2834,7 @@
                 "PauseMenuAnimatedLink": 0,
                 "PersistentMasks": 1,
                 "QuitFishingAtDoor": 1,
-                "RandomizedEnemies": 1,
+                "RandomizedEnemies": 0,
                 "RandomizedEnemyList": {
                     "InvisFireKeese": 0,
                     "InvisFloormaster": 0,
@@ -2844,7 +2846,7 @@
                 },
                 "RandomizedEnemySizes": 1,
                 "RebottleBlueFire": 1,
-                "RememberSaveLocation": 0,
+                "RememberSaveLocation": 1,
                 "SeparateArrows": 1,
                 "SkipArrowAnimation": 1,
                 "SkipKeepConfirmation": 0,
@@ -2888,6 +2890,12 @@
         },
         "rando": {
             "gRandoSettings": {
+                "100GSHint": 1,
+                "10GSHint": 1,
+                "20GSHint": 1,
+                "30GSHint": 1,
+                "40GSHint": 1,
+                "50GSHint": 1,
                 "AdditionalIceTraps": 100,
                 "BigPoeTargetCount": 0,
                 "BlueFireArrows": 1,
@@ -2981,7 +2989,6 @@
                 "ShowIngameTimer": 1
             },
             "gOpenWindows": {
-                "CheckTracker": 1,
                 "ItemTracker": 1,
                 "Menu": 1,
                 "ModalWindow": 1,
@@ -2991,7 +2998,7 @@
                 "A11yDisableIdleCam": 1,
                 "A11yNoScreenFlashForFinishingBlow": 1,
                 "AdvancedResolution": {
-                    "Enabled": 1
+                    "Enabled": 0
                 },
                 "BootSequence": 2,
                 "Controllers": {
@@ -3282,7 +3289,7 @@
                 "Menu": {
                     "ActiveHeader": "Settings",
                     "DevToolsSidebarSection": "Stats",
-                    "EnhancementsSidebarSection": "Timers",
+                    "EnhancementsSidebarSection": "Quality of Life",
                     "RandomizerSidebarSection": "Item Tracker",
                     "SearchAutofocus": 1,
                     "SettingsSidebarSection": "Presets",
@@ -3330,12 +3337,14 @@
                         "Hide": 0
                     },
                     "ShowHidden": 0,
+                    "ShowOnlyPaused": 1,
                     "Skipped": {
                         "Hide": 1
                     },
                     "Unchecked": {
                         "Hide": 0
-                    }
+                    },
+                    "WindowType": 0
                 },
                 "ItemTracker": {
                     "DisplayType": {
@@ -3364,38 +3373,38 @@
                         "DisplayType": 1
                     },
                     "TriforcePieceCounts": 1,
-                    "WindowType": 1
+                    "WindowType": 0
                 }
             },
             "windows": {
                 "Check Tracker": {
                     "pos": {
-                        "x": 1919.0,
+                        "x": 1892.0,
                         "y": 0.0
                     },
                     "size": {
                         "height": 1026.0,
-                        "width": 341.0
+                        "width": 791.0
                     }
                 },
                 "Item Tracker": {
                     "pos": {
-                        "x": 1919.0,
+                        "x": 1892.0,
                         "y": 0.0
                     },
                     "size": {
-                        "height": 1024.0,
-                        "width": 364.0
+                        "height": 1033.0,
+                        "width": 343.0
                     }
                 },
                 "Total Checks": {
                     "pos": {
-                        "x": 1367.0,
-                        "y": 4.0
+                        "x": 77.0,
+                        "y": 1.0
                     },
                     "size": {
-                        "height": 80.0,
-                        "width": 208.0
+                        "height": 84.0,
+                        "width": 482.0
                     }
                 }
             }
